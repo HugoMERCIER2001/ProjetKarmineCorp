@@ -1,5 +1,5 @@
 import requests
-
+import json
 
 CLE_API = 'RGAPI-e36f5233-1d2a-4bf2-b91e-9cfe410de395'
 
@@ -15,7 +15,8 @@ def envoie_demande_liste_challengers(api_key):
         # La requête a réussi
         data = response.json()  # Récupérer les données de réponse au format JSON
         # Traiter les données
-        print(data)
+        with open("data.json", "w") as f:
+            json.dump(data, f)
     # Gérer les erreurs de requête
     else:
         print('La requête a échoué. Code de réponse :', response.status_code)
