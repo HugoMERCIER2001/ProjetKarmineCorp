@@ -6,10 +6,10 @@ Récupérez automatiquement les soloQ des joueurs challengers et les stockez dan
 
 ## Comment faire ça ?
 
-  ### Générer une clé API Riot
+  ### Générer une clé API Riot :
 	# Partie Python:
-	
-### Grâce à l’API Riot:
+
+  ### Partie Python :
 
         Récupérez la liste des challengers
         Pour chaque challenger player, récupérez son historique de matchids de matchs joués (depuis le début de la saison) – à faire en parallèle de la création de base de données.
