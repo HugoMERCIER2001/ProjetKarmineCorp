@@ -55,23 +55,24 @@ RGAPI-e36f5233-1d2a-4bf2-b91e-9cfe410de395
 #### La clé «PERSONAL API KEYS » :
 
 Clé pour des projets perso, limité en quantité de requests/s et plus besoin d’être regénérée toutes les 24h. Mais doit enregistrer son produit dans riot pour la recevoir.
-Limites API lors de l’inscription :
+
+##### Limites API lors de l’inscription :
 
 20 requests every 1 second 
 100 requests every 2 minutes 
-	Ma clé API :
+
+##### Ma clé API :
 Doit proposer le produit à Riot.
 
-La clé «PRODUCTION API KEYS » :
-
+#### La  clé «PRODUCTION API KEYS » :
 
 Clé pour des produits déstinés à des utilisations publiques. Limité en terme de Requests/s et plus besoin d’être regénérées toutes les 24h, mais doit enregistrer son produit dans Riot pour la recevoir.
 La durée nécéssaire pour obtenir cette clé après avoir enregistré le produit est variante.
+La Limite Api lors de l'inscription est variable selon la région dans le monde et peut après ça demander unne clé tournois ou pro.
 
-
-	Limites API lors de l’inscription :
+##### Limites API lors de l’inscription :
 500 requests every 10 seconds.
 30,000 requests every 10 minutes.
 
-	Ma clé API :
+##### Ma clé API :
 Doit proposer le produit à Riot.
