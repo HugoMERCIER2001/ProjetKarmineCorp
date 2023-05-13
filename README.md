@@ -7,12 +7,13 @@ Récupérez automatiquement les soloQ des joueurs challengers et les stockez dan
 ## Comment faire ça ?
    Générer une clé API Riot
 	# Partie Python:
-   	### Grâce à l’API Riot:
+	
+### Grâce à l’API Riot:
         Récupérez la liste des challengers
         Pour chaque challenger player, récupérez son historique de matchids de matchs joués (depuis le début de la saison) – à faire en parallèle de la création de base de données.
         Créer une fonction qui récupère/télécharge les 2 éléments de données pour un matchid (timeline, game)
         Stockez ces 2 éléments de données dans la base de données indexées par le matchid
-    ### Setup une base PostgreSQL:
+   ### Setup une base PostgreSQL:
         1. Soit une base de donnée managée type DigitalOcean (recommandée), soit sur sa propre machine
         2. Créer les tables asssociées:
             1. Joueur challenger (quels colonnes mettre?)
