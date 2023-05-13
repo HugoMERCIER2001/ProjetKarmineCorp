@@ -26,12 +26,12 @@ Récupérez automatiquement les soloQ des joueurs challengers et les stockez dan
 
 
 ## Ce que je dois faire dans l'ordre :
-0 – Lire le developper portal.
-1 – generer une clé API riot
-2 – Lire la documentation des api riots.
-3 - Envoi de requêtes : Les développeurs envoient des requêtes HTTP aux points de terminaison de l'API Riot en utilisant des méthodes telles que GET, POST, PUT, DELETE, etc. Les requêtes contiennent des informations spécifiques pour demander les données souhaitées.
-4 - Réception des réponses : L'API répond aux requêtes avec des données structurées dans un format tel que JSON. Les développeurs peuvent extraire ces données et les utiliser dans leurs propres applications ou services.
-5 - Gestion des limites et des autorisations : L'API Riot impose certaines limites d'utilisation, telles que des quotas de requêtes par minute ou par jour, afin de prévenir les abus et de garantir une utilisation équitable de l'API. Les développeurs doivent gérer ces limites et s'assurer de respecter les politiques d'utilisation de Riot Games.
+0. Lire le developper portal.
+1. generer une clé API riot
+2. Lire la documentation des api riots.
+3. Envoi de requêtes : Les développeurs envoient des requêtes HTTP aux points de terminaison de l'API Riot en utilisant des méthodes telles que GET, POST, PUT, DELETE, etc. Les requêtes contiennent des informations spécifiques pour demander les données souhaitées.
+4. Réception des réponses : L'API répond aux requêtes avec des données structurées dans un format tel que JSON. Les développeurs peuvent extraire ces données et les utiliser dans leurs propres applications ou services.
+5. Gestion des limites et des autorisations : L'API Riot impose certaines limites d'utilisation, telles que des quotas de requêtes par minute ou par jour, afin de prévenir les abus et de garantir une utilisation équitable de l'API. Les développeurs doivent gérer ces limites et s'assurer de respecter les politiques d'utilisation de Riot Games.
 
 ### Lecture de la doc de l'api riot :
 Lecture de la page explicative des API Riots :
