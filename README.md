@@ -1,9 +1,10 @@
 # ProjetKarmineCorp
 Test à faire pour pouvoir être pris en stage à la Karmine.
-\title{Objectif}:
+
+##Objectif:
 Récupérez automatiquement les soloQ des joueurs challengers et les stockez dans une base de donnée
 
-Comment faire ça ?
+##Comment faire ça ?
     1. Générer une clé API Riot
 Partie Python:
     2. Grâce à l’API Riot:
