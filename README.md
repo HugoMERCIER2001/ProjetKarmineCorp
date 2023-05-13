@@ -40,23 +40,22 @@ Lecture de la page explicative des API Riots :
 
 #### Différentes clés API possibles :
 
-##### La clé « API Developpement Key » :
+#### La clé « API Developpement Key » :
 
 Clé pour des prototypes de projet perso, limité en quantité de requests/s et doit être regénérée toutes les 24h.
 
-####### Limites API lors de l’inscription :
+##### Limite clé API lors de l'inscription :
 20 requests every 1 seconds(s)
 100 requests every 2 minutes(s)
 
-####### Ma clé API :
+##### Ma clé API :
 RGAPI-e36f5233-1d2a-4bf2-b91e-9cfe410de395
 
 
-###### La clé «PERSONAL API KEYS » :
+#### La clé «PERSONAL API KEYS » :
 
-	Clé pour des projets perso, limité en quantité de requests/s et plus besoin d’être regénérée toutes les 24h. Mais doit enregistrer son produit dans riot pour la recevoir.
-
-	Limites API lors de l’inscription :
+Clé pour des projets perso, limité en quantité de requests/s et plus besoin d’être regénérée toutes les 24h. Mais doit enregistrer son produit dans riot pour la recevoir.
+Limites API lors de l’inscription :
 
 20 requests every 1 second 
 100 requests every 2 minutes 
