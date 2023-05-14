@@ -5,13 +5,11 @@ import time
 from API_Riots import *
 from table_Joueurs import *
 from table_Game import *
+from table_Timeline import *
+from table_Liaison import *
 
 CLE_API = 'RGAPI-1d6c027d-c2a6-4ec2-83f2-c297c0135b29'
 
-
-##############################################Partie API Riots################################################################################
-
-##############################################Partie PostgreSQL######################################################################
 conn = psycopg2.connect( #Instaure une connexion vers la database DigitalOcean.
 host="lol-database-do-user-14101148-0.b.db.ondigitalocean.com",
 port="25060",
@@ -20,48 +18,6 @@ user="doadmin",
 password="AVNS_K2PNPsHumOCRMHRYaSP"
 )
 cursor = conn.cursor()#définit le curseur(besoin du curseur pour executer des commandes en PostgreSQL)
-
-
-def rempli_table_challenger(cursor):
-    """Fonction qui remplie la table avec les joueurs challengers crée précedemment"""
-    with open("data_challenger_id.json", "r") as f:#data_challenger_id.json représente le document type JSON qui contient les données obtenue par la requête pour obtenir la liste des joueuurs challengers.
-        objet = json.load(f)
-        """print(objet["name"], "\n")"""#liste des clés non utilisées.
-        """print(objet["tier"], "\n")"""
-        """print(objet["leagueId"],"\n")"""
-        """print(objet["queue"], "\n")"""
-        entries = objet["entries"]#entries est une liste d'éléments de type dictionnaire.
-        t1 = time.time()
-        parametre = f""
-        for element in entries :
-            if element != entries[0]:
-                parametre+= ","
-            parametre += f"('{element['summonerId']}', '{element['summonerName']}', {element['leaguePoints']}, '{element['rank']}', {element['wins']}, {element['losses']}, 'NULL')"
-    commande = f"INSERT INTO Joueurs (summonerId, summonerName, leaguePoints, rank, wins, losses, puuid) VALUES {parametre};"
-    cursor.execute(commande)
-    t2 = time.time()
-    print("temps =",t2 - t1)
-
-def associe_PUUID_aux_challengers(cursor, api_key):
-    cursor.execute("SELECT summonerId, puuid FROM Joueurs WHERE puuid = 'NULL';")
-    summoner_ids = cursor.fetchall()
-    parametre = ""
-    compteur = 0
-    for summoner_id in summoner_ids:
-        compteur += 1
-        envoie_demande_PUUID_summoner(summoner_id[0], api_key)
-        print(compteur)
-        with open("data_summoner_id.json", "r") as f:#data_summoner_id.json représente le document type JSON qui contient les données obtenue par la requête pour obtenir le PUUID d'un joueur.
-            objet = json.load(f)
-            parametre += f" WHEN summoner_id = '{objet['id']}' THEN '{objet['puuid']}'"
-        if compteur == 90:
-            break
-            print("on s'est arreté avant")
-    commande = f"UPDATE Joueurs SET puuid = CASE {parametre} END WHERE puuid = NULL;"   
-    cursor.execute(commande)
-
-##############################################################################################################################################################################################################################
-
 
 def main(api_key):
     #envoie_demande_liste_challengers(api_key)
