@@ -119,3 +119,5 @@ Cette commande permet de créer un déclancheur, qui est un bloc de code SQL exe
 ### BEGIN, COMMIT, ROLLBACK: 
 Ces commandes sont utilisées pour gérer les transactions dans PostgreSQL. Vous pouvez regrouper plusieurs commandes en une seule transaction et les valider (COMMIT) ou les annuler (ROLLBACK) en fonction du résultat.
 
+## Choses à ne pas oublier :
+Les données renvoyer par les API Riots sont cryptés, donc pas les mêmes id etc si des clés différentes.
