@@ -20,7 +20,7 @@ Récupérez automatiquement les soloQ des joueurs challengers et les stockez dan
         1. Soit une base de donnée managée type DigitalOcean (recommandée), soit sur sa propre machine
         2. Créer les tables asssociées:
             1. Joueur challenger (quels colonnes mettre?)
-            2. Matchid avec les challengers/joueurs dans la partie par id (quel id utilisé ?
+            2. Matchid avec les challengers/joueurs dans la partie par id (quel id utilisé ?)
             3. Json associé à la timeline
             4. Json associé à la game
 
@@ -76,3 +76,46 @@ La Limite Api lors de l'inscription est variable selon la région dans le monde 
 
 ##### Ma clé API :
 Doit proposer le produit à Riot.
+
+
+## Commandes PostgreSQL :
+
+### CREATE DATABASE :
+Cette commande permet de créer une nouvelle base de données.
+
+### DROP DATABASE :
+Cette commande permet de supprimer complètement une base de données. (les données sont perdus pour toujours).
+
+### CREATE TABLE :
+Cette commande permet de créer une nouvelle table dans une base de données. Elle spécifie les colonnes, les types de données et les contraintes pour chaque colonnes.
+
+### ALTER TABLE :
+Cette commande permet de modifier la structure d'une table existante. On pet ajouter, renommer ou supprimer des colonnes, définir des contraintes ...
+
+### SELECT ... FROM ... WHERE ... :
+Permet de récuperer des données à partir d'une table ou de plusieurs tables.
+
+### INSERT INTO ... VALUES (...) :
+Cette commande permet d'inserer de nouvelles lignes de données dans une table existante.
+
+### UPDATE (nom_de_la_table) SET (colonne = nouvelle_valeur) WHERE condition :
+Cette commande permet de mettre à jour les données existantes dans une table.
+
+### DELETE FROM (nom de la table) WHERE condition :
+Cette commande permet de de supprimer des lignes spécifiques d'une table.
+
+### CREATE INDEX :
+Cette commande permet de créer un index sur une ou plusieurs colonnes d'une table. Les indexs améliorent les performances des requêtes en accélérant la recherche de données.
+
+### CREATE VIEW :
+Cette commande permet de créer une vue, qui est une représentation virtuelle d'une ou plusieurs tables. Les vues permettent d'abstraire la complexité des requêtes et de simplifier l'accès aux données.
+
+### CREATE FUNCTION :
+Cette commande permet de créer une fonction stockée, qui est un bloc de code SQL réutilisable.Les fonctions peuvent accepter des paramètres, effectuer des opérations et renvoyer des résultats.
+
+### CREATE TRIGGER :
+Cette commande permet de créer un déclancheur, qui est un bloc de code SQL executé automatiquement en réponse à un évênement spécifique sur une table. Les déclencheurs sont utilisés pour effectuer des actions supplémentaires, telles que la mise à jour d'autres tables ou l'éxecution de fonctions.
+
+### BEGIN, COMMIT, ROLLBACK: 
+Ces commandes sont utilisées pour gérer les transactions dans PostgreSQL. Vous pouvez regrouper plusieurs commandes en une seule transaction et les valider (COMMIT) ou les annuler (ROLLBACK) en fonction du résultat.
+
