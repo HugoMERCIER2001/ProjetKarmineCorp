@@ -41,7 +41,7 @@ def envoie_demande_PUUID_summoner(summoner_id, api_key):
     else:
         print('La requête a échoué. Code de réponse :', response.status_code)
 
-def envoie_demande_liste_match_challengers(api_key):
+def envoie_demande_liste_match_challengers(puuid,api_key):
     """envoie une demande GET à l'API Riot pour obtenir la liste des ID des matchs niveau Challengers"""
     requete = f'https://euw1.api.riotgames.com/lol/league/v4/challengerleagues/by-queue/RANKED_SOLO_5x5?api_key={api_key}'
     # Exemple de requête GET
@@ -52,7 +52,7 @@ def envoie_demande_liste_match_challengers(api_key):
         # La requête a réussi
         data = response.json() # Récupérer les données de réponse au format JSON
         # Traiter les données
-        with open("data_match_idea.json", "w") as f:
+        with open("data_match_id.json", "w") as f:
             json.dump(data, f)
     # Gérer les erreurs de requête
     else:
@@ -83,8 +83,8 @@ def rempli_table_challenger():
         for element in entries :
             if element != entries[0]:
                 parametre+= ","
-            parametre += f"('{element['summonerId']}','{element['summonerName']}', {element['leaguePoints']}, '{element['rank']}',{element['wins']},{element['losses']})"
-    commande = f"INSERT INTO Joueurs (summonerId, summonerName, leaguePoints, rank, wins, losses) VALUES {parametre}"
+            parametre += f"('{element['summonerId']}','{element['summonerName']}', {element['leaguePoints']}, '{element['rank']}',{element['wins']},{element['losses']}, 'NULL')"
+    commande = f"INSERT INTO Joueurs (summonerId, summonerName, leaguePoints, rank, wins, losses) VALUES {parametre};"
     cursor.execute(commande)
     t2 = time.time()
     print("temps =",t2 - t1)
@@ -92,35 +92,33 @@ def rempli_table_challenger():
 ##############################################################################################################################################################################################################################
 
 def associe_PUUID_aux_challengers(api_key):
-    print()
-    cursor.execute("SELECT summonerId FROM Joueurs WHERE puuid = NULL")
+    cursor.execute("SELECT summonerId FROM Joueurs WHERE puuid == NULL;")
     summoner_ids = cursor.fetchall()
-    liste_time = []
-    compteur_appel = 0
-    liste_time.append(time.time())
-    t1 = time.time()
+    parametre = ""
+    compteur = 0
     for summoner_id in summoner_ids:
-        compteur_appel += 1
+        compteur += 1
         envoie_demande_PUUID_summoner(summoner_id, api_key)
         with open("data_summoner_id.json", "r") as f:#data_summoner_id.json représente le document type JSON qui contient les données obtenue par la requête pour obtenir le PUUID d'un joueur.
             objet = json.load(f)
-        if compteur_appel == 20:
-            t2 = time.time()
-        break
-    print(t2 - t1)
-
+            parametre += f" WHEN summoner_id = {object['summoner_id']} THEN {objet['puuid']}"
+        commande = f'UPDATE Joueurs SET puuid = CASE {parametre} ELSE puuid END WHERE puuid == NULL;'    
+        cursor.execute(commande)
+        if compteur == 90:
+            break
+    
 
 def main(api_key):
-    associe_PUUID_aux_challengers(api_key)
     #envoie_demande_liste_challengers(api_key)
-    #envoie_demande_liste_match_challengers(api_keys):
-    #cursor.execute("CREATE TABLE Joueurs (summonerId TEXT,summonerName TEXT, leaguePoints INT, rank TEXT,wins INT, losses INT, PRIMARY KEY (summonerId));")
-    #cursor.execute("DROP TABLE Joueurs;")
+    #envoie_demande_liste_match_challengers(api_keys)
+    #cursor.execute("CREATE TABLE Joueurs (summonerId TEXT,summonerName TEXT, leaguePoints INT, rank TEXT,wins INT, losses INT, puuid TEXT, PRIMARY KEY (summonerId));")
+    cursor.execute("DROP TABLE Joueurs;")
+    associe_PUUID_aux_challengers(api_key)
     #rempli_table_challenger()
     conn.commit()
-    """cursor.execute("SELECT * FROM Joueurs")
+    cursor.execute("SELECT * FROM Joueurs")
     rows = cursor.fetchall()
     for row in rows:
-    print(row)"""
+        print(row)
 
 main(CLE_API)
