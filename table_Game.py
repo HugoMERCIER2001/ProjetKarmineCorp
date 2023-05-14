@@ -8,12 +8,15 @@ def create_tables(cursor):
     cursor.execute("CREATE TABLE matches (matchId VARCHAR(50) PRIMARY KEY(match_id) , file JSON);")
 
 
-def rempli_table_match(cursor,list_matchId):
+def rempli_table_match(cursor,list_matchId,list_file):
+    """
+    Rempli la table match avec les matchs de la liste list_matchId et les fichiers json de la liste list_file
+    """
     parametre = ""
-    for match_id in list_matchId:
-        if match_id != list_matchId[0]:
-            parametre+= ","
-        parametre += f"'{match_id}', '{match_id}'.json"
+    for i in range(len(list_matchId)):
+        if i != 0:
+            parametre += ","
+        parametre += f"'{list_matchId[i]}', '{list_file[i]}'"
     cursor.execute(f"INSERT INTO matches (matchId,file) VALUES ({parametre});")
 
 

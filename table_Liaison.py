@@ -9,6 +9,9 @@ def create_table(cursor):
 
 
 def rempli_table_liaison(list_matchId,list_summonerId,cursor):
+    """
+    Rempli la table Liaison avec les matchs de la liste list_matchId et les summonerId de la liste list_summonerId
+    """
     parametre = ""
     for i in range(len(list_matchId)):
         if i != 0:
