@@ -25,15 +25,15 @@ def envoie_demande_liste_challengers(api_key):
 #envoie_demande_liste_challengers(CLE_API)
 
 conn = psycopg2.connect( #Instaure une connexion vers la database DigitalOcean.
-    host="lol-database-do-user-14097841-0.b.db.ondigitalocean.com",
+    host="lol-database-do-user-14101148-0.b.db.ondigitalocean.com",
     port="25060",
     database="defaultdb",
     user="doadmin",
-    password="AVNS_9iA_ca8QkALDSYNffG5"
+    password="AVNS_K2PNPsHumOCRMHRYaSP"
 )
 
 cursor = conn.cursor()#définit le curseur(besoin du curseur pour executer des commandes en PostgreSQL)
-cursor.execute("CREATE TABLE Joueurs (summonerId TEXT,summonerName TEXT, leaguePoints INT, rank TEXT,wins INT, losses INT)")
+cursor.execute("CREATE TABLE Joueurs (summonerId TEXT,summonerName TEXT, leaguePoints INT, rank TEXT,wins INT, losses INT, PRIMARY KEY (summonerId))")
 
 def rempli_table():
     with open("data.json", "r") as f:
