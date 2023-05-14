@@ -4,6 +4,9 @@ import json
 import time
 from API_Riots import *
 
+
+
+######Création ######################################################################################################################################################################################################
 def rempli_table_challenger(cursor):
     """Fonction qui remplie la table avec les joueurs challengers crée précedemment"""
     with open("data_challenger_id.json", "r") as f:#data_challenger_id.json représente le document type JSON qui contient les données obtenue par la requête pour obtenir la liste des joueuurs challengers.
@@ -24,7 +27,9 @@ def rempli_table_challenger(cursor):
     t2 = time.time()
     print("temps =",t2 - t1)
 
+########################Actualisation#########################################################################################################################################################
 def associe_PUUID_aux_challengers(cursor, api_key):
+    """fonction qui associe aux joueurs challengers leur puiid, peut se faire en actualisation"""
     cursor.execute("SELECT summonerId, puuid FROM Joueurs WHERE puuid = 'NULL';")
     summoner_ids = cursor.fetchall()
     parametre = ""
@@ -35,9 +40,32 @@ def associe_PUUID_aux_challengers(cursor, api_key):
         print(compteur)
         with open("data_summoner_id.json", "r") as f:#data_summoner_id.json représente le document type JSON qui contient les données obtenue par la requête pour obtenir le PUUID d'un joueur.
             objet = json.load(f)
-            parametre += f" WHEN summoner_id = '{objet['id']}' THEN '{objet['puuid']}'"
+            parametre += f" WHEN joueurs.summonerid = '{objet['id']}' THEN '{objet['puuid']}'"
         if compteur == 90:
-            break
             print("on s'est arreté avant")
+            break
     commande = f"UPDATE Joueurs SET puuid = CASE {parametre} END WHERE puuid = NULL;"   
     cursor.execute(commande)
+
+
+    
+
+def actualisation_table_Joueurs(cursor, api_key):
+    """fonction qui actualise la table Joueurs"""
+    envoie_demande_liste_challengers(api_key)
+    cursor.execute("SELECT summonerId, puuid FROM Joueurs WHERE puuid = 'NULL';")
+    rows = cursor.fetchall()
+    compteur_insert_to = 0
+    parametre_inser_to = f""
+    Liste_summoner_ids = []
+    for row in rows:
+        Liste_summoner_ids.append(row[0])
+    with open("data_challenger_id.json", "r") as f:#data_challenger_id.json représente le document type JSON qui contient les données obtenue par la requête pour obtenir la liste des joueuurs challengers.
+        objet = json.load(f)
+        entries = objet["entries"]
+        for element in entries:
+            if element['summonerId'] not in Liste_summoner_ids:
+                if compteur_insert_to == 0:
+                    parametre_inser_to += f"('{element['summonerId']}', '{element['summonerName']}', {element['leaguePoints']}, '{element['rank']}', {element['wins']}, {element['losses']}, 'NULL')"
+                else :
+                    parametre_inser_to += ", "

@@ -17,18 +17,19 @@ database="defaultdb",
 user="doadmin",
 password="AVNS_K2PNPsHumOCRMHRYaSP"
 )
-cursor = conn.cursor()#définit le curseur(besoin du curseur pour executer des commandes en PostgreSQL)
+CURSEUR = conn.cursor()#définit le curseur(besoin du curseur pour executer des commandes en PostgreSQL)
 
-def main(api_key):
+def main(cursor, api_key):
     #envoie_demande_liste_challengers(api_key)
     #envoie_demande_liste_match_challengers(api_keys)
     #cursor.execute("CREATE TABLE Joueurs (summonerId TEXT,summonerName TEXT, leaguePoints INT, rank TEXT,wins INT, losses INT, puuid TEXT, PRIMARY KEY (summonerId));")
     #cursor.execute("DROP TABLE Joueurs")
-    associe_PUUID_aux_challengers(api_key)
+    associe_PUUID_aux_challengers(cursor,api_key)
     #rempli_table_challenger()
     conn.commit()
     cursor.execute("SELECT summonerId FROM Joueurs")
     rows = cursor.fetchall()
     #for row in rows:
     print(rows)
-main(CLE_API)
+
+main(CURSEUR, CLE_API)
