@@ -3,24 +3,6 @@ import psycopg2
 import json
 import time
 from API_Riots import *
-from table_Joueurs import *
-from table_Game import *
-
-CLE_API = 'RGAPI-1d6c027d-c2a6-4ec2-83f2-c297c0135b29'
-
-
-##############################################Partie API Riots################################################################################
-
-##############################################Partie PostgreSQL######################################################################
-conn = psycopg2.connect( #Instaure une connexion vers la database DigitalOcean.
-host="lol-database-do-user-14101148-0.b.db.ondigitalocean.com",
-port="25060",
-database="defaultdb",
-user="doadmin",
-password="AVNS_K2PNPsHumOCRMHRYaSP"
-)
-cursor = conn.cursor()#définit le curseur(besoin du curseur pour executer des commandes en PostgreSQL)
-
 
 def rempli_table_challenger(cursor):
     """Fonction qui remplie la table avec les joueurs challengers crée précedemment"""
@@ -59,20 +41,3 @@ def associe_PUUID_aux_challengers(cursor, api_key):
             print("on s'est arreté avant")
     commande = f"UPDATE Joueurs SET puuid = CASE {parametre} END WHERE puuid = NULL;"   
     cursor.execute(commande)
-
-##############################################################################################################################################################################################################################
-
-
-def main(api_key):
-    #envoie_demande_liste_challengers(api_key)
-    #envoie_demande_liste_match_challengers(api_keys)
-    #cursor.execute("CREATE TABLE Joueurs (summonerId TEXT,summonerName TEXT, leaguePoints INT, rank TEXT,wins INT, losses INT, puuid TEXT, PRIMARY KEY (summonerId));")
-    #cursor.execute("DROP TABLE Joueurs")
-    associe_PUUID_aux_challengers(api_key)
-    #rempli_table_challenger()
-    conn.commit()
-    cursor.execute("SELECT summonerId FROM Joueurs")
-    rows = cursor.fetchall()
-    #for row in rows:
-    print(rows)
-main(CLE_API)
