@@ -53,9 +53,10 @@ def associe_PUUID_aux_challengers(cursor, api_key):
 def actualisation_table_Joueurs(cursor, api_key):
     """fonction qui actualise la table Joueurs"""
     envoie_demande_liste_challengers(api_key)
-    cursor.execute("SELECT summonerId, puuid FROM Joueurs WHERE puuid = 'NULL';")
+    cursor.execute("SELECT summonerId FROM Joueurs;")
     rows = cursor.fetchall()
     compteur_insert_to = 0
+    new_summoners_id_liste = []
     parametre_inser_to = f""
     Liste_summoner_ids = []
     for row in rows:
@@ -64,8 +65,13 @@ def actualisation_table_Joueurs(cursor, api_key):
         objet = json.load(f)
         entries = objet["entries"]
         for element in entries:
+            new_summoners_id_liste.append(element['summonerId'])
             if element['summonerId'] not in Liste_summoner_ids:
                 if compteur_insert_to == 0:
                     parametre_inser_to += f"('{element['summonerId']}', '{element['summonerName']}', {element['leaguePoints']}, '{element['rank']}', {element['wins']}, {element['losses']}, 'NULL')"
                 else :
                     parametre_inser_to += ", "
+    commande = f"INSERT INTO Joueurs (summonerId, summonerName, leaguePoints, rank, wins, losses, puuid) VALUES {parametre_inser_to};"
+    #il faut faire le cas où il faut supprimer des lignes.
+    #il faut faire le cas où il faut modifier les lignes des joueurs.
+           
