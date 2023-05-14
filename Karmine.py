@@ -25,7 +25,7 @@ def envoie_demande_liste_challengers(api_key):
 #envoie_demande_liste_challengers(CLE_API)
 
 conn = psycopg2.connect( #Instaure une connexion vers la database DigitalOcean.
-    host="lol-database-do-user-14101148-0.b.db.ondigitalocean.com",
+    host="private-lol-database-do-user-14101148-0.b.db.ondigitalocean.com",
     port="25060",
     database="defaultdb",
     user="doadmin",
@@ -38,11 +38,11 @@ cursor.execute("CREATE TABLE Joueurs (summonerId TEXT,summonerName TEXT, leagueP
 def rempli_table():
     with open("data.json", "r") as f:
         objet = json.load(f)
-        """print(objet["name"], "\n")"""#liste des clés non utilisées.
+        """print(objet["name"], "\n")""" #liste des clés non utilisées.
         """print(objet["tier"], "\n")"""
         """print(objet["leagueId"],"\n")"""
         """print(objet["queue"], "\n")"""
-        entries = objet["entries"]#entries est une liste d'éléments de type dictionnaire.
+        entries = objet["entries"] #entries est une liste d'éléments de type dictionnaire.
         t1 = time.time()
         for element in entries :
             i = 0
