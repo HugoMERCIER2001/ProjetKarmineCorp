@@ -101,11 +101,12 @@ def associe_PUUID_aux_challengers(api_key):
         envoie_demande_PUUID_summoner(summoner_id, api_key)
         with open("data_summoner_id.json", "r") as f:#data_summoner_id.json représente le document type JSON qui contient les données obtenue par la requête pour obtenir le PUUID d'un joueur.
             objet = json.load(f)
+            print("compteur =", compteur, "\n")
             parametre += f" WHEN summoner_id = {object['summoner_id']} THEN {objet['puuid']}"
-        commande = f'UPDATE Joueurs SET puuid = CASE {parametre} ELSE puuid END WHERE puuid == NULL;'    
-        cursor.execute(commande)
         if compteur == 90:
             break
+    commande = f'UPDATE Joueurs SET puuid = CASE {parametre} ELSE puuid END WHERE puuid == NULL;'    
+    cursor.execute(commande)
     
 
 def main(api_key):
@@ -113,7 +114,7 @@ def main(api_key):
     #envoie_demande_liste_match_challengers(api_keys)
     #cursor.execute("CREATE TABLE Joueurs (summonerId TEXT,summonerName TEXT, leaguePoints INT, rank TEXT,wins INT, losses INT, puuid TEXT, PRIMARY KEY (summonerId));")
     cursor.execute("DROP TABLE Joueurs;")
-    associe_PUUID_aux_challengers(api_key)
+    #associe_PUUID_aux_challengers(api_key)
     #rempli_table_challenger()
     conn.commit()
     cursor.execute("SELECT * FROM Joueurs")
