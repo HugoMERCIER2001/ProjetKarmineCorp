@@ -29,6 +29,7 @@ def rempli_table_challenger(cursor):
 
 ########################Actualisation#########################################################################################################################################################
 def associe_PUUID_aux_challengers(cursor, api_key):
+    print('On est renté')
     """fonction qui associe aux joueurs challengers leur puiid, peut se faire en actualisation"""
     cursor.execute("SELECT summonerId, puuid FROM Joueurs WHERE puuid = '0';")
     summoner_ids = cursor.fetchall()
@@ -41,7 +42,7 @@ def associe_PUUID_aux_challengers(cursor, api_key):
         with open("data/summoner/data_summoner_id.json", "r") as f:#data_summoner_id.json représente le document type JSON qui contient les données obtenue par la requête pour obtenir le PUUID d'un joueur.
             objet = json.load(f)
             parametre += f"WHEN summonerId = '{objet['id']}' THEN '{objet['puuid']}' "
-        if compteur == 90:
+        if compteur == 2000:
             break
     commande = f"UPDATE Joueurs SET puuid = CASE {parametre}ELSE puuid END;"
     cursor.execute(commande)

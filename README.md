@@ -122,3 +122,4 @@ Ces commandes sont utilisées pour gérer les transactions dans PostgreSQL. Vous
 
 ## Choses à ne pas oublier :
 Les données renvoyer par les API Riots sont cryptés, donc pas les mêmes id etc si des clés différentes.
+On ne peut pas dépasser une certaine limite de requetes API/s, pour cela on a faait une fonction qui attend pour ne pas dépassser ces quotas. Il y a à la fois un nombre de requetes/s liés à la clé API et une liée au type de requete que l'on fait. Il faut donc recréer une variable globale pour chaque NOUVEAUX TYPES DE REQUETE que l'on fait pour pouvoir calculer le temps à attendre avant de refaire une requete API, pour respecter les quotas liée AU TYPE DE REQUETE.

@@ -8,7 +8,10 @@ from table_Game import *
 from table_Timeline import *
 from table_Liaison import *
 
-CLE_API = 'RGAPI-1d6c027d-c2a6-4ec2-83f2-c297c0135b29'
+
+print("DEBUT DE PROGRAMME")
+
+CLE_API = 'RGAPI-227531d5-6ccc-4584-8288-4264b0dac394'
 
 conn = psycopg2.connect( #Instaure une connexion vers la database DigitalOcean.
 host="lol-database-do-user-14101148-0.b.db.ondigitalocean.com",
@@ -17,19 +20,34 @@ database="defaultdb",
 user="doadmin",
 password="AVNS_K2PNPsHumOCRMHRYaSP"
 )
+
+print("CONNEXION A LA DATABASE REUSSI")
+
 CURSEUR = conn.cursor()#définit le curseur(besoin du curseur pour executer des commandes en PostgreSQL)
 
-def main(cursor, api_key):
-    #envoie_demande_liste_challengers(api_key)
-    #envoie_demande_liste_match_challengers(api_keys)
+def joueurs(cursor, api_key):
+    """
+    liste de toutes les fonctions utilisables liées à la table joueur
+    """
     #cursor.execute("CREATE TABLE Joueurs (summonerId TEXT,summonerName TEXT, leaguePoints INT, rank TEXT,wins INT, losses INT, puuid TEXT, PRIMARY KEY (summonerId));")
     #cursor.execute("DROP TABLE Joueurs")
-    associe_PUUID_aux_challengers(cursor,api_key)
-    #rempli_table_challenger()
-    conn.commit()
-    cursor.execute("SELECT summonerId FROM Joueurs")
-    rows = cursor.fetchall()
-    #for row in rows:
-    print(rows)
+    #associe_PUUID_aux_challengers(cursor,api_key)
+    #rempli_table_challenger(cursor)
+    #actualisation_table_Joueurs(cursor, api_key)
+    #conn.commit()
+    #cursor.close()        
+    #conn.close()
 
-main(CURSEUR, CLE_API)
+def liaison(cursor, api_key):
+    #cree_table_liaison_complete(cursor, api_key)
+    #cursor.execute("DROP TABLE Liaison")
+    actualisation_table_liaison(cursor, api_key)
+    conn.commit()
+    cursor.close()        
+    conn.close()
+    print('FIN')
+
+joueurs(CURSEUR, CLE_API)
+liaison(CURSEUR, CLE_API)
+
+L = ['ZyY8BiyCwr8NmveDFyZzSo4gwmoZCBicJpIWqqBpPgp67oc','zTr6iTedMEK5kLJ_jqJc8XPKnkM7L5L_q4ni6wZeRNRAX4M','_ZQUVCGxbOQ75y62QmxblXylc2eseFZaiDllNt78imZ_rqqg']
