@@ -6,10 +6,10 @@ from API_Riots import *
 
 
 
-################################Création de la table de liaison#######################################################################################
+################################Création de la table de liaison##################################################################################################
 
 
-##################Fonctions utilisées pour la création de la table de liaison#############################################""
+##################Fonctions utilisées pour la création de la table de liaison###############################################################################
 def create_table_liaison_vide(cursor):
     """
     Crée la table Liaison
@@ -53,8 +53,10 @@ def rempli_table_liaison(list_matchId,list_summonerId,cursor):
             parametre += ","
         parametre += f"('{list_matchId[i]}', '{list_summonerId[i]}')" 
     cursor.execute(f"INSERT INTO Liaison (matchId,summonerId) VALUES {parametre};")
+    
 
-########################FONCTION QU'IL FAUT APPELER POUR CREER LA TABLE DE LIAISON COMPLETE#######################################""
+########################FONCTION QU'IL FAUT APPELER POUR CREER LA TABLE DE LIAISON COMPLETE###########################################################################
+
 def cree_table_liaison_complete(cursor, api_key):
     """
     Fonction qui crée et rempli la table de liaison, il faut juste que la table joueur soit déjà définie !
@@ -63,7 +65,8 @@ def cree_table_liaison_complete(cursor, api_key):
     cree_liste_match(cursor, api_key)
     print("FIN")
 
-#######################ACTUALISATION DE LA TABLE DE LIAISON###############################################################################
+#######################ACTUALISATION DE LA TABLE DE LIAISON#############################################################################################################
+
 def actualisation_table_liaison(cursor, api_key):
     Liste_deja_sauvegarde = []
     cursor.execute("SELECT matchId, summonerId FROM Liaison")
@@ -88,8 +91,6 @@ def actualisation_table_liaison(cursor, api_key):
                     i += 1
                     if i == 100:
                         break
-        if compteur_appels_API == 2000:
-            break            
         if summoner_puuid[1] == '0' :
             compteur_puuid_manquant += 1
             print(compteur_puuid_manquant)
@@ -98,3 +99,4 @@ def actualisation_table_liaison(cursor, api_key):
     if compteur_actualisation != 0:
         rempli_table_liaison(Liste_nouveaux_match, Liste_nouveaux_summoners_ids, cursor)
         
+##########################################################################################################################################################"#######################################"

@@ -21,7 +21,7 @@ T3_METH2 = 'pas encore définie'
 T4_METH1 = 'pas encore définie'
 T4_METH2 = 'pas encore définie'
 
-##################################Fonction permettant de ne pas dépasser les limites de requetes/s#######################################################""
+##################################Fonction permettant de ne pas dépasser les limites de requetes/s###########################################################################################################################################
 
 def verifie_pas_de_depassement(response, type_de_requete = 0):
     """
@@ -120,7 +120,7 @@ def verifie_pas_de_depassement(response, type_de_requete = 0):
 
 
 
-##################################Fonction de requêtes API#################################################################################
+##################################Fonction de requêtes API#####################################################################################################
 
 def envoie_demande_liste_challengers(api_key):
     """
@@ -228,3 +228,24 @@ def get_match_by_id(match_id, api_key):
     # Gérer les erreurs de requête
     else:
         print('La requête a échoué. Code de réponse :', response.status_code)
+
+
+def get_timeline_by_id(match_id, api_key):
+    """
+    Récupère les infos d'un match à partir du match_id
+    Stocke ces données dans un json du nom du match_id dans le fichier match_info
+    """
+    request = f"https://europe.api.riotgames.com/lol/match/v5/matches/{match_id}/timeline?api_key={api_key}"
+    response = requests.get(request)
+    verifie_pas_de_depassement(response, 0)
+    # Vérifier le code de réponse
+    if response.status_code == 200:
+        # La requête a réussi
+        data = response.json() # Récupérer les données de réponse au format JSON
+        # Traiter les données
+        with open(f"data/match/match_timeline/{match_id}.json", "w") as f:
+            json.dump(data, f)
+    # Gérer les erreurs de requête
+    else:
+        print('La requête a échoué. Code de réponse :', response.status_code)
+#####################################################################################################################################################################
