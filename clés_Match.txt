@@ -1,0 +1,2448 @@
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : dataVersion
+Chemin de clés pour obtenir cette clé : metadata-dataVersion
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 2
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : matchId
+Chemin de clés pour obtenir cette clé : metadata-matchId
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : EUW1_6335475357
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : 0
+Chemin de clés pour obtenir cette clé : metadata-participants-0
+Type de la valeur stockée : <class 'int'>
+Exemple de valeur possible : 0dcMYn8gfSaMmj2NUobe5DqIznKK0By1sqAiVQ_h4sGlUrfZp2fRuW7zBI4n0WO9KoDcvKyRCskq2w
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : gameCreation
+Chemin de clés pour obtenir cette clé : info-gameCreation
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1680000948061
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : gameDuration
+Chemin de clés pour obtenir cette clé : info-gameDuration
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1589
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : gameEndTimestamp
+Chemin de clés pour obtenir cette clé : info-gameEndTimestamp
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1680002569947
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : gameId
+Chemin de clés pour obtenir cette clé : info-gameId
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 6335475357
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : gameMode
+Chemin de clés pour obtenir cette clé : info-gameMode
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : CLASSIC
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : gameName
+Chemin de clés pour obtenir cette clé : info-gameName
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : teambuilder-match-6335475357
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : gameStartTimestamp
+Chemin de clés pour obtenir cette clé : info-gameStartTimestamp
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1680000980234
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : gameType
+Chemin de clés pour obtenir cette clé : info-gameType
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : MATCHED_GAME
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : gameVersion
+Chemin de clés pour obtenir cette clé : info-gameVersion
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 13.6.499.7758
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : mapId
+Chemin de clés pour obtenir cette clé : info-mapId
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 11
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : allInPings
+Chemin de clés pour obtenir cette clé : info-participants-0-allInPings
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : assistMePings
+Chemin de clés pour obtenir cette clé : info-participants-0-assistMePings
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 2
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : assists
+Chemin de clés pour obtenir cette clé : info-participants-0-assists
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 10
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : baitPings
+Chemin de clés pour obtenir cette clé : info-participants-0-baitPings
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 3
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : baronKills
+Chemin de clés pour obtenir cette clé : info-participants-0-baronKills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : basicPings
+Chemin de clés pour obtenir cette clé : info-participants-0-basicPings
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : bountyLevel
+Chemin de clés pour obtenir cette clé : info-participants-0-bountyLevel
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : 12AssistStreakCount
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-12AssistStreakCount
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : abilityUses
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-abilityUses
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 215
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : acesBefore15Minutes
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-acesBefore15Minutes
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : alliedJungleMonsterKills
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-alliedJungleMonsterKills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : baronBuffGoldAdvantageOverThreshold
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-baronBuffGoldAdvantageOverThreshold
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : baronTakedowns
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-baronTakedowns
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : blastConeOppositeOpponentCount
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-blastConeOppositeOpponentCount
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : bountyGold
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-bountyGold
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : buffsStolen
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-buffsStolen
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : completeSupportQuestInTime
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-completeSupportQuestInTime
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : controlWardTimeCoverageInRiverOrEnemyHalf
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-controlWardTimeCoverageInRiverOrEnemyHalf
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0.7640193306299699
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : controlWardsPlaced
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-controlWardsPlaced
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 4
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : damagePerMinute
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-damagePerMinute
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 922.0659267164268
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : damageTakenOnTeamPercentage
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-damageTakenOnTeamPercentage
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0.18765200753092007
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : dancedWithRiftHerald
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-dancedWithRiftHerald
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : deathsByEnemyChamps
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-deathsByEnemyChamps
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 11
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : dodgeSkillShotsSmallWindow
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-dodgeSkillShotsSmallWindow
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 4
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : doubleAces
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-doubleAces
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : dragonTakedowns
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-dragonTakedowns
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : earliestBaron
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-earliestBaron
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1340.4561738999998
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : earlyLaningPhaseGoldExpAdvantage
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-earlyLaningPhaseGoldExpAdvantage
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : effectiveHealAndShielding
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-effectiveHealAndShielding
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : elderDragonKillsWithOpposingSoul
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-elderDragonKillsWithOpposingSoul
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : elderDragonMultikills
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-elderDragonMultikills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : enemyChampionImmobilizations
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-enemyChampionImmobilizations
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 20
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : enemyJungleMonsterKills
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-enemyJungleMonsterKills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 2
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : epicMonsterKillsNearEnemyJungler
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-epicMonsterKillsNearEnemyJungler
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : epicMonsterKillsWithin30SecondsOfSpawn
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-epicMonsterKillsWithin30SecondsOfSpawn
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : epicMonsterSteals
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-epicMonsterSteals
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : epicMonsterStolenWithoutSmite
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-epicMonsterStolenWithoutSmite
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : firstTurretKilledTime
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-firstTurretKilledTime
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 747.2383519
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : flawlessAces
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-flawlessAces
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : fullTeamTakedown
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-fullTeamTakedown
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : gameLength
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-gameLength
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1589.9147854
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : getTakedownsInAllLanesEarlyJungleAsLaner
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-getTakedownsInAllLanesEarlyJungleAsLaner
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : goldPerMinute
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-goldPerMinute
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 406.8651133477282
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : hadOpenNexus
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-hadOpenNexus
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : immobilizeAndKillWithAlly
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-immobilizeAndKillWithAlly
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 5
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : initialBuffCount
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-initialBuffCount
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : initialCrabCount
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-initialCrabCount
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : jungleCsBefore10Minutes
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-jungleCsBefore10Minutes
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : junglerTakedownsNearDamagedEpicMonster
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-junglerTakedownsNearDamagedEpicMonster
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : kTurretsDestroyedBeforePlatesFall
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-kTurretsDestroyedBeforePlatesFall
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : kda
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-kda
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1.2727272727272727
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : killAfterHiddenWithAlly
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-killAfterHiddenWithAlly
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : killParticipation
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-killParticipation
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0.3333333333333333
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : killedChampTookFullTeamDamageSurvived
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-killedChampTookFullTeamDamageSurvived
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : killsNearEnemyTurret
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-killsNearEnemyTurret
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 3
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : killsOnOtherLanesEarlyJungleAsLaner
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-killsOnOtherLanesEarlyJungleAsLaner
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : killsOnRecentlyHealedByAramPack
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-killsOnRecentlyHealedByAramPack
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : killsUnderOwnTurret
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-killsUnderOwnTurret
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : killsWithHelpFromEpicMonster
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-killsWithHelpFromEpicMonster
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : knockEnemyIntoTeamAndKill
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-knockEnemyIntoTeamAndKill
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 6
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : landSkillShotsEarlyGame
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-landSkillShotsEarlyGame
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 13
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : laneMinionsFirst10Minutes
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-laneMinionsFirst10Minutes
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 70
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : laningPhaseGoldExpAdvantage
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-laningPhaseGoldExpAdvantage
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : legendaryCount
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-legendaryCount
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : lostAnInhibitor
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-lostAnInhibitor
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : maxCsAdvantageOnLaneOpponent
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-maxCsAdvantageOnLaneOpponent
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 36.5
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : maxKillDeficit
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-maxKillDeficit
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : maxLevelLeadLaneOpponent
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-maxLevelLeadLaneOpponent
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : moreEnemyJungleThanOpponent
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-moreEnemyJungleThanOpponent
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : multiKillOneSpell
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-multiKillOneSpell
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : multiTurretRiftHeraldCount
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-multiTurretRiftHeraldCount
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : multikills
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-multikills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : multikillsAfterAggressiveFlash
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-multikillsAfterAggressiveFlash
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : outerTurretExecutesBefore10Minutes
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-outerTurretExecutesBefore10Minutes
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : outnumberedKills
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-outnumberedKills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : outnumberedNexusKill
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-outnumberedNexusKill
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : perfectDragonSoulsTaken
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-perfectDragonSoulsTaken
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : perfectGame
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-perfectGame
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : pickKillWithAlly
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-pickKillWithAlly
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 9
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : playedChampSelectPosition
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-playedChampSelectPosition
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : poroExplosions
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-poroExplosions
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : quickCleanse
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-quickCleanse
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : quickFirstTurret
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-quickFirstTurret
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : quickSoloKills
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-quickSoloKills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : riftHeraldTakedowns
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-riftHeraldTakedowns
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : saveAllyFromDeath
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-saveAllyFromDeath
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : scuttleCrabKills
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-scuttleCrabKills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : skillshotsDodged
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-skillshotsDodged
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 22
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : skillshotsHit
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-skillshotsHit
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 70
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : snowballsHit
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-snowballsHit
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : soloBaronKills
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-soloBaronKills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : soloKills
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-soloKills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : stealthWardsPlaced
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-stealthWardsPlaced
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 5
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : survivedSingleDigitHpCount
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-survivedSingleDigitHpCount
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : survivedThreeImmobilizesInFight
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-survivedThreeImmobilizesInFight
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : takedownOnFirstTurret
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-takedownOnFirstTurret
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : takedowns
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-takedowns
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 14
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : takedownsAfterGainingLevelAdvantage
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-takedownsAfterGainingLevelAdvantage
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : takedownsBeforeJungleMinionSpawn
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-takedownsBeforeJungleMinionSpawn
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : takedownsFirstXMinutes
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-takedownsFirstXMinutes
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 4
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : takedownsInAlcove
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-takedownsInAlcove
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : takedownsInEnemyFountain
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-takedownsInEnemyFountain
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : teamBaronKills
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-teamBaronKills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : teamDamagePercentage
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-teamDamagePercentage
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0.21923122635297462
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : teamElderDragonKills
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-teamElderDragonKills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : teamRiftHeraldKills
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-teamRiftHeraldKills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 2
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : thirdInhibitorDestroyedTime
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-thirdInhibitorDestroyedTime
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1501.0629731
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : threeWardsOneSweeperCount
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-threeWardsOneSweeperCount
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : tookLargeDamageSurvived
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-tookLargeDamageSurvived
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : turretPlatesTaken
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-turretPlatesTaken
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 2
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : turretTakedowns
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-turretTakedowns
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 4
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : turretsTakenWithRiftHerald
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-turretsTakenWithRiftHerald
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 10
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : twentyMinionsIn3SecondsCount
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-twentyMinionsIn3SecondsCount
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 7
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : unseenRecalls
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-unseenRecalls
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : visionScoreAdvantageLaneOpponent
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-visionScoreAdvantageLaneOpponent
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 2.4238553047180176
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : visionScorePerMinute
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-visionScorePerMinute
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1.2740563938543652
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : wardTakedowns
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-wardTakedowns
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : wardTakedownsBefore20M
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-wardTakedownsBefore20M
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : wardsGuarded
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-wardsGuarded
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : champExperience
+Chemin de clés pour obtenir cette clé : info-participants-0-champExperience
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 12260
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : champLevel
+Chemin de clés pour obtenir cette clé : info-participants-0-champLevel
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 14
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : championId
+Chemin de clés pour obtenir cette clé : info-participants-0-championId
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 67
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : championName
+Chemin de clés pour obtenir cette clé : info-participants-0-championName
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : Vayne
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : championTransform
+Chemin de clés pour obtenir cette clé : info-participants-0-championTransform
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : commandPings
+Chemin de clés pour obtenir cette clé : info-participants-0-commandPings
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 2
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : consumablesPurchased
+Chemin de clés pour obtenir cette clé : info-participants-0-consumablesPurchased
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 8
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : damageDealtToBuildings
+Chemin de clés pour obtenir cette clé : info-participants-0-damageDealtToBuildings
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 5617
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : damageDealtToObjectives
+Chemin de clés pour obtenir cette clé : info-participants-0-damageDealtToObjectives
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 6746
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : damageDealtToTurrets
+Chemin de clés pour obtenir cette clé : info-participants-0-damageDealtToTurrets
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 5617
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : damageSelfMitigated
+Chemin de clés pour obtenir cette clé : info-participants-0-damageSelfMitigated
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 15739
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : dangerPings
+Chemin de clés pour obtenir cette clé : info-participants-0-dangerPings
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : deaths
+Chemin de clés pour obtenir cette clé : info-participants-0-deaths
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 11
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : detectorWardsPlaced
+Chemin de clés pour obtenir cette clé : info-participants-0-detectorWardsPlaced
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 4
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : doubleKills
+Chemin de clés pour obtenir cette clé : info-participants-0-doubleKills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : dragonKills
+Chemin de clés pour obtenir cette clé : info-participants-0-dragonKills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : eligibleForProgression
+Chemin de clés pour obtenir cette clé : info-participants-0-eligibleForProgression
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : True
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : enemyMissingPings
+Chemin de clés pour obtenir cette clé : info-participants-0-enemyMissingPings
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 10
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : enemyVisionPings
+Chemin de clés pour obtenir cette clé : info-participants-0-enemyVisionPings
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : firstBloodAssist
+Chemin de clés pour obtenir cette clé : info-participants-0-firstBloodAssist
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : False
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : firstBloodKill
+Chemin de clés pour obtenir cette clé : info-participants-0-firstBloodKill
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : True
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : firstTowerAssist
+Chemin de clés pour obtenir cette clé : info-participants-0-firstTowerAssist
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : False
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : firstTowerKill
+Chemin de clés pour obtenir cette clé : info-participants-0-firstTowerKill
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : False
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : gameEndedInEarlySurrender
+Chemin de clés pour obtenir cette clé : info-participants-0-gameEndedInEarlySurrender
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : False
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : gameEndedInSurrender
+Chemin de clés pour obtenir cette clé : info-participants-0-gameEndedInSurrender
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : False
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : getBackPings
+Chemin de clés pour obtenir cette clé : info-participants-0-getBackPings
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 2
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : goldEarned
+Chemin de clés pour obtenir cette clé : info-participants-0-goldEarned
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 10781
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : goldSpent
+Chemin de clés pour obtenir cette clé : info-participants-0-goldSpent
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 10540
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : holdPings
+Chemin de clés pour obtenir cette clé : info-participants-0-holdPings
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : individualPosition
+Chemin de clés pour obtenir cette clé : info-participants-0-individualPosition
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : TOP
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : inhibitorKills
+Chemin de clés pour obtenir cette clé : info-participants-0-inhibitorKills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : inhibitorTakedowns
+Chemin de clés pour obtenir cette clé : info-participants-0-inhibitorTakedowns
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : inhibitorsLost
+Chemin de clés pour obtenir cette clé : info-participants-0-inhibitorsLost
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : item0
+Chemin de clés pour obtenir cette clé : info-participants-0-item0
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 3508
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : item1
+Chemin de clés pour obtenir cette clé : info-participants-0-item1
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 6673
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : item2
+Chemin de clés pour obtenir cette clé : info-participants-0-item2
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 3124
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : item3
+Chemin de clés pour obtenir cette clé : info-participants-0-item3
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 3006
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : item4
+Chemin de clés pour obtenir cette clé : info-participants-0-item4
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : item5
+Chemin de clés pour obtenir cette clé : info-participants-0-item5
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : item6
+Chemin de clés pour obtenir cette clé : info-participants-0-item6
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 3363
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : itemsPurchased
+Chemin de clés pour obtenir cette clé : info-participants-0-itemsPurchased
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 25
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : killingSprees
+Chemin de clés pour obtenir cette clé : info-participants-0-killingSprees
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : kills
+Chemin de clés pour obtenir cette clé : info-participants-0-kills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 4
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : lane
+Chemin de clés pour obtenir cette clé : info-participants-0-lane
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : MIDDLE
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : largestCriticalStrike
+Chemin de clés pour obtenir cette clé : info-participants-0-largestCriticalStrike
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 346
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : largestKillingSpree
+Chemin de clés pour obtenir cette clé : info-participants-0-largestKillingSpree
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 2
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : largestMultiKill
+Chemin de clés pour obtenir cette clé : info-participants-0-largestMultiKill
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : longestTimeSpentLiving
+Chemin de clés pour obtenir cette clé : info-participants-0-longestTimeSpentLiving
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 235
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : magicDamageDealt
+Chemin de clés pour obtenir cette clé : info-participants-0-magicDamageDealt
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : magicDamageDealtToChampions
+Chemin de clés pour obtenir cette clé : info-participants-0-magicDamageDealtToChampions
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : magicDamageTaken
+Chemin de clés pour obtenir cette clé : info-participants-0-magicDamageTaken
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 6504
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : needVisionPings
+Chemin de clés pour obtenir cette clé : info-participants-0-needVisionPings
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : neutralMinionsKilled
+Chemin de clés pour obtenir cette clé : info-participants-0-neutralMinionsKilled
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 11
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : nexusKills
+Chemin de clés pour obtenir cette clé : info-participants-0-nexusKills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : nexusLost
+Chemin de clés pour obtenir cette clé : info-participants-0-nexusLost
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : nexusTakedowns
+Chemin de clés pour obtenir cette clé : info-participants-0-nexusTakedowns
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : objectivesStolen
+Chemin de clés pour obtenir cette clé : info-participants-0-objectivesStolen
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : objectivesStolenAssists
+Chemin de clés pour obtenir cette clé : info-participants-0-objectivesStolenAssists
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : onMyWayPings
+Chemin de clés pour obtenir cette clé : info-participants-0-onMyWayPings
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 13
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : participantId
+Chemin de clés pour obtenir cette clé : info-participants-0-participantId
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : pentaKills
+Chemin de clés pour obtenir cette clé : info-participants-0-pentaKills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : defense
+Chemin de clés pour obtenir cette clé : info-participants-0-perks-statPerks-defense
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 5002
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : flex
+Chemin de clés pour obtenir cette clé : info-participants-0-perks-statPerks-flex
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 5008
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : offense
+Chemin de clés pour obtenir cette clé : info-participants-0-perks-statPerks-offense
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 5005
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : description
+Chemin de clés pour obtenir cette clé : info-participants-0-perks-styles-0-description
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : primaryStyle
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : perk
+Chemin de clés pour obtenir cette clé : info-participants-0-perks-styles-0-selections-0-perk
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 8008
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : var1
+Chemin de clés pour obtenir cette clé : info-participants-0-perks-styles-0-selections-0-var1
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 121
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : var2
+Chemin de clés pour obtenir cette clé : info-participants-0-perks-styles-0-selections-0-var2
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 26
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : var3
+Chemin de clés pour obtenir cette clé : info-participants-0-perks-styles-0-selections-0-var3
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : style
+Chemin de clés pour obtenir cette clé : info-participants-0-perks-styles-0-style
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 8000
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : physicalDamageDealt
+Chemin de clés pour obtenir cette clé : info-participants-0-physicalDamageDealt
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 95292
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : physicalDamageDealtToChampions
+Chemin de clés pour obtenir cette clé : info-participants-0-physicalDamageDealtToChampions
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 20126
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : physicalDamageTaken
+Chemin de clés pour obtenir cette clé : info-participants-0-physicalDamageTaken
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 14155
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : profileIcon
+Chemin de clés pour obtenir cette clé : info-participants-0-profileIcon
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 3592
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : pushPings
+Chemin de clés pour obtenir cette clé : info-participants-0-pushPings
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : puuid
+Chemin de clés pour obtenir cette clé : info-participants-0-puuid
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0dcMYn8gfSaMmj2NUobe5DqIznKK0By1sqAiVQ_h4sGlUrfZp2fRuW7zBI4n0WO9KoDcvKyRCskq2w
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : quadraKills
+Chemin de clés pour obtenir cette clé : info-participants-0-quadraKills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : riotIdName
+Chemin de clés pour obtenir cette clé : info-participants-0-riotIdName
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : riotIdTagline
+Chemin de clés pour obtenir cette clé : info-participants-0-riotIdTagline
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : role
+Chemin de clés pour obtenir cette clé : info-participants-0-role
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : DUO
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : sightWardsBoughtInGame
+Chemin de clés pour obtenir cette clé : info-participants-0-sightWardsBoughtInGame
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : spell1Casts
+Chemin de clés pour obtenir cette clé : info-participants-0-spell1Casts
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 196
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : spell2Casts
+Chemin de clés pour obtenir cette clé : info-participants-0-spell2Casts
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : spell3Casts
+Chemin de clés pour obtenir cette clé : info-participants-0-spell3Casts
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 12
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : spell4Casts
+Chemin de clés pour obtenir cette clé : info-participants-0-spell4Casts
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 7
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : summoner1Casts
+Chemin de clés pour obtenir cette clé : info-participants-0-summoner1Casts
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 6
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : summoner1Id
+Chemin de clés pour obtenir cette clé : info-participants-0-summoner1Id
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 6
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : summoner2Casts
+Chemin de clés pour obtenir cette clé : info-participants-0-summoner2Casts
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 4
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : summoner2Id
+Chemin de clés pour obtenir cette clé : info-participants-0-summoner2Id
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 4
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : summonerId
+Chemin de clés pour obtenir cette clé : info-participants-0-summonerId
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0WqLkROovAWAGfyP81xT2nxy0PWjt4LzcbMhdn8QVHb2qN8
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : summonerLevel
+Chemin de clés pour obtenir cette clé : info-participants-0-summonerLevel
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 783
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : summonerName
+Chemin de clés pour obtenir cette clé : info-participants-0-summonerName
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : LadiciusVibe
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : teamEarlySurrendered
+Chemin de clés pour obtenir cette clé : info-participants-0-teamEarlySurrendered
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : False
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : teamId
+Chemin de clés pour obtenir cette clé : info-participants-0-teamId
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 100
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : teamPosition
+Chemin de clés pour obtenir cette clé : info-participants-0-teamPosition
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : TOP
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : timeCCingOthers
+Chemin de clés pour obtenir cette clé : info-participants-0-timeCCingOthers
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 15
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : timePlayed
+Chemin de clés pour obtenir cette clé : info-participants-0-timePlayed
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1589
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : totalDamageDealt
+Chemin de clés pour obtenir cette clé : info-participants-0-totalDamageDealt
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 106464
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : totalDamageDealtToChampions
+Chemin de clés pour obtenir cette clé : info-participants-0-totalDamageDealtToChampions
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 24433
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : totalDamageShieldedOnTeammates
+Chemin de clés pour obtenir cette clé : info-participants-0-totalDamageShieldedOnTeammates
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : totalDamageTaken
+Chemin de clés pour obtenir cette clé : info-participants-0-totalDamageTaken
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 21687
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : totalHeal
+Chemin de clés pour obtenir cette clé : info-participants-0-totalHeal
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 2735
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : totalHealsOnTeammates
+Chemin de clés pour obtenir cette clé : info-participants-0-totalHealsOnTeammates
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : totalMinionsKilled
+Chemin de clés pour obtenir cette clé : info-participants-0-totalMinionsKilled
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 160
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : totalTimeCCDealt
+Chemin de clés pour obtenir cette clé : info-participants-0-totalTimeCCDealt
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 16
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : totalTimeSpentDead
+Chemin de clés pour obtenir cette clé : info-participants-0-totalTimeSpentDead
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 308
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : totalUnitsHealed
+Chemin de clés pour obtenir cette clé : info-participants-0-totalUnitsHealed
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : tripleKills
+Chemin de clés pour obtenir cette clé : info-participants-0-tripleKills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : trueDamageDealt
+Chemin de clés pour obtenir cette clé : info-participants-0-trueDamageDealt
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 11172
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : trueDamageDealtToChampions
+Chemin de clés pour obtenir cette clé : info-participants-0-trueDamageDealtToChampions
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 4306
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : trueDamageTaken
+Chemin de clés pour obtenir cette clé : info-participants-0-trueDamageTaken
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1027
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : turretKills
+Chemin de clés pour obtenir cette clé : info-participants-0-turretKills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : turretTakedowns
+Chemin de clés pour obtenir cette clé : info-participants-0-turretTakedowns
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 4
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : turretsLost
+Chemin de clés pour obtenir cette clé : info-participants-0-turretsLost
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 3
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : unrealKills
+Chemin de clés pour obtenir cette clé : info-participants-0-unrealKills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : visionClearedPings
+Chemin de clés pour obtenir cette clé : info-participants-0-visionClearedPings
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : visionScore
+Chemin de clés pour obtenir cette clé : info-participants-0-visionScore
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 33
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : visionWardsBoughtInGame
+Chemin de clés pour obtenir cette clé : info-participants-0-visionWardsBoughtInGame
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 5
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : wardsKilled
+Chemin de clés pour obtenir cette clé : info-participants-0-wardsKilled
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : wardsPlaced
+Chemin de clés pour obtenir cette clé : info-participants-0-wardsPlaced
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 12
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : win
+Chemin de clés pour obtenir cette clé : info-participants-0-win
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : True
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : platformId
+Chemin de clés pour obtenir cette clé : info-platformId
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : EUW1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : queueId
+Chemin de clés pour obtenir cette clé : info-queueId
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 420
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : championId
+Chemin de clés pour obtenir cette clé : info-teams-0-bans-0-championId
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 79
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : pickTurn
+Chemin de clés pour obtenir cette clé : info-teams-0-bans-0-pickTurn
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : first
+Chemin de clés pour obtenir cette clé : info-teams-0-objectives-baron-first
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : True
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : kills
+Chemin de clés pour obtenir cette clé : info-teams-0-objectives-baron-kills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : first
+Chemin de clés pour obtenir cette clé : info-teams-0-objectives-champion-first
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : True
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : kills
+Chemin de clés pour obtenir cette clé : info-teams-0-objectives-champion-kills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 42
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : first
+Chemin de clés pour obtenir cette clé : info-teams-0-objectives-dragon-first
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : False
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : kills
+Chemin de clés pour obtenir cette clé : info-teams-0-objectives-dragon-kills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 3
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : first
+Chemin de clés pour obtenir cette clé : info-teams-0-objectives-inhibitor-first
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : True
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : kills
+Chemin de clés pour obtenir cette clé : info-teams-0-objectives-inhibitor-kills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 3
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : first
+Chemin de clés pour obtenir cette clé : info-teams-0-objectives-riftHerald-first
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : True
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : kills
+Chemin de clés pour obtenir cette clé : info-teams-0-objectives-riftHerald-kills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 2
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : first
+Chemin de clés pour obtenir cette clé : info-teams-0-objectives-tower-first
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : True
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : kills
+Chemin de clés pour obtenir cette clé : info-teams-0-objectives-tower-kills
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 11
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : teamId
+Chemin de clés pour obtenir cette clé : info-teams-0-teamId
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 100
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : win
+Chemin de clés pour obtenir cette clé : info-teams-0-win
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : True
+--------------------------------------------------------------------------------------
+Table où est stockée la data : 'PROYTUTUUTUUTUTUT'
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : tournamentCode
+Chemin de clés pour obtenir cette clé : info-tournamentCode
+Type de la valeur stockée : <class 'str'>
+Exemple de valeur possible : 
+--------------------------------------------------------------------------------------

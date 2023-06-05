@@ -9,6 +9,7 @@ from API_Riots import *
 from API_OpenAI import *
 
 PARAM_TEXT = ""
+print("PARAM TEXT = ", PARAM_TEXT)
 
 clée_API_openai = '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'
 
@@ -29,7 +30,6 @@ def recupere_les_clés_MatchJSON(fichier_JSON, L_clés_visités, L_clés, chemin
             data = data.get(clé, 'Problème')
         if type(clé) == int:
             data = data[clé]
-        print(type(data))
     if type(data) == dict:
         clés_suiv = data.keys()
         for clé_suiv in clés_suiv:
@@ -42,33 +42,41 @@ def recupere_les_clés_MatchJSON(fichier_JSON, L_clés_visités, L_clés, chemin
     if type(data) == list:
         for i in range(len(data)):
             L_chemin_clé = recupere_les_clés_MatchJSON(fichier_JSON,L_clés_visités, L_clés + [i], chemin_acces_fichier_txt)
-    else:
+    if type(data) != dict and type(data) != list:
         global PARAM_TEXT
         chemin_acces_cle = f""
         for clé in L_clés:
             if type(clé) == int:
-                next
+                if clé != 0:
+                    return L_clés
             if clé != L_clés[len(L_clés) - 1]:
                 chemin_acces_cle += f"{clé}-"
-            else:
+            if clé == L_clés[len(L_clés) - 1]:
                 chemin_acces_cle += f"{clé}"
                 nom_clé = f"{clé}"
                 type_clé = f"{type(clé)}"
-                PARAM_TEXT += f"Nom clé = {nom_clé}\n"
+                PARAM_TEXT += f"Table où est stockée la data : 'PROYTUTUUTUUTUTUT'\n"
+                PARAM_TEXT += f"Nom de la clé dans la database : ''\n"
+                PARAM_TEXT += f"Description de la clé : ''\n"
+                PARAM_TEXT += f"//////\n"
+                PARAM_TEXT += f"Nom clé : {nom_clé}\n"
                 PARAM_TEXT += f"Chemin de clés pour obtenir cette clé : {chemin_acces_cle}\n"
                 PARAM_TEXT += f"Type de la valeur stockée : {type_clé}\n"
                 PARAM_TEXT += f"Exemple de valeur possible : {data}\n"
                 PARAM_TEXT += "--------------------------------------------------------------------------------------\n"
                 print("ON A ECRITTTT")
+                print("pour L_clés =", L_clés, "data =", type(data))
 
         f.close()            
     return L_clés
 
 def ecrit_clés():
         param_textuel = recupere_les_clés_MatchJSON('data/match/match_info/EUW1_6335475357.json', [], [], 'clés_Match2.txt')
-        print(PARAM_TEXT)
-        with open("clés_Match2.txt", "w") as f:
+        with open("clés_Match.txt", "w") as f:
+            global PARAM_TEXT
+            print("PARAM_TEXT2 = ", PARAM_TEXT)
             f.write(PARAM_TEXT)
+            f.close()
 
 
 """def crée_nouvelle_table():

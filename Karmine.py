@@ -68,8 +68,6 @@ def Game(cursor, api_key):
 
 def Keys():
     ecrit_clés()
-    with open('essai', 'w') as f:
-        f.write("essai encore")
     #demande_def_clé_match_chatGPT('matchId')
 
 
@@ -78,6 +76,8 @@ def Keys():
 #liaison(CURSEUR, CLE_API)
 #Game(CURSEUR, CLE_API)
 Keys()
+
+
 
 
 
