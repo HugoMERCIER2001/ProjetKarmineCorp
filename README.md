@@ -120,6 +120,13 @@ Cette commande permet de créer un déclancheur, qui est un bloc de code SQL exe
 ### BEGIN, COMMIT, ROLLBACK: 
 Ces commandes sont utilisées pour gérer les transactions dans PostgreSQL. Vous pouvez regrouper plusieurs commandes en une seule transaction et les valider (COMMIT) ou les annuler (ROLLBACK) en fonction du résultat.
 
+
+
+# EXTRACTION DES DONNES DU JSON INFO UTILES:
+Dans le JSON Game, il y a une liste stockée avec l'enchainement de clé : metadata-participants, cette liste de 10 éléments contient les puuids de chaque joueurs dans la game. Il faut exploiter cette liste pour toutes les données stockées dans les dictionnaires d'enchainement : info-participants-... car ce sont des données associées à 1 joueur en particulier dans la Game.
+
+
 ## Choses à ne pas oublier :
 Les données renvoyer par les API Riots sont cryptés, donc pas les mêmes id etc si des clés différentes.
 On ne peut pas dépasser une certaine limite de requetes API/s, pour cela on a faait une fonction qui attend pour ne pas dépassser ces quotas. Il y a à la fois un nombre de requetes/s liés à la clé API et une liée au type de requete que l'on fait. Il faut donc recréer une variable globale pour chaque NOUVEAUX TYPES DE REQUETE que l'on fait pour pouvoir calculer le temps à attendre avant de refaire une requete API, pour respecter les quotas liée AU TYPE DE REQUETE.
+

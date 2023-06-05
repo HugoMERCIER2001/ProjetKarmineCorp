@@ -53,7 +53,7 @@ def associe_PUUID_aux_challengers(cursor, api_key):
 """Il reste à mettre en paramètre le fait que on supprime ou pas les joueurs qui ne sont plus challengers, et à rajouter une colonne qui donne le rank("challenger ou pas") dans notre database"""
 
 def actualisation_table_Joueurs(cursor, api_key, suppression = False): #la fonction réalise 1 appel API Riots et 4 commandes SQL.
-    """fonction qui actualise la table Joueurs, le paramètre suppresion est un booléén, qui vaut False de base et qui permet de dire si on veut spprimer les joueurs qui ne sont plus challenger de notre table"""
+    """fonction qui actualise la table Joueurs, le paramètre suppresion est un booléén, qui vaut False de base et qui permet de dire si on veut supprimer les joueurs qui ne sont plus challenger de notre table"""
     envoie_demande_liste_challengers(api_key)
     cursor.execute("SELECT summonerId, leaguePoints, rank, wins, losses FROM Joueurs;")
     rows = cursor.fetchall()
