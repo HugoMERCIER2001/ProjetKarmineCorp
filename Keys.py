@@ -4,14 +4,15 @@ import json
 import time
 import glob
 import os
-import openai
 from API_Riots import *
-from API_OpenAI import *
 
 PARAM_TEXT = ""
 print("PARAM TEXT = ", PARAM_TEXT)
 
 clée_API_openai = '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'
+
+
+#####################Création du fichier clés_Match.txt###################################################################################################################################
 
 def recupere_les_clés_MatchJSON(fichier_JSON, L_clés_visités, L_clés, chemin_acces_fichier_txt):
     """
@@ -55,7 +56,7 @@ def recupere_les_clés_MatchJSON(fichier_JSON, L_clés_visités, L_clés, chemin
                 chemin_acces_cle += f"{clé}"
                 nom_clé = f"{clé}"
                 type_clé = f"{type(clé)}"
-                PARAM_TEXT += f"Table où est stockée la data : 'PROYTUTUUTUUTUTUT'\n"
+                PARAM_TEXT += f"Table où est stockée la data : ''\n"
                 PARAM_TEXT += f"Nom de la clé dans la database : ''\n"
                 PARAM_TEXT += f"Description de la clé : ''\n"
                 PARAM_TEXT += f"//////\n"
@@ -79,20 +80,6 @@ def ecrit_clés():
             f.close()
 
 
-"""def crée_nouvelle_table():
-    # Charger le fichier JSON
-    with open('/home/hugo/BPI/ProjetKarmineCorp/data/match/match_info/EUW1_6336853773.json') as f:
-        data = json.load(f)
-    L_clé, L_clé2_1, L_clé2_2 = [], [], []
-    keys = data.keys()
+###################################################################################################################################################################################
 
-    for key in keys:
-        L_clé.append(key)
-        keys2 = data[key].keys()
-        data2 = {}
-        json_data = json.dumps(data)
-        print("LE TYPE EST",type(data))
-        print("data[] = ", data[key])
-        print(type(json_data),"eeeeeeeeeeee")
-        print(json_data.keys()) 
-"""
+

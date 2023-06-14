@@ -56,9 +56,16 @@ def liaison(cursor, api_key):
 
 def Game(cursor, api_key):
     #create_table_Game_complete(cursor, api_key)
-    actualisation_table_Game(cursor, api_key, False)
+    #actualisation_table_Game(cursor, api_key, False)
     #create_table_Timeline_complete(cursor, api_key)
     #actualisation_table_Timeline(cursor, api_key)
+    cursor.execute("SELECT * FROM Joueurs")
+    #cursor.execute("SELECT column_name FROM information_schema.columns WHERE table_name = 'Joueurs';")
+    rows = cursor.fetchall()
+    print("rows = ", rows)
+    #for row in rows:
+        #print(row)
+        #print("ok")
     conn.commit()
     cursor.close()        
     conn.close()
@@ -74,8 +81,8 @@ def Keys():
 
 #joueurs(CURSEUR, CLE_API)
 #liaison(CURSEUR, CLE_API)
-#Game(CURSEUR, CLE_API)
-Keys()
+Game(CURSEUR, CLE_API)
+#Keys()
 
 
 

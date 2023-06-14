@@ -125,8 +125,41 @@ Ces commandes sont utilisées pour gérer les transactions dans PostgreSQL. Vous
 # EXTRACTION DES DONNES DU JSON INFO UTILES:
 Dans le JSON Game, il y a une liste stockée avec l'enchainement de clé : metadata-participants, cette liste de 10 éléments contient les puuids de chaque joueurs dans la game. Il faut exploiter cette liste pour toutes les données stockées dans les dictionnaires d'enchainement : info-participants-... car ce sont des données associées à 1 joueur en particulier dans la Game.
 
+# Questions clés:
+Quelle est la différence entre un kill et un takedown ? (partout)
+baronBuffGoldAdvantageOverThreshold le palier est questin, c'est quel palier ? (ligne 225)
+Quelle diff entre barontakedown et baron kills ? (ligne 235 et un peu avant)
+Que veut dire cette clé : blastConeOppositeOpponentCount ? (ligne 243)
+Que veut dire cette clé : completeSupportQuestInTime ? (ligne 270)
+Que veut dire cette clé : dancedWithRiftHerald ? (ligne 315)
+Que veut dire cette clé : earlyLaningPhaseGoldExpAdvantage ? (ligne 368)
+Que veut dire cette clé : elderDragonKillsWithOpposingSoul ? (ligne 387)
+Que veut dire cette clé : flawlessAces ? (ligne 468)
+Que veut dire cette clé : getTakedownsInAllLanesEarlyJungleAsLaner ? (ligne 496)
+Que veut dire cette clé : hadOpenNexus ? (ligne 513)
+Que veut dire cette clé : killedChampTookFullTeamDamageSurvived ? (ligne 602)
+Que veut dire cette clé : killsOnOtherLanesEarlyJungleAsLaner ? (ligne 621)
+Que veut dire cette clé : killsOnRecentlyHealedByAramPack ? (ligne 629)
+Que veut dire cette clé : takedownOnFirstTurret ? (ligne 980)
+Que veut dire cette clé : takedownsInAlcove ? ( ligne 1025)
+Que veut dire cette clé : threeWardsOneSweeperCount ? (ligne 1088)
+Que veut dire cette clé : tookLargeDamageSurvived ? (ligne 1097)
+Que veut dire cette clé : riotIdName ? (ligne 1889)
+Que veut dire cette clé : riotIdTagline ? (ligne 1898)
+Que veut dire cette clé : sightWardsBoughtInGame ? (ligne 1916)
+Que veut dire cette clé : unrealKills ? (ligne 2222)
 
-## Choses à ne pas oublier :
+Problème de compréhension de tout ce qui est perks (runes je crois) (ligne 1741 à 1822)
+
+
+  
+  ## Choses à ne pas oublier :
 Les données renvoyer par les API Riots sont cryptés, donc pas les mêmes id etc si des clés différentes.
-On ne peut pas dépasser une certaine limite de requetes API/s, pour cela on a faait une fonction qui attend pour ne pas dépassser ces quotas. Il y a à la fois un nombre de requetes/s liés à la clé API et une liée au type de requete que l'on fait. Il faut donc recréer une variable globale pour chaque NOUVEAUX TYPES DE REQUETE que l'on fait pour pouvoir calculer le temps à attendre avant de refaire une requete API, pour respecter les quotas liée AU TYPE DE REQUETE.
+
+On ne peut pas dépasser une certaine limite de requetes API/s, pour cela on a fait une fonction qui attend pour ne pas dépassser ces quotas. Il y a à la fois un nombre de requetes/s liés à la clé API et une liée au type de requete que l'on fait. Il faut donc recréer une variable globale pour chaque NOUVEAUX TYPES DE REQUETE que l'on fait pour pouvoir calculer le temps à attendre avant de refaire une requete API, pour respecter les quotas liée AU TYPE DE REQUETE.
+
+Il ne faut surtout pas changer le formatage du fichier clés_params.txt (sinon les fonctions qui introduisent les valeurs dans les tables correspondantes ne fonctionneront plus). Il est cependant possible de rajouter des lignes mais pas de changer le nom des lignes préexistantes, ou les éléments séparateurs de blocs-clés. (les "----..."). 
+
+SummonerName,puuid, SummonerId et SummonerLvl sont dans le JSON game, et sont donc sauvegardé aussi dans Liaison_Stats, à voir ce que l'on fait (dédoublement de l'information qui est à la fois dans Joueurs et Liaison_Stats ou pas ?).
+
 
