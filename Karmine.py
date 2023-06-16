@@ -62,10 +62,8 @@ def Game(cursor, api_key):
     cursor.execute("SELECT * FROM Joueurs")
     #cursor.execute("SELECT column_name FROM information_schema.columns WHERE table_name = 'Joueurs';")
     rows = cursor.fetchall()
-    print("rows = ", rows)
-    #for row in rows:
-        #print(row)
-        #print("ok")
+    for row in rows:
+        print(row)
     conn.commit()
     cursor.close()        
     conn.close()

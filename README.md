@@ -144,12 +144,16 @@ Que veut dire cette clé : takedownOnFirstTurret ? (ligne 980)
 Que veut dire cette clé : takedownsInAlcove ? ( ligne 1025)
 Que veut dire cette clé : threeWardsOneSweeperCount ? (ligne 1088)
 Que veut dire cette clé : tookLargeDamageSurvived ? (ligne 1097)
+Que veut dire cette clé : twentyMinionsIn3SecondsCount ? (ligne 1133)
+Que veut dire cette clé : visionScoreAdvantageLaneOpponent ? (ligne 1151)
+Que veut dire cette clé : eligibleForProgression ? (ligne 1340)
 Que veut dire cette clé : riotIdName ? (ligne 1889)
 Que veut dire cette clé : riotIdTagline ? (ligne 1898)
 Que veut dire cette clé : sightWardsBoughtInGame ? (ligne 1916)
 Que veut dire cette clé : unrealKills ? (ligne 2222)
 
 Problème de compréhension de tout ce qui est perks (runes je crois) (ligne 1741 à 1822)
+Quelle est la différence entre individual position, team position et lane ?
 
 
   
@@ -163,3 +167,11 @@ Il ne faut surtout pas changer le formatage du fichier clés_params.txt (sinon l
 SummonerName,puuid, SummonerId et SummonerLvl sont dans le JSON game, et sont donc sauvegardé aussi dans Liaison_Stats, à voir ce que l'on fait (dédoublement de l'information qui est à la fois dans Joueurs et Liaison_Stats ou pas ?).
 
 
+1 - finir de sortir des JSON.
+1bis - réorganiser les fichiers. (il faut que tout soit mis dans des dossier et en plus que on ait une fonction actualisation et une création que on a juste à lancer pour que tout soit actualisé ou créé.)
+2 - Droplet.
+2bis - Voir ce que on peut faire avec les retryafter
+3 - Découvrir le module Panda et Poetry
+4 - Test
+5 - Faire Agrandissement.py
+6 - Faire Transfert.py

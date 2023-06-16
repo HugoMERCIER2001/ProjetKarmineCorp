@@ -4,7 +4,7 @@ Description de la clé : 'Donne la version des données du jeu'
 //////
 Nom clé : dataVersion
 Chemin de clés pour obtenir cette clé : metadata-dataVersion
-Type de la valeur stockée : <class 'str'>
+Type de la valeur stockée : INT
 Exemple de valeur possible : 2
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -13,7 +13,7 @@ Description de la clé : ''
 //////
 Nom clé : matchId
 Chemin de clés pour obtenir cette clé : metadata-matchId
-Type de la valeur stockée : <class 'str'>
+Type de la valeur stockée : TEXT
 Exemple de valeur possible : EUW1_6335475357
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -22,7 +22,7 @@ Description de la clé : ''
 //////
 Nom clé : 0
 Chemin de clés pour obtenir cette clé : metadata-participants-0
-Type de la valeur stockée : <class 'int'>
+Type de la valeur stockée : TEXT
 Exemple de valeur possible : 0dcMYn8gfSaMmj2NUobe5DqIznKK0By1sqAiVQ_h4sGlUrfZp2fRuW7zBI4n0WO9KoDcvKyRCskq2w
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Game_Stats'
@@ -33,7 +33,7 @@ Par exemple, si la valeur de "gameCreation" est 1629451234, cela signifie que la
 //////
 Nom clé : gameCreation
 Chemin de clés pour obtenir cette clé : info-gameCreation
-Type de la valeur stockée : <class 'str'>
+Type de la valeur stockée : INT
 Exemple de valeur possible : 1680000948061
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Game_Stats'
@@ -42,7 +42,7 @@ Description de la clé : 'Donne une valeure en secondes de la durée de la Game.
 //////
 Nom clé : gameDuration
 Chemin de clés pour obtenir cette clé : info-gameDuration
-Type de la valeur stockée : <class 'str'>
+Type de la valeur stockée : INT
 Exemple de valeur possible : 1589
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Game_Stats'
@@ -53,7 +53,7 @@ Par exemple, si la valeur de "gameCreation" est 1629451234, cela signifie que la
 //////
 Nom clé : gameEndTimestamp
 Chemin de clés pour obtenir cette clé : info-gameEndTimestamp
-Type de la valeur stockée : <class 'str'>
+Type de la valeur stockée : INT
 Exemple de valeur possible : 1680002569947
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -62,7 +62,7 @@ Description de la clé : ''
 //////
 Nom clé : gameId
 Chemin de clés pour obtenir cette clé : info-gameId
-Type de la valeur stockée : <class 'str'>
+Type de la valeur stockée : INT
 Exemple de valeur possible : 6335475357
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -71,7 +71,7 @@ Description de la clé : 'Donne le mode de jeu de la game.'
 //////
 Nom clé : gameMode
 Chemin de clés pour obtenir cette clé : info-gameMode
-Type de la valeur stockée : <class 'str'>
+Type de la valeur stockée : TEXT
 Exemple de valeur possible : CLASSIC
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -80,7 +80,7 @@ Description de la clé : ''
 //////
 Nom clé : gameName
 Chemin de clés pour obtenir cette clé : info-gameName
-Type de la valeur stockée : <class 'str'>
+Type de la valeur stockée : TEXT
 Exemple de valeur possible : teambuilder-match-6335475357
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Game_Stats'
@@ -89,7 +89,7 @@ Description de la clé : 'Donne le Timestamp (valeur en seconde qui s'est écoul
 //////
 Nom clé : gameStartTimestamp
 Chemin de clés pour obtenir cette clé : info-gameStartTimestamp
-Type de la valeur stockée : <class 'str'>
+Type de la valeur stockée : INT
 Exemple de valeur possible : 1680000980234
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Game_Stats'
@@ -98,7 +98,7 @@ Description de la clé : 'Donne le type de Jeu (Ranked, Normal, Draft ...)'
 //////
 Nom clé : gameType
 Chemin de clés pour obtenir cette clé : info-gameType
-Type de la valeur stockée : <class 'str'>
+Type de la valeur stockée : TEXT
 Exemple de valeur possible : MATCHED_GAME
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Game_Stats'
@@ -1109,18 +1109,18 @@ Chemin de clés pour obtenir cette clé : info-participants-0-challenges-turretP
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 2
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : 'Donne le nombre de '
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Nbr Turret Tombé'
+Description de la clé : 'Donne le nombre de turret tombés par le joueur pendant la partie.'
 //////
 Nom clé : turretTakedowns
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-turretTakedowns
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 4
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Nbr Turret Detruite Avec Hérault'
+Description de la clé : 'Donne le nombre de turret détruite par le joueur à l'aide de l'Hérault pendant la partie.'
 //////
 Nom clé : turretsTakenWithRiftHerald
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-turretsTakenWithRiftHerald
@@ -1128,17 +1128,17 @@ Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 10
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Nom de la clé dans la database : 'Nbr 20 Minions 3 Seconde'
+Description de la clé : 'Donne le nombre de 20 minions pris en 3 secondes par le joueur pendant la partie.'
 //////
 Nom clé : twentyMinionsIn3SecondsCount
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-twentyMinionsIn3SecondsCount
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 7
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Nbr Recall Caché Réalisé'
+Description de la clé : 'Donne le nmbre de recall caché réalisé par le joueur pendant la partie.'
 //////
 Nom clé : unseenRecalls
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-unseenRecalls
@@ -1146,7 +1146,7 @@ Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
-Nom de la clé dans la database : ''
+Nom de la clé dans la database : 'Avantage Score Vision Lane'
 Description de la clé : ''
 //////
 Nom clé : visionScoreAdvantageLaneOpponent
@@ -1154,54 +1154,54 @@ Chemin de clés pour obtenir cette clé : info-participants-0-challenges-visionS
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 2.4238553047180176
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Score Vision Par Minute'
+Description de la clé : 'Donne le vision score par minute du joueur pendant la partie.'
 //////
 Nom clé : visionScorePerMinute
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-visionScorePerMinute
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 1.2740563938543652
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Nbr Ward Tombé'
+Description de la clé : 'Donne le nombre de ward tombés par le joueur pendant la partie.'
 //////
 Nom clé : wardTakedowns
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-wardTakedowns
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Nbr Ward Tombé Avant 20 Min'
+Description de la clé : 'Donne le nombre de ward tombés par le joueur pendant la partie.'
 //////
 Nom clé : wardTakedownsBefore20M
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-wardTakedownsBefore20M
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Nbr Ward Défendu'
+Description de la clé : 'Donne le nombre de ward défendu par le joueur pendant la partie.'
 //////
 Nom clé : wardsGuarded
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-wardsGuarded
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Expérience Champion'
+Description de la clé : 'Donne la quantité d'expérience (Mastery) qu'a le joueur sur son champion pendant la partie.'
 //////
 Nom clé : champExperience
 Chemin de clés pour obtenir cette clé : info-participants-0-champExperience
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 12260
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Lvl Champion Fin Partie'
+Description de la clé : 'Donne le niveau (Lvl) du champion à la fin de la partie.'
 //////
 Nom clé : champLevel
 Chemin de clés pour obtenir cette clé : info-participants-0-champLevel
@@ -1209,125 +1209,125 @@ Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 14
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Nom de la clé dans la database : 'ID Champion Joué'
+Description de la clé : 'Donne l'Id du champion joué par le joueur pendant la partie (déjà traité plus bas).'
 //////
 Nom clé : championId
 Chemin de clés pour obtenir cette clé : info-participants-0-championId
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 67
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Nom Champion Joué'
+Description de la clé : 'Donne le nom du champion joué par le joueur pendant la partie.'
 //////
 Nom clé : championName
 Chemin de clés pour obtenir cette clé : info-participants-0-championName
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : Vayne
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Nbr Transformation Champion'
+Description de la clé : 'Donne le nombre de transformations réalisé par le champion pendant la partie. (souvent 0car peu de champion peuvent se transformer).'
 //////
 Nom clé : championTransform
 Chemin de clés pour obtenir cette clé : info-participants-0-championTransform
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Nbr Ping Commande Réalisé'
+Description de la clé : 'Donne le nombre de pings de type command réalisé par le joueur pendant la partie.'
 //////
 Nom clé : commandPings
 Chemin de clés pour obtenir cette clé : info-participants-0-commandPings
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 2
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Nbr Consommable Acheté'
+Description de la clé : 'Donne le nombre de consommables achetés par le joueur pendant la partie.'
 //////
 Nom clé : consumablesPurchased
 Chemin de clés pour obtenir cette clé : info-participants-0-consumablesPurchased
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 8
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Dégat Structure Donné'
+Description de la clé : 'Donne la quantité de dégat infligé par le joueur aux structure pendant la partie.'
 //////
 Nom clé : damageDealtToBuildings
 Chemin de clés pour obtenir cette clé : info-participants-0-damageDealtToBuildings
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 5617
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Dégat Objectif Donné'
+Description de la clé : 'Donne la quantité de dégats infligés par le joueur aux objectifs pendant la partie.'
 //////
 Nom clé : damageDealtToObjectives
 Chemin de clés pour obtenir cette clé : info-participants-0-damageDealtToObjectives
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 6746
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Dégat Turret Donné'
+Description de la clé : 'Donne la quantité de dégats infligé par le joueur aux tourelles pendant la partie.'
 //////
 Nom clé : damageDealtToTurrets
 Chemin de clés pour obtenir cette clé : info-participants-0-damageDealtToTurrets
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 5617
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Dégat Recu Attenué'
+Description de la clé : 'Donne la quantité de dégats atténués par le joueur sur lui même pendant la partie.'
 //////
 Nom clé : damageSelfMitigated
 Chemin de clés pour obtenir cette clé : info-participants-0-damageSelfMitigated
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 15739
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Nbr Ping Danger Réalisé'
+Description de la clé : 'Donne le nombre de pings de type Danger réalisés par le joueur pendant la partie.'
 //////
 Nom clé : dangerPings
 Chemin de clés pour obtenir cette clé : info-participants-0-dangerPings
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Nbr Mort'
+Description de la clé : 'Donne le nombre de fois que le joueur est mort pendant la partie.'
 //////
 Nom clé : deaths
 Chemin de clés pour obtenir cette clé : info-participants-0-deaths
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 11
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Nbr Détecteur Ward Placé'
+Description de la clé : 'Donne le nombre de detecteur de ward utilisé par le joueur pendant la partie.'
 //////
 Nom clé : detectorWardsPlaced
 Chemin de clés pour obtenir cette clé : info-participants-0-detectorWardsPlaced
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 4
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Nbr DoubleKills Réalisé'
+Description de la clé : 'Donne le nombre de DoubleKills réalisépar le joueur pendant la partie.'
 //////
 Nom clé : doubleKills
 Chemin de clés pour obtenir cette clé : info-participants-0-doubleKills
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Nbr Dragon Tué'
+Description de la clé : 'Donne le nombre de dragons tués par le joueur pendant la partie.'
 //////
 Nom clé : dragonKills
 Chemin de clés pour obtenir cette clé : info-participants-0-dragonKills
@@ -1335,7 +1335,7 @@ Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
-Nom de la clé dans la database : ''
+Nom de la clé dans la database : 'eligibleForProgression'
 Description de la clé : ''
 //////
 Nom clé : eligibleForProgression
@@ -1343,9 +1343,9 @@ Chemin de clés pour obtenir cette clé : info-participants-0-eligibleForProgres
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : True
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Nbr Ping EnnemyMissing Réalisé'
+Description de la clé : 'Donne le nombre de pings de type ennemyMissing réalisés par le joueur pendant la partie.'
 //////
 Nom clé : enemyMissingPings
 Chemin de clés pour obtenir cette clé : info-participants-0-enemyMissingPings
@@ -1353,278 +1353,278 @@ Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 10
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Nom de la clé dans la database : 'Nbr Ping EnnemyVision Réalisé'
+Description de la clé : 'Donne le nombre de pings de type EnnemyVision réalisés par le joueur pendant la partie.'
 //////
 Nom clé : enemyVisionPings
 Chemin de clés pour obtenir cette clé : info-participants-0-enemyVisionPings
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Assistance Premier Sang'
+Description de la clé : 'Donne l'information de si le joueur à aidé à réaliser le premier sang pendant la partie.'
 //////
 Nom clé : firstBloodAssist
 Chemin de clés pour obtenir cette clé : info-participants-0-firstBloodAssist
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : False
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Premier Sang Réalisé'
+Description de la clé : 'Donne l'information de si le joueur a réalisé le premier sang de la partie.'
 //////
 Nom clé : firstBloodKill
 Chemin de clés pour obtenir cette clé : info-participants-0-firstBloodKill
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : True
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Assistance Première Turret'
+Description de la clé : 'Donne l'information de si le joueur à aidé à faire tomber la première tour ou pas pendant la partie.'
 //////
 Nom clé : firstTowerAssist
 Chemin de clés pour obtenir cette clé : info-participants-0-firstTowerAssist
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : False
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Première Turret Détruite'
+Description de la clé : 'Donne l'information de si le joueur à détruit la première tour de la partie ou pas.'
 //////
 Nom clé : firstTowerKill
 Chemin de clés pour obtenir cette clé : info-participants-0-firstTowerKill
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : False
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Game_Stats'
+Nom de la clé dans la database : 'Fin Abandon Tot'
+Description de la clé : 'Donne l'information de si la partie s'est terminée avec un EarlySurrended ou pas.'
 //////
 Nom clé : gameEndedInEarlySurrender
 Chemin de clés pour obtenir cette clé : info-participants-0-gameEndedInEarlySurrender
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : False
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Game_Stats'
+Nom de la clé dans la database : 'Fin Abandon'
+Description de la clé : 'Donne l'information de si la partie s'est terminée avec un abandon ou pas.'
 //////
 Nom clé : gameEndedInSurrender
 Chemin de clés pour obtenir cette clé : info-participants-0-gameEndedInSurrender
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : False
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Nbr Ping GetBack Réalisé'
+Description de la clé : 'Donne le nombre de pings de type GetBack réalisés par le joueur pendant la partie.'
 //////
 Nom clé : getBackPings
 Chemin de clés pour obtenir cette clé : info-participants-0-getBackPings
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 2
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Or Crée'
+Description de la clé : 'Donne la quantité d'or crée par le joueur pendant la partie.'
 //////
 Nom clé : goldEarned
 Chemin de clés pour obtenir cette clé : info-participants-0-goldEarned
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 10781
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Or Dépensé'
+Description de la clé : 'Donne la quantité d'Or dépensé par le joueur pendant la partie.'
 //////
 Nom clé : goldSpent
 Chemin de clés pour obtenir cette clé : info-participants-0-goldSpent
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 10540
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Nbr Ping Hold Réalisé'
+Description de la clé : 'Donne la quantité de pings de type Hold réalisés par le joueur pendant la partie.'
 //////
 Nom clé : holdPings
 Chemin de clés pour obtenir cette clé : info-participants-0-holdPings
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Poste Individuel'
+Description de la clé : 'Donne la position individuel du joueur pendant la partie (là où il se situe sur la carte).'
 //////
 Nom clé : individualPosition
 Chemin de clés pour obtenir cette clé : info-participants-0-individualPosition
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : TOP
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Nbr Inhibiteur Détruit'
+Description de la clé : 'Donne le nombre d'inhibiteur détruits par le joueur pendant la partie.'
 //////
 Nom clé : inhibitorKills
 Chemin de clés pour obtenir cette clé : info-participants-0-inhibitorKills
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Nbr Inhibiteur Tombé'
+Description de la clé : 'Donne le nombre d'inhibiteur tombé par le joueur pendant la partie.'
 //////
 Nom clé : inhibitorTakedowns
 Chemin de clés pour obtenir cette clé : info-participants-0-inhibitorTakedowns
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Nbr Inhibiteur Perdu'
+Description de la clé : 'Donne le nombre d'inhibiteur perdu par le joueur pendant la partie.'
 //////
 Nom clé : inhibitorsLost
 Chemin de clés pour obtenir cette clé : info-participants-0-inhibitorsLost
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : '0 Item Id'
+Description de la clé : 'Donne l'ID de l'item situé au 0ème slot du joueur pendant la partie.'
 //////
 Nom clé : item0
 Chemin de clés pour obtenir cette clé : info-participants-0-item0
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 3508
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : '1 Item Id'
+Description de la clé : 'Donne l'ID de l'item situé au 1er slot du joueur pendant la partie.'
 //////
 Nom clé : item1
 Chemin de clés pour obtenir cette clé : info-participants-0-item1
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 6673
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : '2 Item Id'
+Description de la clé : 'Donne l'ID de l'item situé au 2ème slot du joueur pendant la partie.'
 //////
 Nom clé : item2
 Chemin de clés pour obtenir cette clé : info-participants-0-item2
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 3124
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : '3 Item Id'
+Description de la clé : 'Donne l'ID de l'item situé au 3ème slot du joueur pendant la partie.'
 //////
 Nom clé : item3
 Chemin de clés pour obtenir cette clé : info-participants-0-item3
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 3006
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : '4 Item Id'
+Description de la clé : 'Donne l'ID de l'item situé au 4ème slot du joueur pendant la partie.'
 //////
 Nom clé : item4
 Chemin de clés pour obtenir cette clé : info-participants-0-item4
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : '5 Item Id'
+Description de la clé : 'Donne l'ID de l'item situé au 5ème slot du joueur pendant la partie.'
 //////
 Nom clé : item5
 Chemin de clés pour obtenir cette clé : info-participants-0-item5
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : '6 Item Id'
+Description de la clé : 'Donne l'ID de l'item situé au 6ème slot du joueur pendant la partie.'
 //////
 Nom clé : item6
 Chemin de clés pour obtenir cette clé : info-participants-0-item6
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 3363
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Nbr Item Acheté'
+Description de la clé : 'Donne le nombre d'items achetés par le joueur pendant la partie.'
 //////
 Nom clé : itemsPurchased
 Chemin de clés pour obtenir cette clé : info-participants-0-itemsPurchased
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 25
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Nbr KillingSprres Réalisé'
+Description de la clé : 'Donne le nombre de KillingSprees réalisés par le joueur pendant la partie.'
 //////
 Nom clé : killingSprees
 Chemin de clés pour obtenir cette clé : info-participants-0-killingSprees
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Nbr Kill Réalisé'
+Description de la clé : 'Donne le nombre de kills réalisés par le champion pendant la partie.'
 //////
 Nom clé : kills
 Chemin de clés pour obtenir cette clé : info-participants-0-kills
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 4
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Lane Joué'
+Description de la clé : 'Donne la lane jouée par le joueur pendant la partie.'
 //////
 Nom clé : lane
 Chemin de clés pour obtenir cette clé : info-participants-0-lane
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : MIDDLE
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Max Cout Critique Donné'
+Description de la clé : 'Donne la valeur maximal de dégat infligé par cout critique par le joueur pendant la partie.'
 //////
 Nom clé : largestCriticalStrike
 Chemin de clés pour obtenir cette clé : info-participants-0-largestCriticalStrike
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 346
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Max Serie Kill Réalisé'
+Description de la clé : 'Donne la valeur maximale de série de kills réalisée par le joueur pendant la partie.'
 //////
 Nom clé : largestKillingSpree
 Chemin de clés pour obtenir cette clé : info-participants-0-largestKillingSpree
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 2
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Max Multikill Réalisé'
+Description de la clé : 'Donne la valeur maximale de multikills réalisés par le joueur pendant la partie.'
 //////
 Nom clé : largestMultiKill
 Chemin de clés pour obtenir cette clé : info-participants-0-largestMultiKill
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Max Durée Vie'
+Description de la clé : 'Donne la durée maximale (en seconde) d'affilé que le joueur a passé en vie pendant la partie.'
 //////
 Nom clé : longestTimeSpentLiving
 Chemin de clés pour obtenir cette clé : info-participants-0-longestTimeSpentLiving
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 235
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Dégat Magique Donné'
+Description de la clé : 'Donne la quantité de dégats magique infligés par le joueur (sur tout type d'unité : champion, minions, monstres epics ...) pendant la partie.'
 //////
 Nom clé : magicDamageDealt
 Chemin de clés pour obtenir cette clé : info-participants-0-magicDamageDealt
@@ -1632,17 +1632,17 @@ Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Nom de la clé dans la database : 'Dégat Magique Ennemi Donné'
+Description de la clé : 'Donne la quantité de dégats magique infligés par le joueur aux champions ennemi pendant la partie.'
 //////
 Nom clé : magicDamageDealtToChampions
 Chemin de clés pour obtenir cette clé : info-participants-0-magicDamageDealtToChampions
 Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
-Nom de la clé dans la database : ''
-Description de la clé : ''
+Table où est stockée la data : 'Liaison_Stats'
+Nom de la clé dans la database : 'Dégat Magique Recu'
+Description de la clé : 'Donne la quantité de dégats magique subit par le joueur pendant la partie.'
 //////
 Nom clé : magicDamageTaken
 Chemin de clés pour obtenir cette clé : info-participants-0-magicDamageTaken
@@ -2038,7 +2038,7 @@ Exemple de valeur possible : 100
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
 Nom de la clé dans la database : 'Poste'
-Description de la clé : 'Donne le poste (la teamPosition) du joueur pendant la partie.'
+Description de la clé : 'Donne le poste (la teamPosition donc le poste qu'il a tag en trouvant la partie.) du joueur pendant la partie.'
 //////
 Nom clé : teamPosition
 Chemin de clés pour obtenir cette clé : info-participants-0-teamPosition
@@ -2307,8 +2307,8 @@ Type de la valeur stockée : <class 'str'>
 Exemple de valeur possible : 79
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
-Nom de la clé dans la database : 'Position Pick'
-Description de la clé : 'Donne la position de choix de champion du joueur pendant la partie.'
+Nom de la clé dans la database : 'Ban Position'
+Description de la clé : 'Donne la position de ban du joueur pendant la partie.'
 //////
 Nom clé : pickTurn
 Chemin de clés pour obtenir cette clé : info-teams-0-bans-0-pickTurn
