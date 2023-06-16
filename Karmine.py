@@ -39,16 +39,16 @@ def joueurs(cursor, api_key):
     #cursor.execute("DROP TABLE Joueurs")
     #associe_PUUID_aux_challengers(cursor,api_key)
     #rempli_table_challenger(cursor)
-    actualisation_table_Joueurs(cursor, api_key)
-    conn.commit()
-    cursor.close()        
-    conn.close()
+    #actualisation_table_Joueurs(cursor, api_key)
+    #conn.commit()
+    #cursor.close()        
+    #conn.close()
 
 def liaison(cursor, api_key):
     #cree_table_liaison_complete(cursor, api_key)
     #cursor.execute("DROP TABLE Liaison")
-    #actualisation_table_liaison(cursor, api_key)
-    #conn.commit()
+    actualisation_table_liaison(cursor, api_key)
+    conn.commit()
     #cursor.close()        
     #conn.close()
     print('FIN')
@@ -58,12 +58,12 @@ def Game(cursor, api_key):
     #create_table_Game_complete(cursor, api_key)
     #actualisation_table_Game(cursor, api_key, False)
     #create_table_Timeline_complete(cursor, api_key)
-    #actualisation_table_Timeline(cursor, api_key)
-    cursor.execute("SELECT * FROM Joueurs")
+    actualisation_table_Timeline(cursor, api_key)
+    #cursor.execute("SELECT file FROM Timeline WHERE Matchid = 'EUW1_6338373555'")
     #cursor.execute("SELECT column_name FROM information_schema.columns WHERE table_name = 'Joueurs';")
-    rows = cursor.fetchall()
-    for row in rows:
-        print(row)
+    #rows = cursor.fetchall()
+    #for row in rows:
+    #    print(row)
     conn.commit()
     cursor.close()        
     conn.close()
@@ -78,7 +78,7 @@ def Keys():
 
 
 #joueurs(CURSEUR, CLE_API)
-#liaison(CURSEUR, CLE_API)
+liaison(CURSEUR, CLE_API)
 Game(CURSEUR, CLE_API)
 #Keys()
 

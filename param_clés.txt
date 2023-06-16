@@ -107,25 +107,25 @@ Description de la clé : 'Donne la version de LOL sur laquelle s'est joué la pa
 //////
 Nom clé : gameVersion
 Chemin de clés pour obtenir cette clé : info-gameVersion
-Type de la valeur stockée : <class 'str'>
+Type de la valeur stockée : TEXT
 Exemple de valeur possible : 13.6.499.7758
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
+Table où est stockée la data : 'Game_Stats'
 Nom de la clé dans la database : 'Map ID'
 Description de la clé : 'Donne l'ID de la carte de la partie'
 //////
 Nom clé : mapId
 Chemin de clés pour obtenir cette clé : info-mapId
-Type de la valeur stockée : <class 'str'>
+Type de la valeur stockée : INT
 Exemple de valeur possible : 11
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
+Table où est stockée la data : 'Liaison_Stats'
 Nom de la clé dans la database : 'All in Pings'
 Description de la clé : 'Donne le nombre de pings de type All In réalisés par le joueur.'
 //////
 Nom clé : allInPings
 Chemin de clés pour obtenir cette clé : info-participants-0-allInPings
-Type de la valeur stockée : <class 'str'>
+Type de la valeur stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -134,7 +134,7 @@ Description de la clé : 'Donne le nombre de pings de type Assist Me réalisés 
 //////
 Nom clé : assistMePings
 Chemin de clés pour obtenir cette clé : info-participants-0-assistMePings
-Type de la valeur stockée : <class 'str'>
+Type de la valeur stockée : INT
 Exemple de valeur possible : 2
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -143,16 +143,16 @@ Description de la clé : 'Donne le nombre d'assistance faite par le joueur dans 
 //////
 Nom clé : assists
 Chemin de clés pour obtenir cette clé : info-participants-0-assists
-Type de la valeur stockée : <class 'str'>
+Type de la valeur stockée : INT
 Exemple de valeur possible : 10
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
+Table où est stockée la data : 'Liaison_Stats'
 Nom de la clé dans la database : 'Bait Pings'
 Description de la clé : 'Donne le nombre de pings de type Bait réalisés par le joueur.'
 //////
 Nom clé : baitPings
 Chemin de clés pour obtenir cette clé : info-participants-0-baitPings
-Type de la valeur stockée : <class 'str'>
+Type de la valeur stockée : INT
 Exemple de valeur possible : 3
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -161,25 +161,25 @@ Description de la clé : 'Donne le nombre de Barons tués par le joueur dans la 
 //////
 Nom clé : baronKills
 Chemin de clés pour obtenir cette clé : info-participants-0-baronKills
-Type de la valeur stockée : <class 'str'>
+Type de la valeur stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
-Table où est stockée la data : ''
+Table où est stockée la data : 'Liaison_Stats'
 Nom de la clé dans la database : 'Basic Pings'
 Description de la clé : 'Donne le nombre de pings de type Basic réalisés par le joueur.'
 //////
 Nom clé : basicPings
 Chemin de clés pour obtenir cette clé : info-participants-0-basicPings
-Type de la valeur stockée : <class 'str'>
+Type de la valeur stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
-Nom de la clé dans la database : ''
+Nom de la clé dans la database : 'bountyLevel'
 Description de la clé : ''
 //////
 Nom clé : bountyLevel
 Chemin de clés pour obtenir cette clé : info-participants-0-bountyLevel
-Type de la valeur stockée : <class 'str'>
+Type de la valeur stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -188,7 +188,7 @@ Description de la clé : 'DOnne le nombre de séries de 12 assistances fait par 
 //////
 Nom clé : 12AssistStreakCount
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-12AssistStreakCount
-Type de la valeur stockée : <class 'str'>
+Type de la valeur stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -197,7 +197,7 @@ Description de la clé : 'Donne le nombre d'ability utilisés par le joueur pend
 //////
 Nom clé : abilityUses
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-abilityUses
-Type de la valeur stockée : <class 'str'>
+Type de la valeur stockée : INT
 Exemple de valeur possible : 215
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -206,7 +206,7 @@ Description de la clé : 'Donne le nombre d'aces réalisé par le joueur avant 1
 //////
 Nom clé : acesBefore15Minutes
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-acesBefore15Minutes
-Type de la valeur stockée : <class 'str'>
+Type de la valeur stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -215,7 +215,7 @@ Description de la clé : 'Donne le nombre de monstre de sa propre jungle tués p
 //////
 Nom clé : alliedJungleMonsterKills
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-alliedJungleMonsterKills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -224,7 +224,7 @@ Description de la clé : 'Donne la quantité d'argent reçu grace au baron Nasho
 //////
 Nom clé : baronBuffGoldAdvantageOverThreshold
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-baronBuffGoldAdvantageOverThreshold
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -233,7 +233,7 @@ Description de la clé : 'Donne le nombre de Takedown réalisé par le joueur pe
 //////
 Nom clé : baronTakedowns
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-baronTakedowns
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -242,7 +242,7 @@ Description de la clé : ''
 //////
 Nom clé : blastConeOppositeOpponentCount
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-blastConeOppositeOpponentCount
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -251,7 +251,7 @@ Description de la clé : 'Donne la quantité d'argent en Bounty crée par le Jou
 //////
 Nom clé : bountyGold
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-bountyGold
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -260,7 +260,7 @@ Description de la clé : 'Donne le nombre de buff volés par le joueur pendant l
 //////
 Nom clé : buffsStolen
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-buffsStolen
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -269,7 +269,7 @@ Description de la clé : ''
 //////
 Nom clé : completeSupportQuestInTime
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-completeSupportQuestInTime
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -278,7 +278,7 @@ Description de la clé : 'Donne le pourcentage de temps de la game où la pink d
 //////
 Nom clé : controlWardTimeCoverageInRiverOrEnemyHalf
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-controlWardTimeCoverageInRiverOrEnemyHalf
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : DECIMAL
 Exemple de valeur possible : 0.7640193306299699
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -287,7 +287,7 @@ Description de la clé : 'Donne le nombre de pinks posées par le joueur pendant
 //////
 Nom clé : controlWardsPlaced
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-controlWardsPlaced
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 4
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -296,7 +296,7 @@ Description de la clé : 'Donne la quantité de dommages infligés par minute pa
 //////
 Nom clé : damagePerMinute
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-damagePerMinute
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : DECIMAL
 Exemple de valeur possible : 922.0659267164268
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -305,7 +305,7 @@ Description de la clé : 'Donne le pourcentage de dégat subit par le joueur dan
 //////
 Nom clé : damageTakenOnTeamPercentage
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-damageTakenOnTeamPercentage
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : DECIMAL
 Exemple de valeur possible : 0.18765200753092007
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -314,7 +314,7 @@ Description de la clé : ''
 //////
 Nom clé : dancedWithRiftHerald
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-dancedWithRiftHerald
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -323,7 +323,7 @@ Description de la clé : 'Donne le nombre de mort tué par un champion du joueur
 //////
 Nom clé : deathsByEnemyChamps
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-deathsByEnemyChamps
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 11
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -332,7 +332,7 @@ Description de la clé : 'Donne le nombre d'esquive proche de skillshot du joueu
 //////
 Nom clé : dodgeSkillShotsSmallWindow
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-dodgeSkillShotsSmallWindow
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 4
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -341,7 +341,7 @@ Description de la clé : 'Donne le nombre de séries de 2 ace fait par le joueur
 //////
 Nom clé : doubleAces
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-doubleAces
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -350,7 +350,7 @@ Description de la clé : 'Donne le nombre de Dragons tués par le joueur pendant
 //////
 Nom clé : dragonTakedowns
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-dragonTakedowns
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Game_Stats'
@@ -359,7 +359,7 @@ Description de la clé : 'Donne la durée en seconde avant que le premier baron 
 //////
 Nom clé : earliestBaron
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-earliestBaron
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : DECIMAL
 Exemple de valeur possible : 1340.4561738999998
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -368,7 +368,7 @@ Description de la clé : ''
 //////
 Nom clé : earlyLaningPhaseGoldExpAdvantage
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-earlyLaningPhaseGoldExpAdvantage
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -377,7 +377,7 @@ Description de la clé : 'Donné la quantité de health et de shield donnée par
 //////
 Nom clé : effectiveHealAndShielding
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-effectiveHealAndShielding
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -386,7 +386,7 @@ Description de la clé : ''
 //////
 Nom clé : elderDragonKillsWithOpposingSoul
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-elderDragonKillsWithOpposingSoul
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -395,7 +395,7 @@ Description de la clé : 'Donne le nombre de multikills réalisé avec l'effet d
 //////
 Nom clé : elderDragonMultikills
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-elderDragonMultikills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -404,7 +404,7 @@ Description de la clé : 'Donne le nombre d'immobilisation faite par le joueur p
 //////
 Nom clé : enemyChampionImmobilizations
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-enemyChampionImmobilizations
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 20
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -413,7 +413,7 @@ Description de la clé : 'Donne le nombre de monstre de sa propre jungle tués p
 //////
 Nom clé : enemyJungleMonsterKills
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-enemyJungleMonsterKills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 2
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -422,7 +422,7 @@ Description de la clé : 'Donne le nombre de monstres epics (Nash et les Dragons
 //////
 Nom clé : epicMonsterKillsNearEnemyJungler
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-epicMonsterKillsNearEnemyJungler
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -431,7 +431,7 @@ Description de la clé : 'Donne le nombre de monstre epics (Nash et les Dragons)
 //////
 Nom clé : epicMonsterKillsWithin30SecondsOfSpawn
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-epicMonsterKillsWithin30SecondsOfSpawn
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liasion'
@@ -440,7 +440,7 @@ Description de la clé : 'Donne le nombre de monstres epics volés par le joueur
 //////
 Nom clé : epicMonsterSteals
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-epicMonsterSteals
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -449,7 +449,7 @@ Description de la clé : 'Donne le nombre de monstres epics volés par le joueur
 //////
 Nom clé : epicMonsterStolenWithoutSmite
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-epicMonsterStolenWithoutSmite
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Game_Stats'
@@ -458,7 +458,7 @@ Description de la clé : 'Donne la durée en seconde avant que la première tour
 //////
 Nom clé : firstTurretKilledTime
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-firstTurretKilledTime
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : DECIMAL
 Exemple de valeur possible : 747.2383519
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -467,7 +467,7 @@ Description de la clé : ''
 //////
 Nom clé : flawlessAces
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-flawlessAces
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -476,7 +476,7 @@ Description de la clé : 'Donne le nombre de fullteam fait par le joueur pendant
 //////
 Nom clé : fullTeamTakedown
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-fullTeamTakedown
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -485,7 +485,7 @@ Description de la clé : 'Donne la durée de la partie en secondes (déja dans l
 //////
 Nom clé : gameLength
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-gameLength
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : DECIMAL
 Exemple de valeur possible : 1589.9147854
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -494,7 +494,7 @@ Description de la clé : ''
 //////
 Nom clé : getTakedownsInAllLanesEarlyJungleAsLaner
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-getTakedownsInAllLanesEarlyJungleAsLaner
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -503,7 +503,7 @@ Description de la clé : 'Donne le ratio de Gold par Minute du joueur pendant la
 //////
 Nom clé : goldPerMinute
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-goldPerMinute
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : DECIMAL
 Exemple de valeur possible : 406.8651133477282
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -512,7 +512,7 @@ Description de la clé : ''
 //////
 Nom clé : hadOpenNexus
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-hadOpenNexus
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -521,7 +521,7 @@ Description de la clé : 'Donne le nombre d'immobilisation ayat mené à un kill
 //////
 Nom clé : immobilizeAndKillWithAlly
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-immobilizeAndKillWithAlly
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 5
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -530,7 +530,7 @@ Description de la clé : 'Donne le nombre de Buff que le participant a eu au dé
 //////
 Nom clé : initialBuffCount
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-initialBuffCount
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -539,7 +539,7 @@ Description de la clé : 'Donne le nombre de Crab que le joueur a eu au début d
 //////
 Nom clé : initialCrabCount
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-initialCrabCount
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -548,7 +548,7 @@ Description de la clé : 'Donne la quantité de Gold généré par la jungle par
 //////
 Nom clé : jungleCsBefore10Minutes
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-jungleCsBefore10Minutes
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -557,7 +557,7 @@ Description de la clé : 'Donne le nombre de Kill réalisé lors d'un combat pro
 //////
 Nom clé : junglerTakedownsNearDamagedEpicMonster
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-junglerTakedownsNearDamagedEpicMonster
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -566,7 +566,7 @@ Description de la clé : 'Donne le nombre de tours détruite par le joueur avant
 //////
 Nom clé : kTurretsDestroyedBeforePlatesFall
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-kTurretsDestroyedBeforePlatesFall
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -575,7 +575,7 @@ Description de la clé : 'Donne le KDA du joueur pendant la partie.'
 //////
 Nom clé : kda
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-kda
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : DECIMAL
 Exemple de valeur possible : 1.2727272727272727
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -584,7 +584,7 @@ Description de la clé : 'Donne le nombre de kills fait par le joueur caché ave
 //////
 Nom clé : killAfterHiddenWithAlly
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-killAfterHiddenWithAlly
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -593,7 +593,7 @@ Description de la clé : 'Donne le ratio de kill participation du joueur pendant
 //////
 Nom clé : killParticipation
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-killParticipation
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : DECIMAL
 Exemple de valeur possible : 0.3333333333333333
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -602,7 +602,7 @@ Description de la clé : ''
 //////
 Nom clé : killedChampTookFullTeamDamageSurvived
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-killedChampTookFullTeamDamageSurvived
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -611,7 +611,7 @@ Description de la clé : 'Donne le nombre de kills réalisé proche de la tourel
 //////
 Nom clé : killsNearEnemyTurret
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-killsNearEnemyTurret
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 3
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -620,7 +620,7 @@ Description de la clé : ''
 //////
 Nom clé : killsOnOtherLanesEarlyJungleAsLaner
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-killsOnOtherLanesEarlyJungleAsLaner
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -629,7 +629,7 @@ Description de la clé : ''
 //////
 Nom clé : killsOnRecentlyHealedByAramPack
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-killsOnRecentlyHealedByAramPack
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -638,7 +638,7 @@ Description de la clé : 'Donne le nombre de kills fait sous sa propre tour par 
 //////
 Nom clé : killsUnderOwnTurret
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-killsUnderOwnTurret
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -647,7 +647,7 @@ Description de la clé : 'Donne le nombre de kills fait par le joueur avec l'aid
 //////
 Nom clé : killsWithHelpFromEpicMonster
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-killsWithHelpFromEpicMonster
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -656,7 +656,7 @@ Description de la clé : ''
 //////
 Nom clé : knockEnemyIntoTeamAndKill
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-knockEnemyIntoTeamAndKill
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 6
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -665,7 +665,7 @@ Description de la clé : ''
 //////
 Nom clé : landSkillShotsEarlyGame
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-landSkillShotsEarlyGame
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 13
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -674,7 +674,7 @@ Description de la clé : 'Donne le nombre de minions tués par le joueur avant l
 //////
 Nom clé : laneMinionsFirst10Minutes
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-laneMinionsFirst10Minutes
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 70
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -683,7 +683,7 @@ Description de la clé : ''
 //////
 Nom clé : laningPhaseGoldExpAdvantage
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-laningPhaseGoldExpAdvantage
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -692,7 +692,7 @@ Description de la clé : 'Donne le nombre de fois où le joueur a été légenda
 //////
 Nom clé : legendaryCount
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-legendaryCount
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
@@ -701,7 +701,7 @@ Description de la clé : 'Donne le nombre d'inhibiteur perdu pendant la partie.'
 //////
 Nom clé : lostAnInhibitor
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-lostAnInhibitor
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -710,7 +710,7 @@ Description de la clé : 'Donne la quantité maximale du CS avantage du joueur s
 //////
 Nom clé : maxCsAdvantageOnLaneOpponent
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-maxCsAdvantageOnLaneOpponent
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : DECIMAL
 Exemple de valeur possible : 36.5
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -719,7 +719,7 @@ Description de la clé : ''
 //////
 Nom clé : maxKillDeficit
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-maxKillDeficit
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -728,7 +728,7 @@ Description de la clé : 'Donne le nombre max du lvl avantage qu'a eu le joueur 
 //////
 Nom clé : maxLevelLeadLaneOpponent
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-maxLevelLeadLaneOpponent
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -737,7 +737,7 @@ Description de la clé : ''
 //////
 Nom clé : moreEnemyJungleThanOpponent
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-moreEnemyJungleThanOpponent
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -746,7 +746,7 @@ Description de la clé : 'Donne le nombre de multikills réalisé avec seulement
 //////
 Nom clé : multiKillOneSpell
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-multiKillOneSpell
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
@@ -755,7 +755,7 @@ Description de la clé : 'Donne le nombre de Multiturret détruites par un Héra
 //////
 Nom clé : multiTurretRiftHeraldCount
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-multiTurretRiftHeraldCount
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -764,7 +764,7 @@ Description de la clé : 'Donne le nombre de multikill réalisé par le joueur p
 //////
 Nom clé : multikills
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-multikills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -773,7 +773,7 @@ Description de la clé : 'Donne le nombre de multikills réalisés par le joueur
 //////
 Nom clé : multikillsAfterAggressiveFlash
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-multikillsAfterAggressiveFlash
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -782,7 +782,7 @@ Description de la clé : ''
 //////
 Nom clé : outerTurretExecutesBefore10Minutes
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-outerTurretExecutesBefore10Minutes
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -791,7 +791,7 @@ Description de la clé : ''
 //////
 Nom clé : outnumberedKills
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-outnumberedKills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -800,7 +800,7 @@ Description de la clé : ''
 //////
 Nom clé : outnumberedNexusKill
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-outnumberedNexusKill
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
@@ -809,7 +809,7 @@ Description de la clé : 'Donne si il y eu une perfect Dragonsouls (les 4 dragon
 //////
 Nom clé : perfectDragonSoulsTaken
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-perfectDragonSoulsTaken
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
@@ -818,7 +818,7 @@ Description de la clé : 'Donne si la game est une game parfaite (pas de tours n
 //////
 Nom clé : perfectGame
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-perfectGame
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -827,7 +827,7 @@ Description de la clé : 'Donne le nombre de kills assistés réalisés par le j
 //////
 Nom clé : pickKillWithAlly
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-pickKillWithAlly
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 9
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -836,7 +836,7 @@ Description de la clé : 'Donne la champselect position du joueur'
 //////
 Nom clé : playedChampSelectPosition
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-playedChampSelectPosition
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -845,7 +845,7 @@ Description de la clé : ''
 //////
 Nom clé : poroExplosions
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-poroExplosions
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -854,7 +854,7 @@ Description de la clé : 'Donne le nombre de Cleans rapide faite par le joueur p
 //////
 Nom clé : quickCleanse
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-quickCleanse
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -863,7 +863,7 @@ Description de la clé : 'Donne le nombre de première tourelle réalisé rapide
 //////
 Nom clé : quickFirstTurret
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-quickFirstTurret
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -872,7 +872,7 @@ Description de la clé : 'Donne le nombre de solo kills réalisés rapidement pa
 //////
 Nom clé : quickSoloKills
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-quickSoloKills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -881,7 +881,7 @@ Description de la clé : 'Donne le nombre de riftHeralt Takedown par le joueur p
 //////
 Nom clé : riftHeraldTakedowns
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-riftHeraldTakedowns
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -890,7 +890,7 @@ Description de la clé : 'Donne le nombre d'alliés sauvé par le joueur pendant
 //////
 Nom clé : saveAllyFromDeath
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-saveAllyFromDeath
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison'
@@ -899,7 +899,7 @@ Description de la clé : 'Donne le nombre de scuttleCrab tués par le joueur pen
 //////
 Nom clé : scuttleCrabKills
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-scuttleCrabKills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -908,7 +908,7 @@ Description de la clé : 'Donne le nombre de skillshots évités par le joueur p
 //////
 Nom clé : skillshotsDodged
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-skillshotsDodged
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 22
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -917,7 +917,7 @@ Description de la clé : 'Donne le nombre de skillshots touchés par le joueur p
 //////
 Nom clé : skillshotsHit
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-skillshotsHit
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 70
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -926,7 +926,7 @@ Description de la clé : 'Donne le nombre de boule de neige touché par le joueu
 //////
 Nom clé : snowballsHit
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-snowballsHit
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -935,7 +935,7 @@ Description de la clé : 'Donne le nombre de Baron Nashor tués par le joueur to
 //////
 Nom clé : soloBaronKills
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-soloBaronKills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -944,7 +944,7 @@ Description de la clé : 'Donne le nombre de kills réalisé par le joueur tout 
 //////
 Nom clé : soloKills
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-soloKills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -953,7 +953,7 @@ Description de la clé : ''
 //////
 Nom clé : stealthWardsPlaced
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-stealthWardsPlaced
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 5
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -962,7 +962,7 @@ Description de la clé : 'Donne le nombre de fois que le joueur à survécu avec
 //////
 Nom clé : survivedSingleDigitHpCount
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-survivedSingleDigitHpCount
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -971,7 +971,7 @@ Description de la clé : 'Donne le nombre de fois que le joueur à survécu en c
 //////
 Nom clé : survivedThreeImmobilizesInFight
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-survivedThreeImmobilizesInFight
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -980,7 +980,7 @@ Description de la clé : 'Donne le nombre d'ennemie tombé par le joueur sous sa
 //////
 Nom clé : takedownOnFirstTurret
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-takedownOnFirstTurret
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -989,7 +989,7 @@ Description de la clé : 'Donne le nombre de Takedown réalisé par le joueur pe
 //////
 Nom clé : takedowns
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-takedowns
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 14
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -998,7 +998,7 @@ Description de la clé : 'Donne le nombre de Takedown après avoir pris un avant
 //////
 Nom clé : takedownsAfterGainingLevelAdvantage
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-takedownsAfterGainingLevelAdvantage
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1007,7 +1007,7 @@ Description de la clé : 'Donne le nombre de Takedown réalisé par le joueur av
 //////
 Nom clé : takedownsBeforeJungleMinionSpawn
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-takedownsBeforeJungleMinionSpawn
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1016,7 +1016,7 @@ Description de la clé : 'Donne le nombre de Takedown réalisés par le joueur a
 //////
 Nom clé : takedownsFirstXMinutes
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-takedownsFirstXMinutes
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 4
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -1025,7 +1025,7 @@ Description de la clé : ''
 //////
 Nom clé : takedownsInAlcove
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-takedownsInAlcove
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -1034,7 +1034,7 @@ Description de la clé : 'Donne le nombre de Takedowns dans la fontainne ennemie
 /////
 Nom clé : takedownsInEnemyFountain
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-takedownsInEnemyFountain
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
@@ -1043,7 +1043,7 @@ Description de la clé : 'Donne le nombre de Baron tué par l'équipe pendant la
 //////
 Nom clé : teamBaronKills
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-teamBaronKills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1052,7 +1052,7 @@ Description de la clé : 'Donne le pourcentage de dégats subit par le joueur da
 //////
 Nom clé : teamDamagePercentage
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-teamDamagePercentage
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : DECIMAL
 Exemple de valeur possible : 0.21923122635297462
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
@@ -1061,7 +1061,7 @@ Description de la clé : 'Donne le nombre de Elder Dragon tués par l'équipe pe
 //////
 Nom clé : teamElderDragonKills
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-teamElderDragonKills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
@@ -1070,7 +1070,7 @@ Description de la clé : 'Donne le nombre de Hérault de la Faille tué par l'é
 //////
 Nom clé : teamRiftHeraldKills
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-teamRiftHeraldKills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 2
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
@@ -1079,7 +1079,7 @@ Description de la clé : 'Donne la durée (en secondes) avant que le 3ème inhib
 //////
 Nom clé : thirdInhibitorDestroyedTime
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-thirdInhibitorDestroyedTime
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : DECIMAL
 Exemple de valeur possible : 1501.0629731
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -1088,7 +1088,7 @@ Description de la clé : ''
 //////
 Nom clé : threeWardsOneSweeperCount
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-threeWardsOneSweeperCount
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -1097,7 +1097,7 @@ Description de la clé : ''
 //////
 Nom clé : tookLargeDamageSurvived
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-tookLargeDamageSurvived
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1106,7 +1106,7 @@ Description de la clé : 'Donne le nombre de plate récupérée par le joueur pe
 //////
 Nom clé : turretPlatesTaken
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-turretPlatesTaken
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 2
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1115,7 +1115,7 @@ Description de la clé : 'Donne le nombre de turret tombés par le joueur pendan
 //////
 Nom clé : turretTakedowns
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-turretTakedowns
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 4
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1124,7 +1124,7 @@ Description de la clé : 'Donne le nombre de turret détruite par le joueur à l
 //////
 Nom clé : turretsTakenWithRiftHerald
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-turretsTakenWithRiftHerald
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 10
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -1133,7 +1133,7 @@ Description de la clé : 'Donne le nombre de 20 minions pris en 3 secondes par l
 //////
 Nom clé : twentyMinionsIn3SecondsCount
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-twentyMinionsIn3SecondsCount
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 7
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1142,7 +1142,7 @@ Description de la clé : 'Donne le nmbre de recall caché réalisé par le joueu
 //////
 Nom clé : unseenRecalls
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-unseenRecalls
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -1151,7 +1151,7 @@ Description de la clé : ''
 //////
 Nom clé : visionScoreAdvantageLaneOpponent
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-visionScoreAdvantageLaneOpponent
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : DECIMAL
 Exemple de valeur possible : 2.4238553047180176
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1160,7 +1160,7 @@ Description de la clé : 'Donne le vision score par minute du joueur pendant la 
 //////
 Nom clé : visionScorePerMinute
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-visionScorePerMinute
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : DECIMAL
 Exemple de valeur possible : 1.2740563938543652
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1169,7 +1169,7 @@ Description de la clé : 'Donne le nombre de ward tombés par le joueur pendant 
 //////
 Nom clé : wardTakedowns
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-wardTakedowns
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1178,7 +1178,7 @@ Description de la clé : 'Donne le nombre de ward tombés par le joueur pendant 
 //////
 Nom clé : wardTakedownsBefore20M
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-wardTakedownsBefore20M
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1187,7 +1187,7 @@ Description de la clé : 'Donne le nombre de ward défendu par le joueur pendant
 //////
 Nom clé : wardsGuarded
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-wardsGuarded
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1196,7 +1196,7 @@ Description de la clé : 'Donne la quantité d'expérience (Mastery) qu'a le jou
 //////
 Nom clé : champExperience
 Chemin de clés pour obtenir cette clé : info-participants-0-champExperience
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 12260
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1205,7 +1205,7 @@ Description de la clé : 'Donne le niveau (Lvl) du champion à la fin de la part
 //////
 Nom clé : champLevel
 Chemin de clés pour obtenir cette clé : info-participants-0-champLevel
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 14
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -1214,7 +1214,7 @@ Description de la clé : 'Donne l'Id du champion joué par le joueur pendant la 
 //////
 Nom clé : championId
 Chemin de clés pour obtenir cette clé : info-participants-0-championId
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 67
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1223,7 +1223,7 @@ Description de la clé : 'Donne le nom du champion joué par le joueur pendant l
 //////
 Nom clé : championName
 Chemin de clés pour obtenir cette clé : info-participants-0-championName
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : TEXT
 Exemple de valeur possible : Vayne
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1232,7 +1232,7 @@ Description de la clé : 'Donne le nombre de transformations réalisé par le ch
 //////
 Nom clé : championTransform
 Chemin de clés pour obtenir cette clé : info-participants-0-championTransform
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1241,7 +1241,7 @@ Description de la clé : 'Donne le nombre de pings de type command réalisé par
 //////
 Nom clé : commandPings
 Chemin de clés pour obtenir cette clé : info-participants-0-commandPings
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 2
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1250,7 +1250,7 @@ Description de la clé : 'Donne le nombre de consommables achetés par le joueur
 //////
 Nom clé : consumablesPurchased
 Chemin de clés pour obtenir cette clé : info-participants-0-consumablesPurchased
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 8
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1259,7 +1259,7 @@ Description de la clé : 'Donne la quantité de dégat infligé par le joueur au
 //////
 Nom clé : damageDealtToBuildings
 Chemin de clés pour obtenir cette clé : info-participants-0-damageDealtToBuildings
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 5617
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1268,7 +1268,7 @@ Description de la clé : 'Donne la quantité de dégats infligés par le joueur 
 //////
 Nom clé : damageDealtToObjectives
 Chemin de clés pour obtenir cette clé : info-participants-0-damageDealtToObjectives
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 6746
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1277,7 +1277,7 @@ Description de la clé : 'Donne la quantité de dégats infligé par le joueur a
 //////
 Nom clé : damageDealtToTurrets
 Chemin de clés pour obtenir cette clé : info-participants-0-damageDealtToTurrets
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 5617
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1286,7 +1286,7 @@ Description de la clé : 'Donne la quantité de dégats atténués par le joueur
 //////
 Nom clé : damageSelfMitigated
 Chemin de clés pour obtenir cette clé : info-participants-0-damageSelfMitigated
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 15739
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1295,7 +1295,7 @@ Description de la clé : 'Donne le nombre de pings de type Danger réalisés par
 //////
 Nom clé : dangerPings
 Chemin de clés pour obtenir cette clé : info-participants-0-dangerPings
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1304,7 +1304,7 @@ Description de la clé : 'Donne le nombre de fois que le joueur est mort pendant
 //////
 Nom clé : deaths
 Chemin de clés pour obtenir cette clé : info-participants-0-deaths
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 11
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1313,7 +1313,7 @@ Description de la clé : 'Donne le nombre de detecteur de ward utilisé par le j
 //////
 Nom clé : detectorWardsPlaced
 Chemin de clés pour obtenir cette clé : info-participants-0-detectorWardsPlaced
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 4
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1322,7 +1322,7 @@ Description de la clé : 'Donne le nombre de DoubleKills réalisépar le joueur 
 //////
 Nom clé : doubleKills
 Chemin de clés pour obtenir cette clé : info-participants-0-doubleKills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1331,7 +1331,7 @@ Description de la clé : 'Donne le nombre de dragons tués par le joueur pendant
 //////
 Nom clé : dragonKills
 Chemin de clés pour obtenir cette clé : info-participants-0-dragonKills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -1340,7 +1340,7 @@ Description de la clé : ''
 //////
 Nom clé : eligibleForProgression
 Chemin de clés pour obtenir cette clé : info-participants-0-eligibleForProgression
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : BOOLEAN
 Exemple de valeur possible : True
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1349,7 +1349,7 @@ Description de la clé : 'Donne le nombre de pings de type ennemyMissing réalis
 //////
 Nom clé : enemyMissingPings
 Chemin de clés pour obtenir cette clé : info-participants-0-enemyMissingPings
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 10
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -1358,7 +1358,7 @@ Description de la clé : 'Donne le nombre de pings de type EnnemyVision réalis�
 //////
 Nom clé : enemyVisionPings
 Chemin de clés pour obtenir cette clé : info-participants-0-enemyVisionPings
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1367,7 +1367,7 @@ Description de la clé : 'Donne l'information de si le joueur à aidé à réali
 //////
 Nom clé : firstBloodAssist
 Chemin de clés pour obtenir cette clé : info-participants-0-firstBloodAssist
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : BOOLEAN
 Exemple de valeur possible : False
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1376,7 +1376,7 @@ Description de la clé : 'Donne l'information de si le joueur a réalisé le pre
 //////
 Nom clé : firstBloodKill
 Chemin de clés pour obtenir cette clé : info-participants-0-firstBloodKill
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : BOOLEAN
 Exemple de valeur possible : True
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1385,7 +1385,7 @@ Description de la clé : 'Donne l'information de si le joueur à aidé à faire 
 //////
 Nom clé : firstTowerAssist
 Chemin de clés pour obtenir cette clé : info-participants-0-firstTowerAssist
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : BOOLEAN
 Exemple de valeur possible : False
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1394,7 +1394,7 @@ Description de la clé : 'Donne l'information de si le joueur à détruit la pre
 //////
 Nom clé : firstTowerKill
 Chemin de clés pour obtenir cette clé : info-participants-0-firstTowerKill
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : BOOLEAN
 Exemple de valeur possible : False
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Game_Stats'
@@ -1403,7 +1403,7 @@ Description de la clé : 'Donne l'information de si la partie s'est terminée av
 //////
 Nom clé : gameEndedInEarlySurrender
 Chemin de clés pour obtenir cette clé : info-participants-0-gameEndedInEarlySurrender
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : BOOLEAN
 Exemple de valeur possible : False
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Game_Stats'
@@ -1412,7 +1412,7 @@ Description de la clé : 'Donne l'information de si la partie s'est terminée av
 //////
 Nom clé : gameEndedInSurrender
 Chemin de clés pour obtenir cette clé : info-participants-0-gameEndedInSurrender
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : BOOLEAN
 Exemple de valeur possible : False
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1421,7 +1421,7 @@ Description de la clé : 'Donne le nombre de pings de type GetBack réalisés pa
 //////
 Nom clé : getBackPings
 Chemin de clés pour obtenir cette clé : info-participants-0-getBackPings
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 2
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1430,7 +1430,7 @@ Description de la clé : 'Donne la quantité d'or crée par le joueur pendant la
 //////
 Nom clé : goldEarned
 Chemin de clés pour obtenir cette clé : info-participants-0-goldEarned
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 10781
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1439,7 +1439,7 @@ Description de la clé : 'Donne la quantité d'Or dépensé par le joueur pendan
 //////
 Nom clé : goldSpent
 Chemin de clés pour obtenir cette clé : info-participants-0-goldSpent
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 10540
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1448,7 +1448,7 @@ Description de la clé : 'Donne la quantité de pings de type Hold réalisés pa
 //////
 Nom clé : holdPings
 Chemin de clés pour obtenir cette clé : info-participants-0-holdPings
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1457,7 +1457,7 @@ Description de la clé : 'Donne la position individuel du joueur pendant la part
 //////
 Nom clé : individualPosition
 Chemin de clés pour obtenir cette clé : info-participants-0-individualPosition
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : TEXT
 Exemple de valeur possible : TOP
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1466,7 +1466,7 @@ Description de la clé : 'Donne le nombre d'inhibiteur détruits par le joueur p
 //////
 Nom clé : inhibitorKills
 Chemin de clés pour obtenir cette clé : info-participants-0-inhibitorKills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1475,7 +1475,7 @@ Description de la clé : 'Donne le nombre d'inhibiteur tombé par le joueur pend
 //////
 Nom clé : inhibitorTakedowns
 Chemin de clés pour obtenir cette clé : info-participants-0-inhibitorTakedowns
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1484,7 +1484,7 @@ Description de la clé : 'Donne le nombre d'inhibiteur perdu par le joueur penda
 //////
 Nom clé : inhibitorsLost
 Chemin de clés pour obtenir cette clé : info-participants-0-inhibitorsLost
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1493,7 +1493,7 @@ Description de la clé : 'Donne l'ID de l'item situé au 0ème slot du joueur pe
 //////
 Nom clé : item0
 Chemin de clés pour obtenir cette clé : info-participants-0-item0
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 3508
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1502,7 +1502,7 @@ Description de la clé : 'Donne l'ID de l'item situé au 1er slot du joueur pend
 //////
 Nom clé : item1
 Chemin de clés pour obtenir cette clé : info-participants-0-item1
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 6673
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1511,7 +1511,7 @@ Description de la clé : 'Donne l'ID de l'item situé au 2ème slot du joueur pe
 //////
 Nom clé : item2
 Chemin de clés pour obtenir cette clé : info-participants-0-item2
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 3124
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1520,7 +1520,7 @@ Description de la clé : 'Donne l'ID de l'item situé au 3ème slot du joueur pe
 //////
 Nom clé : item3
 Chemin de clés pour obtenir cette clé : info-participants-0-item3
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 3006
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1529,7 +1529,7 @@ Description de la clé : 'Donne l'ID de l'item situé au 4ème slot du joueur pe
 //////
 Nom clé : item4
 Chemin de clés pour obtenir cette clé : info-participants-0-item4
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1538,7 +1538,7 @@ Description de la clé : 'Donne l'ID de l'item situé au 5ème slot du joueur pe
 //////
 Nom clé : item5
 Chemin de clés pour obtenir cette clé : info-participants-0-item5
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1547,7 +1547,7 @@ Description de la clé : 'Donne l'ID de l'item situé au 6ème slot du joueur pe
 //////
 Nom clé : item6
 Chemin de clés pour obtenir cette clé : info-participants-0-item6
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 3363
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1556,7 +1556,7 @@ Description de la clé : 'Donne le nombre d'items achetés par le joueur pendant
 //////
 Nom clé : itemsPurchased
 Chemin de clés pour obtenir cette clé : info-participants-0-itemsPurchased
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 25
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1565,7 +1565,7 @@ Description de la clé : 'Donne le nombre de KillingSprees réalisés par le jou
 //////
 Nom clé : killingSprees
 Chemin de clés pour obtenir cette clé : info-participants-0-killingSprees
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1574,7 +1574,7 @@ Description de la clé : 'Donne le nombre de kills réalisés par le champion pe
 //////
 Nom clé : kills
 Chemin de clés pour obtenir cette clé : info-participants-0-kills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 4
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1583,7 +1583,7 @@ Description de la clé : 'Donne la lane jouée par le joueur pendant la partie.'
 //////
 Nom clé : lane
 Chemin de clés pour obtenir cette clé : info-participants-0-lane
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : TEXT
 Exemple de valeur possible : MIDDLE
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1592,7 +1592,7 @@ Description de la clé : 'Donne la valeur maximal de dégat infligé par cout cr
 //////
 Nom clé : largestCriticalStrike
 Chemin de clés pour obtenir cette clé : info-participants-0-largestCriticalStrike
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 346
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1601,7 +1601,7 @@ Description de la clé : 'Donne la valeur maximale de série de kills réalisée
 //////
 Nom clé : largestKillingSpree
 Chemin de clés pour obtenir cette clé : info-participants-0-largestKillingSpree
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 2
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1610,7 +1610,7 @@ Description de la clé : 'Donne la valeur maximale de multikills réalisés par 
 //////
 Nom clé : largestMultiKill
 Chemin de clés pour obtenir cette clé : info-participants-0-largestMultiKill
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1619,7 +1619,7 @@ Description de la clé : 'Donne la durée maximale (en seconde) d'affilé que le
 //////
 Nom clé : longestTimeSpentLiving
 Chemin de clés pour obtenir cette clé : info-participants-0-longestTimeSpentLiving
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 235
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1628,7 +1628,7 @@ Description de la clé : 'Donne la quantité de dégats magique infligés par le
 //////
 Nom clé : magicDamageDealt
 Chemin de clés pour obtenir cette clé : info-participants-0-magicDamageDealt
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -1637,7 +1637,7 @@ Description de la clé : 'Donne la quantité de dégats magique infligés par le
 //////
 Nom clé : magicDamageDealtToChampions
 Chemin de clés pour obtenir cette clé : info-participants-0-magicDamageDealtToChampions
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1646,7 +1646,7 @@ Description de la clé : 'Donne la quantité de dégats magique subit par le jou
 //////
 Nom clé : magicDamageTaken
 Chemin de clés pour obtenir cette clé : info-participants-0-magicDamageTaken
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 6504
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1655,7 +1655,7 @@ Description de la clé : 'Donne le nombre de pings du type NeedVision réalisé 
 //////
 Nom clé : needVisionPings
 Chemin de clés pour obtenir cette clé : info-participants-0-needVisionPings
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1664,7 +1664,7 @@ Description de la clé : 'Donne le nombre de NeutralMinions tués par le joueur 
 //////
 Nom clé : neutralMinionsKilled
 Chemin de clés pour obtenir cette clé : info-participants-0-neutralMinionsKilled
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 11
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1673,7 +1673,7 @@ Description de la clé : 'Donne le nombre de Nexus tué par le joueur pendant la
 //////
 Nom clé : nexusKills
 Chemin de clés pour obtenir cette clé : info-participants-0-nexusKills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1682,7 +1682,7 @@ Description de la clé : 'Donne le nombre de Nexus perdus par le joueur pendant 
 //////
 Nom clé : nexusLost
 Chemin de clés pour obtenir cette clé : info-participants-0-nexusLost
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1691,7 +1691,7 @@ Description de la clé : 'Donne le nombre de Nexus tombés par le joueur pendant
 //////
 Nom clé : nexusTakedowns
 Chemin de clés pour obtenir cette clé : info-participants-0-nexusTakedowns
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1700,7 +1700,7 @@ Description de la clé : 'Donne le nombre d'objectifs volés par le joueur penda
 //////
 Nom clé : objectivesStolen
 Chemin de clés pour obtenir cette clé : info-participants-0-objectivesStolen
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1709,7 +1709,7 @@ Description de la clé : 'Donne le nombre d'assistance de vole d'objectifs réal
 //////
 Nom clé : objectivesStolenAssists
 Chemin de clés pour obtenir cette clé : info-participants-0-objectivesStolenAssists
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1718,7 +1718,7 @@ Description de la clé : 'Donne le nombre de pings de type OnMyWay réalisés pa
 //////
 Nom clé : onMyWayPings
 Chemin de clés pour obtenir cette clé : info-participants-0-onMyWayPings
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 13
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1727,7 +1727,7 @@ Description de la clé : 'Donne le participantId du joueur dans la partie.'
 //////
 Nom clé : participantId
 Chemin de clés pour obtenir cette clé : info-participants-0-participantId
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1736,7 +1736,7 @@ Description de la clé : 'Donne le nombre de pentaKills réalisés par le joueur
 //////
 Nom clé : pentaKills
 Chemin de clés pour obtenir cette clé : info-participants-0-pentaKills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -1745,7 +1745,7 @@ Description de la clé : ''
 //////
 Nom clé : defense
 Chemin de clés pour obtenir cette clé : info-participants-0-perks-statPerks-defense
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 5002
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -1754,7 +1754,7 @@ Description de la clé : ''
 //////
 Nom clé : flex
 Chemin de clés pour obtenir cette clé : info-participants-0-perks-statPerks-flex
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 5008
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -1763,7 +1763,7 @@ Description de la clé : ''
 //////
 Nom clé : offense
 Chemin de clés pour obtenir cette clé : info-participants-0-perks-statPerks-offense
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 5005
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -1772,7 +1772,7 @@ Description de la clé : ''
 //////
 Nom clé : description
 Chemin de clés pour obtenir cette clé : info-participants-0-perks-styles-0-description
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : TEXT
 Exemple de valeur possible : primaryStyle
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -1781,7 +1781,7 @@ Description de la clé : ''
 //////
 Nom clé : perk
 Chemin de clés pour obtenir cette clé : info-participants-0-perks-styles-0-selections-0-perk
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 8008
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -1790,7 +1790,7 @@ Description de la clé : ''
 //////
 Nom clé : var1
 Chemin de clés pour obtenir cette clé : info-participants-0-perks-styles-0-selections-0-var1
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 121
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -1799,7 +1799,7 @@ Description de la clé : ''
 //////
 Nom clé : var2
 Chemin de clés pour obtenir cette clé : info-participants-0-perks-styles-0-selections-0-var2
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 26
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -1808,7 +1808,7 @@ Description de la clé : ''
 //////
 Nom clé : var3
 Chemin de clés pour obtenir cette clé : info-participants-0-perks-styles-0-selections-0-var3
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -1817,7 +1817,7 @@ Description de la clé : ''
 //////
 Nom clé : style
 Chemin de clés pour obtenir cette clé : info-participants-0-perks-styles-0-style
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 8000
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1826,7 +1826,7 @@ Description de la clé : 'Donne la quantité de Damage Physique donné par le jo
 //////
 Nom clé : physicalDamageDealt
 Chemin de clés pour obtenir cette clé : info-participants-0-physicalDamageDealt
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 95292
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1835,7 +1835,7 @@ Description de la clé : 'Donne la quantité de Damage Physique donné par le jo
 //////
 Nom clé : physicalDamageDealtToChampions
 Chemin de clés pour obtenir cette clé : info-participants-0-physicalDamageDealtToChampions
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 20126
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1844,7 +1844,7 @@ Description de la clé : 'Donne la quantité de Damage Physique recu par le joue
 //////
 Nom clé : physicalDamageTaken
 Chemin de clés pour obtenir cette clé : info-participants-0-physicalDamageTaken
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 14155
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1853,7 +1853,7 @@ Description de la clé : 'Donne l'ID de l'image de profil du joueur dans la part
 //////
 Nom clé : profileIcon
 Chemin de clés pour obtenir cette clé : info-participants-0-profileIcon
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 3592
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1862,7 +1862,7 @@ Description de la clé : 'Donne le nombre de pings de type pushPings réalisés 
 //////
 Nom clé : pushPings
 Chemin de clés pour obtenir cette clé : info-participants-0-pushPings
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1871,7 +1871,7 @@ Description de la clé : 'Donne le puuid du joueur dans la partie.'
 //////
 Nom clé : puuid
 Chemin de clés pour obtenir cette clé : info-participants-0-puuid
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : TEXT
 Exemple de valeur possible : 0dcMYn8gfSaMmj2NUobe5DqIznKK0By1sqAiVQ_h4sGlUrfZp2fRuW7zBI4n0WO9KoDcvKyRCskq2w
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1880,7 +1880,7 @@ Description de la clé : 'Donne le nombre de quadrakills réalisés par le joueu
 //////
 Nom clé : quadraKills
 Chemin de clés pour obtenir cette clé : info-participants-0-quadraKills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -1889,7 +1889,7 @@ Description de la clé : ''
 //////
 Nom clé : riotIdName
 Chemin de clés pour obtenir cette clé : info-participants-0-riotIdName
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -1898,7 +1898,7 @@ Description de la clé : ''
 //////
 Nom clé : riotIdTagline
 Chemin de clés pour obtenir cette clé : info-participants-0-riotIdTagline
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1907,7 +1907,7 @@ Description de la clé : 'Donne le type de match (solo/duo/trio/quatuor/squad) q
 //////
 Nom clé : role
 Chemin de clés pour obtenir cette clé : info-participants-0-role
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : TEXT
 Exemple de valeur possible : DUO
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -1916,7 +1916,7 @@ Description de la clé : ''
 //////
 Nom clé : sightWardsBoughtInGame
 Chemin de clés pour obtenir cette clé : info-participants-0-sightWardsBoughtInGame
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1925,7 +1925,7 @@ Description de la clé : 'Donne le nombre de fois que le joueur a utilisé son 1
 //////
 Nom clé : spell1Casts
 Chemin de clés pour obtenir cette clé : info-participants-0-spell1Casts
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 196
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1934,7 +1934,7 @@ Description de la clé : 'Donne le nombre de fois que le joueur a utilisé son 2
 //////
 Nom clé : spell2Casts
 Chemin de clés pour obtenir cette clé : info-participants-0-spell2Casts
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1943,7 +1943,7 @@ Description de la clé : 'Donne le nombre de fois que le joueur a utilisé son 3
 //////
 Nom clé : spell3Casts
 Chemin de clés pour obtenir cette clé : info-participants-0-spell3Casts
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 12
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1952,7 +1952,7 @@ Description de la clé : 'Donne le nombre de fois que le joueur a utilisé son 4
 //////
 Nom clé : spell4Casts
 Chemin de clés pour obtenir cette clé : info-participants-0-spell4Casts
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 7
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1961,7 +1961,7 @@ Description de la clé : 'Donne le nombre de fois que le joueur à utilisé son 
 //////
 Nom clé : summoner1Casts
 Chemin de clés pour obtenir cette clé : info-participants-0-summoner1Casts
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 6
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1970,7 +1970,7 @@ Description de la clé : 'Donne l'ID du premier summonerspell joué par le joueu
 //////
 Nom clé : summoner1Id
 Chemin de clés pour obtenir cette clé : info-participants-0-summoner1Id
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 6
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1979,7 +1979,7 @@ Description de la clé : 'Donne le nombre de fois que le joueur à utilisé son 
 //////
 Nom clé : summoner2Casts
 Chemin de clés pour obtenir cette clé : info-participants-0-summoner2Casts
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 4
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1988,7 +1988,7 @@ Description de la clé : 'Donne l'ID du deuxième summonerspell joué par le jou
 //////
 Nom clé : summoner2Id
 Chemin de clés pour obtenir cette clé : info-participants-0-summoner2Id
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 4
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -1997,7 +1997,7 @@ Description de la clé : 'Donne le SummonerId du joueur dans la partie.'
 //////
 Nom clé : summonerId
 Chemin de clés pour obtenir cette clé : info-participants-0-summonerId
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : TEXT
 Exemple de valeur possible : 0WqLkROovAWAGfyP81xT2nxy0PWjt4LzcbMhdn8QVHb2qN8
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2006,7 +2006,7 @@ Description de la clé : 'Donne le Lvl du joueur dans la partie.'
 //////
 Nom clé : summonerLevel
 Chemin de clés pour obtenir cette clé : info-participants-0-summonerLevel
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 783
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2015,7 +2015,7 @@ Description de la clé : 'Donne le nom du joueur dans la partie.'
 //////
 Nom clé : summonerName
 Chemin de clés pour obtenir cette clé : info-participants-0-summonerName
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : TEXT
 Exemple de valeur possible : LadiciusVibe
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
@@ -2024,7 +2024,7 @@ Description de la clé : 'Donne l'information de si l'équipe a réalisé un tea
 //////
 Nom clé : teamEarlySurrendered
 Chemin de clés pour obtenir cette clé : info-participants-0-teamEarlySurrendered
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : BOOLEAN
 Exemple de valeur possible : False
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -2033,7 +2033,7 @@ Description de la clé : 'Donne le teamId de l'équipe (déjà sauvegardé dans 
 //////
 Nom clé : teamId
 Chemin de clés pour obtenir cette clé : info-participants-0-teamId
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 100
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2042,7 +2042,7 @@ Description de la clé : 'Donne le poste (la teamPosition donc le poste qu'il a 
 //////
 Nom clé : teamPosition
 Chemin de clés pour obtenir cette clé : info-participants-0-teamPosition
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : TEXT
 Exemple de valeur possible : TOP
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -2051,7 +2051,7 @@ Description de la clé : 'Donne la durée (en seconde) de CC réalisée par le j
 //////
 Nom clé : timeCCingOthers
 Chemin de clés pour obtenir cette clé : info-participants-0-timeCCingOthers
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 15
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2060,7 +2060,7 @@ Description de la clé : 'Donne la durée (en secondes) jouée par le joueur pen
 //////
 Nom clé : timePlayed
 Chemin de clés pour obtenir cette clé : info-participants-0-timePlayed
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1589
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2069,7 +2069,7 @@ Description de la clé : 'Donne la quantité totale de Damage donné par le joue
 //////
 Nom clé : totalDamageDealt
 Chemin de clés pour obtenir cette clé : info-participants-0-totalDamageDealt
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 106464
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2078,7 +2078,7 @@ Description de la clé : 'Donne la quantité de Damage donné aux champions par 
 //////
 Nom clé : totalDamageDealtToChampions
 Chemin de clés pour obtenir cette clé : info-participants-0-totalDamageDealtToChampions
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 24433
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2087,7 +2087,7 @@ Description de la clé : 'Donne la quantité totale de Shield donné aux alliés
 //////
 Nom clé : totalDamageShieldedOnTeammates
 Chemin de clés pour obtenir cette clé : info-participants-0-totalDamageShieldedOnTeammates
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2096,7 +2096,7 @@ Description de la clé : 'Donne la quantité totale de dégat recu par le joueur
 //////
 Nom clé : totalDamageTaken
 Chemin de clés pour obtenir cette clé : info-participants-0-totalDamageTaken
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 21687
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2105,7 +2105,7 @@ Description de la clé : 'Donne la quantité totale de soins réalisé par le jo
 //////
 Nom clé : totalHeal
 Chemin de clés pour obtenir cette clé : info-participants-0-totalHeal
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 2735
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2114,7 +2114,7 @@ Description de la clé : 'Donne la quantité totale de soins réalisé par le jo
 //////
 Nom clé : totalHealsOnTeammates
 Chemin de clés pour obtenir cette clé : info-participants-0-totalHealsOnTeammates
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2123,7 +2123,7 @@ Description de la clé : 'Donne le nombre de minions tués par le joueur pendant
 //////
 Nom clé : totalMinionsKilled
 Chemin de clés pour obtenir cette clé : info-participants-0-totalMinionsKilled
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 160
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2132,7 +2132,7 @@ Description de la clé : 'Donne la durée totale de CC donnée par le joueur pen
 //////
 Nom clé : totalTimeCCDealt
 Chemin de clés pour obtenir cette clé : info-participants-0-totalTimeCCDealt
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 16
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2141,7 +2141,7 @@ Description de la clé : 'Donne la durée total (en secondes) passée par le jou
 //////
 Nom clé : totalTimeSpentDead
 Chemin de clés pour obtenir cette clé : info-participants-0-totalTimeSpentDead
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 308
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2150,7 +2150,7 @@ Description de la clé : 'Donne le nombre d'unité ayant été soigné par le jo
 //////
 Nom clé : totalUnitsHealed
 Chemin de clés pour obtenir cette clé : info-participants-0-totalUnitsHealed
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2159,7 +2159,7 @@ Description de la clé : 'Donne le nombre de triple kills réalisés par le joue
 //////
 Nom clé : tripleKills
 Chemin de clés pour obtenir cette clé : info-participants-0-tripleKills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2168,7 +2168,7 @@ Description de la clé : 'Donne la quantité de TrueDamage donné par le joueur 
 //////
 Nom clé : trueDamageDealt
 Chemin de clés pour obtenir cette clé : info-participants-0-trueDamageDealt
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 11172
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2177,7 +2177,7 @@ Description de la clé : 'Donne la quantité de TrueDamage donné à un ennemi p
 //////
 Nom clé : trueDamageDealtToChampions
 Chemin de clés pour obtenir cette clé : info-participants-0-trueDamageDealtToChampions
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 4306
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2186,7 +2186,7 @@ Description de la clé : 'Donne la quantité de TrueDamage recu par le joueur pe
 //////
 Nom clé : trueDamageTaken
 Chemin de clés pour obtenir cette clé : info-participants-0-trueDamageTaken
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1027
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2195,7 +2195,7 @@ Description de la clé : 'Donne le nombre de tourelles détruites par le joueur 
 //////
 Nom clé : turretKills
 Chemin de clés pour obtenir cette clé : info-participants-0-turretKills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -2204,7 +2204,7 @@ Description de la clé : 'Donne le nombre de tourelles tombés par le joueur pen
 //////
 Nom clé : turretTakedowns
 Chemin de clés pour obtenir cette clé : info-participants-0-turretTakedowns
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 4
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
@@ -2213,7 +2213,7 @@ Description de la clé : 'Donne le nombre de tourelles perdu par l'équipe penda
 //////
 Nom clé : turretsLost
 Chemin de clés pour obtenir cette clé : info-participants-0-turretsLost
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 3
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -2222,7 +2222,7 @@ Description de la clé : ''
 //////
 Nom clé : unrealKills
 Chemin de clés pour obtenir cette clé : info-participants-0-unrealKills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2231,7 +2231,7 @@ Description de la clé : 'Donne le nombre de pings de type VisionCleared réalis
 //////
 Nom clé : visionClearedPings
 Chemin de clés pour obtenir cette clé : info-participants-0-visionClearedPings
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2240,7 +2240,7 @@ Description de la clé : 'Donne le visionscore du joueur pendant la partie.'
 //////
 Nom clé : visionScore
 Chemin de clés pour obtenir cette clé : info-participants-0-visionScore
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 33
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2249,7 +2249,7 @@ Description de la clé : 'Donne le nombre de wards achetées par le joueur penda
 //////
 Nom clé : visionWardsBoughtInGame
 Chemin de clés pour obtenir cette clé : info-participants-0-visionWardsBoughtInGame
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 5
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2258,7 +2258,7 @@ Description de la clé : 'Donne le nombre de wards détruites par le joueur pend
 //////
 Nom clé : wardsKilled
 Chemin de clés pour obtenir cette clé : info-participants-0-wardsKilled
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2267,7 +2267,7 @@ Description de la clé : 'Donne le nombre de wards posées par le joueur pendant
 //////
 Nom clé : wardsPlaced
 Chemin de clés pour obtenir cette clé : info-participants-0-wardsPlaced
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 12
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2276,7 +2276,7 @@ Description de la clé : 'Donne l'information de si le joueur a gagné la partie
 //////
 Nom clé : win
 Chemin de clés pour obtenir cette clé : info-participants-0-win
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : BOOLEAN
 Exemple de valeur possible : True
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Game_Stats'
@@ -2285,7 +2285,7 @@ Description de la clé : 'Donne la région dans laquelle la partie a été joué
 //////
 Nom clé : platformId
 Chemin de clés pour obtenir cette clé : info-platformId
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : TEXT
 Exemple de valeur possible : EUW1
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Game_Stats'
@@ -2294,7 +2294,7 @@ Description de la clé : 'Donne le queueId de la partie.'
 //////
 Nom clé : queueId
 Chemin de clés pour obtenir cette clé : info-queueId
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 420
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2303,7 +2303,7 @@ Description de la clé : 'Donne le championId du champion joué par le joueur pe
 //////
 Nom clé : championId
 Chemin de clés pour obtenir cette clé : info-teams-0-bans-0-championId
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 79
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Liaison_Stats'
@@ -2312,7 +2312,7 @@ Description de la clé : 'Donne la position de ban du joueur pendant la partie.'
 //////
 Nom clé : pickTurn
 Chemin de clés pour obtenir cette clé : info-teams-0-bans-0-pickTurn
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
@@ -2321,7 +2321,7 @@ Description de la clé : 'Donne l'information que le premier Barono Nashor a ét
 //////
 Nom clé : first
 Chemin de clés pour obtenir cette clé : info-teams-0-objectives-baron-first
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : BOOLEAN
 Exemple de valeur possible : True
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
@@ -2330,7 +2330,7 @@ Description de la clé : 'Donne le nombre de Baron Nashor tués par l'équipe pe
 //////
 Nom clé : kills
 Chemin de clés pour obtenir cette clé : info-teams-0-objectives-baron-kills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 1
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
@@ -2339,7 +2339,7 @@ Description de la clé : 'Donne l'information que le premier kill a été réali
 //////
 Nom clé : first
 Chemin de clés pour obtenir cette clé : info-teams-0-objectives-champion-first
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : BOOLEAN
 Exemple de valeur possible : True
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
@@ -2348,7 +2348,7 @@ Description de la clé : 'Donne le nombre d'ennemie tués par l'équipe pendant 
 //////
 Nom clé : kills
 Chemin de clés pour obtenir cette clé : info-teams-0-objectives-champion-kills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 42
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
@@ -2357,7 +2357,7 @@ Description de la clé : 'DOnne l'information que le premier Dragon a été tué
 //////
 Nom clé : first
 Chemin de clés pour obtenir cette clé : info-teams-0-objectives-dragon-first
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : BOOLEAN
 Exemple de valeur possible : False
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
@@ -2366,7 +2366,7 @@ Description de la clé : 'Donne le nombre de Dragons tués par l'équipe pendant
 //////
 Nom clé : kills
 Chemin de clés pour obtenir cette clé : info-teams-0-objectives-dragon-kills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 3
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
@@ -2375,7 +2375,7 @@ Description de la clé : 'Donne l'information que le premier inhibiteur a été 
 //////
 Nom clé : first
 Chemin de clés pour obtenir cette clé : info-teams-0-objectives-inhibitor-first
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : BOOLEAN
 Exemple de valeur possible : True
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
@@ -2384,7 +2384,7 @@ Description de la clé : 'Donne le nombre d'inhibiteurs détruits par l'équipe 
 //////
 Nom clé : kills
 Chemin de clés pour obtenir cette clé : info-teams-0-objectives-inhibitor-kills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 3
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
@@ -2393,7 +2393,7 @@ Description de la clé : 'Donne l'information que le premier Hérault à été t
 //////
 Nom clé : first
 Chemin de clés pour obtenir cette clé : info-teams-0-objectives-riftHerald-first
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : BOOLEAN
 Exemple de valeur possible : True
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
@@ -2402,7 +2402,7 @@ Description de la clé : 'Donne le nombre de Héraults tués par l'équipe penda
 //////
 Nom clé : kills
 Chemin de clés pour obtenir cette clé : info-teams-0-objectives-riftHerald-kills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 2
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
@@ -2411,7 +2411,7 @@ Description de la clé : 'Donne l'information que la première tourelle à été
 //////
 Nom clé : first
 Chemin de clés pour obtenir cette clé : info-teams-0-objectives-tower-first
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : BOOLEAN
 Exemple de valeur possible : True
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
@@ -2420,7 +2420,7 @@ Description de la clé : 'Donne le nombre de tourelles détruites par l'équipe 
 //////
 Nom clé : kills
 Chemin de clés pour obtenir cette clé : info-teams-0-objectives-tower-kills
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 11
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
@@ -2429,7 +2429,7 @@ Description de la clé : 'Donne l'Id de l'équipe pour cette partie.'
 //////
 Nom clé : teamId
 Chemin de clés pour obtenir cette clé : info-teams-0-teamId
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : INT
 Exemple de valeur possible : 100
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
@@ -2438,7 +2438,7 @@ Description de la clé : 'Donne si l'équipe a gagné la partie.'
 //////
 Nom clé : win
 Chemin de clés pour obtenir cette clé : info-teams-0-win
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : BOOLEAN
 Exemple de valeur possible : True
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Game_Stats'
@@ -2447,6 +2447,6 @@ Description de la clé : 'Donne le code du tournois au quel appartient la partie
 //////
 Nom clé : tournamentCode
 Chemin de clés pour obtenir cette clé : info-tournamentCode
-Type de la valeur stockée : <class 'str'>
+Type de la valeu stockée : TEXT
 Exemple de valeur possible : 
 --------------------------------------------------------------------------------------

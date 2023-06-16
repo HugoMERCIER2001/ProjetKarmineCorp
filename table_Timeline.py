@@ -32,7 +32,7 @@ def create_table_Timeline_complete(cursor, api_key):
             break
     print(parametre_fichier_JSON)
     cursor.executemany(f"INSERT INTO Timeline (matchId, file) VALUES (%s, %s);", parametre_fichier_JSON)
-    suppression_fichier_timeline('data/match/match_timeline')
+    #suppression_fichier_timeline('data/match/match_timeline')
 
 ##################################Actualisation de la Table Timeline##############################################################################################################
 
@@ -60,7 +60,7 @@ def actualisation_table_Timeline(cursor, api_key):
             break    
     if compteur_actualisé != 0:
         cursor.executemany(f"INSERT INTO Timeline (matchId, file) VALUES (%s, %s);", parametre_fichier_JSON)
-    suppression_fichier_timeline('data/match/match_timeline')
+    #suppression_fichier_timeline('data/match/match_timeline')
 
 #############################Suppression Fichiers crées###############################################################################################################################################
 
