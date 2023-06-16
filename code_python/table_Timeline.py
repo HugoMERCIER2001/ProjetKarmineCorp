@@ -4,7 +4,7 @@ import json
 import time
 import glob
 import os
-from API_Riots import *
+from code_python.API_Riots import *
 
 
 
@@ -24,7 +24,7 @@ def create_table_Timeline_complete(cursor, api_key):
         compteur_Timeline += 1
         get_timeline_by_id(row[0], api_key)
 
-        with open(f"data/match/match_timeline/{row[0]}.json", 'r') as f:
+        with open(f"../data/match/match_timeline/{row[0]}.json", 'r') as f:
             contenu_json = json.load(f)
             parametre_fichier_JSON.append((f"{row[0]}", json.dumps(contenu_json)))
 
@@ -52,7 +52,7 @@ def actualisation_table_Timeline(cursor, api_key):
     for row in rows:
         if row[0] not in list_match_deja_vu: #vérifie si le matchId n'est pas déja traité dans la databse.
             get_timeline_by_id(row[0], api_key)
-            with open(f"data/match/match_timeline/{row[0]}.json", 'r') as f:
+            with open(f"../data/match/match_timeline/{row[0]}.json", 'r') as f:
                 contenu_json = json.load(f)
                 parametre_fichier_JSON.append((f"{row[0]}", json.dumps(contenu_json)))
             compteur_actualisé += 1

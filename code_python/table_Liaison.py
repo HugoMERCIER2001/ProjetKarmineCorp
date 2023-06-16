@@ -2,7 +2,7 @@ import requests
 import psycopg2
 import json
 import time
-from API_Riots import *
+from code_python.API_Riots import *
 
 
 
@@ -29,7 +29,7 @@ def cree_liste_match(cursor, api_key):
         if row[1] != '0':
             get_games_by_puuid(row[1], api_key, 100)
             compteur_appels_API +=1
-            with open("data/match/list_match.json", "r") as f:
+            with open("../data/match/list_match.json", "r") as f:
                 objet = json.load(f)
                 for match_id in objet:
                     Liste_match.append(match_id)
@@ -81,7 +81,7 @@ def actualisation_table_liaison(cursor, api_key):
         if summoner_puuid[1] != '0':
             get_games_by_puuid(summoner_puuid[1], api_key, 100)
             compteur_appels_API +=1
-            with open("data/match/list_match.json", "r") as f:
+            with open("../data/match/list_match.json", "r") as f:
                 objet = json.load(f)
                 i = 0
                 while (objet[i],summoner_puuid[0]) not in Liste_deja_sauvegarde:

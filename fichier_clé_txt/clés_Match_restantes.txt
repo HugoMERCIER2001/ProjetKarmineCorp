@@ -1,0 +1,531 @@
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'Version données jeu'
+Description de la clé : 'Donne la version des données du jeu'
+//////
+Nom clé : dataVersion
+Chemin de clés pour obtenir cette clé : metadata-dataVersion
+Type de la valeur stockée : INT
+Exemple de valeur possible : 2
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : matchId
+Chemin de clés pour obtenir cette clé : metadata-matchId
+Type de la valeur stockée : TEXT
+Exemple de valeur possible : EUW1_6335475357
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : 0
+Chemin de clés pour obtenir cette clé : metadata-participants-0
+Type de la valeur stockée : TEXT
+Exemple de valeur possible : 0dcMYn8gfSaMmj2NUobe5DqIznKK0By1sqAiVQ_h4sGlUrfZp2fRuW7zBI4n0WO9KoDcvKyRCskq2w
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : gameId
+Chemin de clés pour obtenir cette clé : info-gameId
+Type de la valeur stockée : INT
+Exemple de valeur possible : 6335475357
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'Mode Jeu'
+Description de la clé : 'Donne le mode de jeu de la game.'
+//////
+Nom clé : gameMode
+Chemin de clés pour obtenir cette clé : info-gameMode
+Type de la valeur stockée : TEXT
+Exemple de valeur possible : CLASSIC
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : gameName
+Chemin de clés pour obtenir cette clé : info-gameName
+Type de la valeur stockée : TEXT
+Exemple de valeur possible : teambuilder-match-6335475357
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'Assist me Pings'
+Description de la clé : 'Donne le nombre de pings de type Assist Me réalisés par le joueur.'
+//////
+Nom clé : assistMePings
+Chemin de clés pour obtenir cette clé : info-participants-0-assistMePings
+Type de la valeur stockée : INT
+Exemple de valeur possible : 2
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'bountyLevel'
+Description de la clé : ''
+//////
+Nom clé : bountyLevel
+Chemin de clés pour obtenir cette clé : info-participants-0-bountyLevel
+Type de la valeur stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'blastConeOppositeOpponentCount'
+Description de la clé : ''
+//////
+Nom clé : blastConeOppositeOpponentCount
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-blastConeOppositeOpponentCount
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'completeSupportQuestInTime'
+Description de la clé : ''
+//////
+Nom clé : completeSupportQuestInTime
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-completeSupportQuestInTime
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'dancedWithRiftHerald'
+Description de la clé : ''
+//////
+Nom clé : dancedWithRiftHerald
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-dancedWithRiftHerald
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'earlyLaningPhaseGoldExpAdvantage'
+Description de la clé : ''
+//////
+Nom clé : earlyLaningPhaseGoldExpAdvantage
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-earlyLaningPhaseGoldExpAdvantage
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'elderDragonKillsWithOpposingSoul'
+Description de la clé : ''
+//////
+Nom clé : elderDragonKillsWithOpposingSoul
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-elderDragonKillsWithOpposingSoul
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'flawlessAces'
+Description de la clé : ''
+//////
+Nom clé : flawlessAces
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-flawlessAces
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'gameLength'
+Description de la clé : 'Donne la durée de la partie en secondes (déja dans la table Gamestat)'
+//////
+Nom clé : gameLength
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-gameLength
+Type de la valeu stockée : DECIMAL
+Exemple de valeur possible : 1589.9147854
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'getTakedownsInAllLanesEarlyJungleAsLaner'
+Description de la clé : ''
+//////
+Nom clé : getTakedownsInAllLanesEarlyJungleAsLaner
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-getTakedownsInAllLanesEarlyJungleAsLaner
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : hadOpenNexus
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-hadOpenNexus
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'junglerTakedownsNearDamagedEpicMonster'
+Description de la clé : 'Donne le nombre de Kill réalisé lors d'un combat proche d'un monstre epic.'
+//////
+Nom clé : junglerTakedownsNearDamagedEpicMonster
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-junglerTakedownsNearDamagedEpicMonster
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'killedChampTookFullTeamDamageSurvived'
+Description de la clé : ''
+//////
+Nom clé : killedChampTookFullTeamDamageSurvived
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-killedChampTookFullTeamDamageSurvived
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'killsOnOtherLanesEarlyJungleAsLaner'
+Description de la clé : ''
+//////
+Nom clé : killsOnOtherLanesEarlyJungleAsLaner
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-killsOnOtherLanesEarlyJungleAsLaner
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'killsOnRecentlyHealedByAramPack'
+Description de la clé : ''
+//////
+Nom clé : killsOnRecentlyHealedByAramPack
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-killsOnRecentlyHealedByAramPack
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'killsWithHelpFromEpicMonster'
+Description de la clé : 'Donne le nombre de kills fait par le joueur avec l'aide d'un monstre epic.'
+//////
+Nom clé : killsWithHelpFromEpicMonster
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-killsWithHelpFromEpicMonster
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'knockEnemyIntoTeamAndKill'
+Description de la clé : ''
+//////
+Nom clé : knockEnemyIntoTeamAndKill
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-knockEnemyIntoTeamAndKill
+Type de la valeu stockée : INT
+Exemple de valeur possible : 6
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'landSkillShotsEarlyGame'
+Description de la clé : ''
+//////
+Nom clé : landSkillShotsEarlyGame
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-landSkillShotsEarlyGame
+Type de la valeu stockée : INT
+Exemple de valeur possible : 13
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'laningPhaseGoldExpAdvantage'
+Description de la clé : ''
+//////
+Nom clé : laningPhaseGoldExpAdvantage
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-laningPhaseGoldExpAdvantage
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'maxKillDeficit'
+Description de la clé : ''
+//////
+Nom clé : maxKillDeficit
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-maxKillDeficit
+Type de la valeu stockée : INT
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'moreEnemyJungleThanOpponent'
+Description de la clé : ''
+//////
+Nom clé : moreEnemyJungleThanOpponent
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-moreEnemyJungleThanOpponent
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'outerTurretExecutesBefore10Minutes'
+Description de la clé : ''
+//////
+Nom clé : outerTurretExecutesBefore10Minutes
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-outerTurretExecutesBefore10Minutes
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'outnumberedKills'
+Description de la clé : ''
+//////
+Nom clé : outnumberedKills
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-outnumberedKills
+Type de la valeu stockée : INT
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'outnumberedNexusKill'
+Description de la clé : ''
+//////
+Nom clé : outnumberedNexusKill
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-outnumberedNexusKill
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'poroExplosions'
+Description de la clé : ''
+//////
+Nom clé : poroExplosions
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-poroExplosions
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'stealthWardsPlaced'
+Description de la clé : ''
+//////
+Nom clé : stealthWardsPlaced
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-stealthWardsPlaced
+Type de la valeu stockée : INT
+Exemple de valeur possible : 5
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'takedownsInAlcove'
+Description de la clé : ''
+//////
+Nom clé : takedownsInAlcove
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-takedownsInAlcove
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'Nbr Takedown Dans Fontaine Réalisé'
+Description de la clé : 'Donne le nombre de Takedowns dans la fontainne ennemie réalisés par le joueur pendant la partie.'
+/////
+Nom clé : takedownsInEnemyFountain
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-takedownsInEnemyFountain
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'Nbr Baron Tué'
+Description de la clé : 'Donne le nombre de Baron tué par l'équipe pendant la partie. (déjà traité plus bas)'
+//////
+Nom clé : teamBaronKills
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-teamBaronKills
+Type de la valeu stockée : INT
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'threeWardsOneSweeperCount'
+Description de la clé : ''
+//////
+Nom clé : threeWardsOneSweeperCount
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-threeWardsOneSweeperCount
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'tookLargeDamageSurvived'
+Description de la clé : ''
+//////
+Nom clé : tookLargeDamageSurvived
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-tookLargeDamageSurvived
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'Nbr 20 Minions 3 Seconde'
+Description de la clé : 'Donne le nombre de 20 minions pris en 3 secondes par le joueur pendant la partie.'
+//////
+Nom clé : twentyMinionsIn3SecondsCount
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-twentyMinionsIn3SecondsCount
+Type de la valeu stockée : INT
+Exemple de valeur possible : 7
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'Avantage Score Vision Lane'
+Description de la clé : ''
+//////
+Nom clé : visionScoreAdvantageLaneOpponent
+Chemin de clés pour obtenir cette clé : info-participants-0-challenges-visionScoreAdvantageLaneOpponent
+Type de la valeu stockée : DECIMAL
+Exemple de valeur possible : 2.4238553047180176
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'ID Champion Joué'
+Description de la clé : 'Donne l'Id du champion joué par le joueur pendant la partie (déjà traité plus bas).'
+//////
+Nom clé : championId
+Chemin de clés pour obtenir cette clé : info-participants-0-championId
+Type de la valeu stockée : INT
+Exemple de valeur possible : 67
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'eligibleForProgression'
+Description de la clé : ''
+//////
+Nom clé : eligibleForProgression
+Chemin de clés pour obtenir cette clé : info-participants-0-eligibleForProgression
+Type de la valeu stockée : BOOLEAN
+Exemple de valeur possible : True
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'Nbr Ping EnnemyVision Réalisé'
+Description de la clé : 'Donne le nombre de pings de type EnnemyVision réalisés par le joueur pendant la partie.'
+//////
+Nom clé : enemyVisionPings
+Chemin de clés pour obtenir cette clé : info-participants-0-enemyVisionPings
+Type de la valeu stockée : INT
+Exemple de valeur possible : 1
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'Dégat Magique Ennemi Donné'
+Description de la clé : 'Donne la quantité de dégats magique infligés par le joueur aux champions ennemi pendant la partie.'
+//////
+Nom clé : magicDamageDealtToChampions
+Chemin de clés pour obtenir cette clé : info-participants-0-magicDamageDealtToChampions
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : defense
+Chemin de clés pour obtenir cette clé : info-participants-0-perks-statPerks-defense
+Type de la valeu stockée : INT
+Exemple de valeur possible : 5002
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : flex
+Chemin de clés pour obtenir cette clé : info-participants-0-perks-statPerks-flex
+Type de la valeu stockée : INT
+Exemple de valeur possible : 5008
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : offense
+Chemin de clés pour obtenir cette clé : info-participants-0-perks-statPerks-offense
+Type de la valeu stockée : INT
+Exemple de valeur possible : 5005
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : description
+Chemin de clés pour obtenir cette clé : info-participants-0-perks-styles-0-description
+Type de la valeu stockée : TEXT
+Exemple de valeur possible : primaryStyle
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : perk
+Chemin de clés pour obtenir cette clé : info-participants-0-perks-styles-0-selections-0-perk
+Type de la valeu stockée : INT
+Exemple de valeur possible : 8008
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : var1
+Chemin de clés pour obtenir cette clé : info-participants-0-perks-styles-0-selections-0-var1
+Type de la valeu stockée : INT
+Exemple de valeur possible : 121
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : var2
+Chemin de clés pour obtenir cette clé : info-participants-0-perks-styles-0-selections-0-var2
+Type de la valeu stockée : INT
+Exemple de valeur possible : 26
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : var3
+Chemin de clés pour obtenir cette clé : info-participants-0-perks-styles-0-selections-0-var3
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : ''
+Description de la clé : ''
+//////
+Nom clé : style
+Chemin de clés pour obtenir cette clé : info-participants-0-perks-styles-0-style
+Type de la valeu stockée : INT
+Exemple de valeur possible : 8000
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'riotIdName'
+Description de la clé : ''
+//////
+Nom clé : riotIdName
+Chemin de clés pour obtenir cette clé : info-participants-0-riotIdName
+Type de la valeu stockée : INT
+Exemple de valeur possible : 
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'riotIdTagline'
+Description de la clé : ''
+//////
+Nom clé : riotIdTagline
+Chemin de clés pour obtenir cette clé : info-participants-0-riotIdTagline
+Type de la valeu stockée : INT
+Exemple de valeur possible : 
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'sightWardsBoughtInGame'
+Description de la clé : ''
+//////
+Nom clé : sightWardsBoughtInGame
+Chemin de clés pour obtenir cette clé : info-participants-0-sightWardsBoughtInGame
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'teamId'
+Description de la clé : 'Donne le teamId de l'équipe (déjà sauvegardé dans Team_Stats plus bas).'
+//////
+Nom clé : teamId
+Chemin de clés pour obtenir cette clé : info-participants-0-teamId
+Type de la valeu stockée : INT
+Exemple de valeur possible : 100
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'Durée Immobilisation Réalisé'
+Description de la clé : 'Donne la durée (en seconde) de CC réalisée par le joueur pendant la partie.'
+//////
+Nom clé : timeCCingOthers
+Chemin de clés pour obtenir cette clé : info-participants-0-timeCCingOthers
+Type de la valeu stockée : INT
+Exemple de valeur possible : 15
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'turretTakedowns'
+Description de la clé : 'Donne le nombre de tourelles tombés par le joueur pendant la partie (existe déjà dans challenges).'
+//////
+Nom clé : turretTakedowns
+Chemin de clés pour obtenir cette clé : info-participants-0-turretTakedowns
+Type de la valeu stockée : INT
+Exemple de valeur possible : 4
+--------------------------------------------------------------------------------------
+Table où est stockée la data : ''
+Nom de la clé dans la database : 'unrealKills'
+Description de la clé : ''
+//////
+Nom clé : unrealKills
+Chemin de clés pour obtenir cette clé : info-participants-0-unrealKills
+Type de la valeu stockée : INT
+Exemple de valeur possible : 0
+--------------------------------------------------------------------------------------

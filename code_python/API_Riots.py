@@ -134,7 +134,7 @@ def envoie_demande_liste_challengers(api_key):
     # La requête a réussi
         data = response.json() # Récupérer les données de réponse au format JSON
         # Traiter les données
-        with open("data/summoner/data_challenger_id.json", "w") as f:
+        with open("../data/summoner/data_challenger_id.json", "w") as f:
             json.dump(data, f)
     # Gérer les erreurs de requête
     else:
@@ -156,7 +156,7 @@ def envoie_demande_PUUID_summoner(summoner_id, api_key):
         # La requête a réussi
         data = response.json() # Récupérer les données de réponse au format JSON
         # Traiter les données
-        with open("data/summoner/data_summoner_id.json", "w") as f:
+        with open("../data/summoner/data_summoner_id.json", "w") as f:
             json.dump(data, f)
     # Gérer les erreurs de requête
     else:
@@ -179,7 +179,7 @@ def envoie_demande_liste_match_challengers(api_key):
         # La requête a réussi
         data = response.json() # Récupérer les données de réponse au format JSON
         # Traiter les données
-        with open("data/match/data_match_id.json", "w") as f:
+        with open("../data/match/data_match_id.json", "w") as f:
             json.dump(data, f)
     # Gérer les erreurs de requête
     else:
@@ -202,7 +202,7 @@ def get_games_by_puuid(puuid, api_key, nb_games=100):
         # La requête a réussi
         data = response.json() # Récupérer les données de réponse au format JSON
         # Traiter les données
-        with open("data/match/list_match.json", "w") as f:
+        with open("../data/match/list_match.json", "w") as f:
             json.dump(data, f)
     # Gérer les erreurs de requête
     else:
@@ -223,7 +223,7 @@ def get_match_by_id(match_id, api_key):
         # La requête a réussi
         data = response.json() # Récupérer les données de réponse au format JSON
         # Traiter les données
-        with open(f"data/match/match_info/{match_id}.json", "w") as f:
+        with open(f"../data/match/match_info/{match_id}.json", "w") as f:
             json.dump(data, f)
     # Gérer les erreurs de requête
     else:
@@ -243,7 +243,7 @@ def get_timeline_by_id(match_id, api_key):
         # La requête a réussi
         data = response.json() # Récupérer les données de réponse au format JSON
         # Traiter les données
-        with open(f"data/match/match_timeline/{match_id}.json", "w") as f:
+        with open(f"../data/match/match_timeline/{match_id}.json", "w") as f:
             json.dump(data, f)
     # Gérer les erreurs de requête
     else:

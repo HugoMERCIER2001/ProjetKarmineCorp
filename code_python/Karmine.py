@@ -2,13 +2,14 @@ import requests
 import psycopg2
 import json
 import time
-from API_Riots import *
-from table_Joueurs import *
-from table_Game import *
-from table_Timeline import *
-from table_Liaison import *
-from Keys import *
-from API_OpenAI import *
+from code_python.Table_Keys import *
+from code_python.API_Riots import *
+from code_python.table_Joueurs import *
+from code_python.table_Game import *
+from code_python.table_Timeline import *
+from code_python.table_Liaison import *
+from code_python.Keys import *
+from code_python.API_OpenAI import *
 
 
 print("DEBUT DE PROGRAMME")
@@ -58,12 +59,13 @@ def Game(cursor, api_key):
     #create_table_Game_complete(cursor, api_key)
     #actualisation_table_Game(cursor, api_key, False)
     #create_table_Timeline_complete(cursor, api_key)
-    actualisation_table_Timeline(cursor, api_key)
+    #actualisation_table_Timeline(cursor, api_key)
+    cursor.execute("SELECT COUNT(Nom_clé) FROM Key")
     #cursor.execute("SELECT file FROM Timeline WHERE Matchid = 'EUW1_6338373555'")
     #cursor.execute("SELECT column_name FROM information_schema.columns WHERE table_name = 'Joueurs';")
-    #rows = cursor.fetchall()
-    #for row in rows:
-    #    print(row)
+    rows = cursor.fetchall()
+    for row in rows:
+        print(row)
     conn.commit()
     cursor.close()        
     conn.close()
@@ -71,18 +73,20 @@ def Game(cursor, api_key):
 
 
 
-def Keys():
-    ecrit_clés()
-    #demande_def_clé_match_chatGPT('matchId')
+def Keys(cursor):
+    cree_table_cle_pleine(cursor)
+    conn.commit()
+    cursor.close()
+    conn.close()
+    print('FIN')
 
 
 
 #joueurs(CURSEUR, CLE_API)
-liaison(CURSEUR, CLE_API)
+#liaison(CURSEUR, CLE_API)
 Game(CURSEUR, CLE_API)
-#Keys()
-
-
+#Keys(CURSEUR)
+#cree_table_cle_pleine(CURSEUR)
 
 
 

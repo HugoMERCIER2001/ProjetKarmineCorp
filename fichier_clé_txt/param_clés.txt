@@ -1,3 +1,4 @@
+--------------------------------------------------------------------------------------
 Table où est stockée la data : ''
 Nom de la clé dans la database : 'Version données jeu'
 Description de la clé : 'Donne la version des données du jeu'
@@ -27,9 +28,7 @@ Exemple de valeur possible : 0dcMYn8gfSaMmj2NUobe5DqIznKK0By1sqAiVQ_h4sGlUrfZp2f
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Game_Stats'
 Nom de la clé dans la database : 'Date Création'
-Description de la clé : 'La valeur associée à la clé "gameCreation" est un timestamp Unix, qui représente le nombre de secondes écoulées depuis le 1er janvier 1970 à 00:00:00 UTC. Il s'agit d'une valeur numérique qui peut être convertie en une date et une heure compréhensibles en utilisant des fonctions ou des bibliothèques de manipulation de dates et heures.
-
-Par exemple, si la valeur de "gameCreation" est 1629451234, cela signifie que la partie a été créée le 21 août 2021 à 16:27:14 UTC.'
+Description de la clé : 'La valeur associée à la clé "gameCreation" est un timestamp Unix, qui représente le nombre de secondes écoulées depuis le 1er janvier 1970 à 00:00:00 UTC. Il s'agit d'une valeur numérique qui peut être convertie en une date et une heure compréhensibles en utilisant des fonctions ou des bibliothèques de manipulation de dates et heures.Par exemple, si la valeur de "gameCreation" est 1629451234, cela signifie que la partie a été créée le 21 août 2021 à 16:27:14 UTC.'
 //////
 Nom clé : gameCreation
 Chemin de clés pour obtenir cette clé : info-gameCreation
@@ -47,9 +46,7 @@ Exemple de valeur possible : 1589
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Game_Stats'
 Nom de la clé dans la database : 'Date Fin'
-Description de la clé : 'Description de la clé : 'La valeur associée à la clé "gameEND" est un timestamp Unix, qui représente le nombre de secondes écoulées depuis le 1er janvier 1970 à 00:00:00 UTC. Il s'agit d'une valeur numérique qui peut être convertie en une date et une heure compréhensibles en utilisant des fonctions ou des bibliothèques de manipulation de dates et heures.
-
-Par exemple, si la valeur de "gameCreation" est 1629451234, cela signifie que la partie a été finie le 21 août 2021 à 16:27:14 UTC.''
+Description de la clé : 'Description de la clé : 'La valeur associée à la clé "gameEND" est un timestamp Unix, qui représente le nombre de secondes écoulées depuis le 1er janvier 1970 à 00:00:00 UTC. Il s'agit d'une valeur numérique qui peut être convertie en une date et une heure compréhensibles en utilisant des fonctions ou des bibliothèques de manipulation de dates et heures.Par exemple, si la valeur de "gameCreation" est 1629451234, cela signifie que la partie a été finie le 21 août 2021 à 16:27:14 UTC.''
 //////
 Nom clé : gameEndTimestamp
 Chemin de clés pour obtenir cette clé : info-gameEndTimestamp
@@ -696,7 +693,7 @@ Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Team_Stats'
-Nom de la clé dans la database : 'Nbr Inhibiteur Perdu'
+Nom de la clé dans la database : 'Nbr Inhibiteur Perdu Equipe'
 Description de la clé : 'Donne le nombre d'inhibiteur perdu pendant la partie.'
 //////
 Nom clé : lostAnInhibitor
@@ -1037,9 +1034,9 @@ Chemin de clés pour obtenir cette clé : info-participants-0-challenges-takedow
 Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
-Table où est stockée la data : 'Team_Stats'
+Table où est stockée la data : ''
 Nom de la clé dans la database : 'Nbr Baron Tué'
-Description de la clé : 'Donne le nombre de Baron tué par l'équipe pendant la partie.'
+Description de la clé : 'Donne le nombre de Baron tué par l'équipe pendant la partie. (déjà traité plus bas)'
 //////
 Nom clé : teamBaronKills
 Chemin de clés pour obtenir cette clé : info-participants-0-challenges-teamBaronKills
