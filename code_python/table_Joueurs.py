@@ -2,14 +2,14 @@ import requests
 import psycopg2
 import json
 import time
-from code_python.API_Riots import *
+from API_Riots import *
 
 
 
 ######Création ######################################################################################################################################################################################################
 def rempli_table_challenger(cursor):
     """Fonction qui remplie la table avec les joueurs challengers crée précedemment"""
-    with open("../data/summoner/data_challenger_id.json", "r") as f:#data_challenger_id.json représente le document type JSON qui contient les données obtenue par la requête pour obtenir la liste des joueuurs challengers.
+    with open("../ProjetKarmineCorp/data/summoner/data_challenger_id.json", "r") as f:#data_challenger_id.json représente le document type JSON qui contient les données obtenue par la requête pour obtenir la liste des joueuurs challengers.
         objet = json.load(f)
         """print(objet["name"], "\n")"""#liste des clés non utilisées.
         """print(objet["tier"], "\n")"""
@@ -38,7 +38,7 @@ def associe_PUUID_aux_challengers(cursor, api_key):
     for summoner_id in summoner_ids:
         compteur += 1
         envoie_demande_PUUID_summoner(summoner_id[0], api_key)
-        with open("../data/summoner/data_summoner_id.json", "r") as f:#data_summoner_id.json représente le document type JSON qui contient les données obtenue par la requête pour obtenir le PUUID d'un joueur.
+        with open("../ProjetKarmineCorp/data/summoner/data_summoner_id.json", "r") as f:#data_summoner_id.json représente le document type JSON qui contient les données obtenue par la requête pour obtenir le PUUID d'un joueur.
             objet = json.load(f)
             parametre += f"WHEN summonerId = '{objet['id']}' THEN '{objet['puuid']}' "
         if compteur == 2000:
@@ -69,7 +69,7 @@ def actualisation_table_Joueurs(cursor, api_key, suppression = False): #la fonct
         compteur_joueurs += 1
         Liste_summoners_stats[row[0]] = {"leaguePoints" : row[1], "rank" : row[2], "wins" : row[3], "losses" : row[4]}
         Liste_summoners_ids.append(row[0])   
-    with open("../data/summoner/data_challenger_id.json", "r") as f:#data_challenger_id.json représente le document type JSON qui contient les données obtenue par la requête pour obtenir la liste des joueuurs challengers.
+    with open("../ProjetKarmineCorp/data/summoner/data_challenger_id.json", "r") as f:#data_challenger_id.json représente le document type JSON qui contient les données obtenue par la requête pour obtenir la liste des joueuurs challengers.
         objet = json.load(f)
         entries = objet["entries"]
         for element in entries:

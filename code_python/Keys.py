@@ -4,7 +4,7 @@ import json
 import time
 import glob
 import os
-from code_python.API_Riots import *
+from API_Riots import *
 
 PARAM_TEXT = ""
 print("PARAM TEXT = ", PARAM_TEXT)
@@ -72,7 +72,7 @@ def recupere_les_clés_MatchJSON(fichier_JSON, L_clés_visités, L_clés, chemin
     return L_clés
 
 def ecrit_clés():
-        param_textuel = recupere_les_clés_MatchJSON('../data/match/match_info/EUW1_6335475357.json', [], [], 'clés_Match2.txt')
+        param_textuel = recupere_les_clés_MatchJSON('../ProjetKarmineCorp/data/match/match_info/EUW1_6335475357.json', [], [], 'clés_Match2.txt')
         with open("clés_Match.txt", "w") as f:
             global PARAM_TEXT
             print("PARAM_TEXT2 = ", PARAM_TEXT)

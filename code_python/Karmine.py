@@ -2,14 +2,15 @@ import requests
 import psycopg2
 import json
 import time
-from code_python.Table_Keys import *
-from code_python.API_Riots import *
-from code_python.table_Joueurs import *
-from code_python.table_Game import *
-from code_python.table_Timeline import *
-from code_python.table_Liaison import *
-from code_python.Keys import *
-from code_python.API_OpenAI import *
+from Table_Keys import *
+from API_Riots import *
+from table_Joueurs import *
+from table_Game import *
+from table_Game_Stats import *
+from table_Timeline import *
+from table_Liaison import *
+from Keys import *
+from API_OpenAI import *
 
 
 print("DEBUT DE PROGRAMME")
@@ -60,7 +61,7 @@ def Game(cursor, api_key):
     #actualisation_table_Game(cursor, api_key, False)
     #create_table_Timeline_complete(cursor, api_key)
     #actualisation_table_Timeline(cursor, api_key)
-    cursor.execute("SELECT COUNT(Nom_clé) FROM Key")
+    cursor.execute("SELECT * FROM Key")
     #cursor.execute("SELECT file FROM Timeline WHERE Matchid = 'EUW1_6338373555'")
     #cursor.execute("SELECT column_name FROM information_schema.columns WHERE table_name = 'Joueurs';")
     rows = cursor.fetchall()
@@ -74,7 +75,9 @@ def Game(cursor, api_key):
 
 
 def Keys(cursor):
-    cree_table_cle_pleine(cursor)
+    #cree_table_cle_pleine(cursor)
+    #crée_table_game_stats_vide(cursor)
+    rempli_table_game_stats(cursor)
     conn.commit()
     cursor.close()
     conn.close()
@@ -84,10 +87,8 @@ def Keys(cursor):
 
 #joueurs(CURSEUR, CLE_API)
 #liaison(CURSEUR, CLE_API)
-Game(CURSEUR, CLE_API)
-#Keys(CURSEUR)
+#Game(CURSEUR, CLE_API)
+Keys(CURSEUR)
 #cree_table_cle_pleine(CURSEUR)
-
-
 
 L = ['ZyY8BiyCwr8NmveDFyZzSo4gwmoZCBicJpIWqqBpPgp67oc','zTr6iTedMEK5kLJ_jqJc8XPKnkM7L5L_q4ni6wZeRNRAX4M','_ZQUVCGxbOQ75y62QmxblXylc2eseFZaiDllNt78imZ_rqqg']
