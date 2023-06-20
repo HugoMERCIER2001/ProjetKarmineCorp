@@ -5,7 +5,7 @@ import time
 from Table_Keys import *
 from API_Riots import *
 from table_Joueurs import *
-from table_Game import *
+from table_Match import *
 from table_Game_Stats import *
 from table_Timeline import *
 from table_Liaison import *
@@ -61,7 +61,9 @@ def Game(cursor, api_key):
     #actualisation_table_Game(cursor, api_key, False)
     #create_table_Timeline_complete(cursor, api_key)
     #actualisation_table_Timeline(cursor, api_key)
-    cursor.execute("SELECT * FROM Key")
+    #cursor.execute("DROP TABLE Match")
+    cursor.execute("SELECT * FROM Match;")
+    #cursor.execute("SELECT Nom_clé, Chemin_clé, Type_valeur FROM Key WHERE Table_stockage = 'Game_Stats' AND Extraite = '1';")
     #cursor.execute("SELECT file FROM Timeline WHERE Matchid = 'EUW1_6338373555'")
     #cursor.execute("SELECT column_name FROM information_schema.columns WHERE table_name = 'Joueurs';")
     rows = cursor.fetchall()
@@ -77,7 +79,18 @@ def Game(cursor, api_key):
 def Keys(cursor):
     #cree_table_cle_pleine(cursor)
     #crée_table_game_stats_vide(cursor)
-    rempli_table_game_stats(cursor)
+    #rempli_table_game_stats(cursor)
+    matchids = [('EUW1_6430054332',), ('EUW1_6336853773', )]
+    query = "SELECT file->\'info\'->\'gameCreation\', file->\'info\'->\'gameDuration\' FROM Match WHERE MatchId = %s"
+    for matchid in matchids :
+        sql = cursor.mogrify(query, matchid)
+        print("sql =", sql)
+    cursor.execute("SELECT file->\'info\'->\'gameCreation\', file->\'info\'->\'gameDuration\' FROM Match WHERE MatchId = 'EUW1_6336853773'")
+    #cursor.executemany("SELECT %s FROM Match WHERE MatchId = %s", [("file->\'info\'->\'gameCreation\' AS EUW1_6430054332_Date_Création, file->\'info\'->\'gameDuration\' AS Durée", 'EUW1_6430054332'),("file->\'info\'->\'gameCreation\' AS EUW1_6336853773_Date_Création, file->\'info\'->\'gameDuration\' AS Durée", 'EUW1_6336853773')])
+    #cursor.execute('CREATE EXTENSION IF NOT EXISTS jsonb;')
+    rows = cursor.fetchall()
+    for row in rows:
+        print(row)
     conn.commit()
     cursor.close()
     conn.close()
@@ -87,8 +100,8 @@ def Keys(cursor):
 
 #joueurs(CURSEUR, CLE_API)
 #liaison(CURSEUR, CLE_API)
-#Game(CURSEUR, CLE_API)
-Keys(CURSEUR)
+Game(CURSEUR, CLE_API)
+#Keys(CURSEUR)
 #cree_table_cle_pleine(CURSEUR)
 
 L = ['ZyY8BiyCwr8NmveDFyZzSo4gwmoZCBicJpIWqqBpPgp67oc','zTr6iTedMEK5kLJ_jqJc8XPKnkM7L5L_q4ni6wZeRNRAX4M','_ZQUVCGxbOQ75y62QmxblXylc2eseFZaiDllNt78imZ_rqqg']

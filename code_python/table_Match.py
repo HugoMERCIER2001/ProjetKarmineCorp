@@ -11,7 +11,13 @@ from API_Riots import *
 #########################Création de la Table Game#######################################################################################################
 
 def create_tables_Game_vide(cursor):
-    cursor.execute("CREATE TABLE Match (matchId VARCHAR(50), file JSONB, PRIMARY KEY (matchId));")
+    """
+    Crée la table vide Match, les colonnes 
+    Extrait_Game_Stats représente un entier valant soit 0 si les données du JSON n'ont pas été extraites dans la table Game_Stats.
+    Extrait_Liaison_Stats représente une Liste de 10 élément valant soit 0 si les données associées au ième joueur de la partie ont été extraite dans la table Liaison_Stats.
+    Extrait_Team_Stats représente une liste de 2 éléments valant soit 0 soit 1, si les données associées à la ième équipe de la partie ont été extraite dans la table Team_Stats.
+    """
+    cursor.execute("CREATE TABLE Match (matchId VARCHAR(50), file JSONB, Extrait_Game_Stats INT, Extrait_Liaison_Stats INTEGER[], Extrait_Team_Stats INTEGER[], PRIMARY KEY (matchId));")
 
 
 def create_table_Game_complete(cursor, api_key, suppression = False):
@@ -32,11 +38,12 @@ def create_table_Game_complete(cursor, api_key, suppression = False):
             contenu_json = json.load(f)
             parametre_fichier_JSON.append((f"{row[0]}", json.dumps(contenu_json)))
 
-        if compteur_Game == 10:
+        if compteur_Game == 99:
             break
     print(parametre_fichier_JSON)
-    cursor.executemany(f"INSERT INTO Match (matchId, file) VALUES (%s, %s);", parametre_fichier_JSON)
-    suppression_fichier_game('../ProjetKarmineCorp/data/match/match_info')
+    cursor.executemany(f"INSERT INTO Match (matchId, file, Extrait_Game_Stats, Extrait_Liaison_Stats, Extrait_Team_Stats) VALUES (%s, %s, 0, ARRAY[0, 0, 0, 0, 0, 0, 0, 0, 0, 0], ARRAY[0, 0]);", parametre_fichier_JSON)
+    if suppression :
+        suppression_fichier_game('../ProjetKarmineCorp/data/match/match_info')
 
 ##################################Actualisation de la Table Game##############################################################################################################
 
