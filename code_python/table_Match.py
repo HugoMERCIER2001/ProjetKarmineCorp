@@ -71,7 +71,7 @@ def actualisation_table_Game(cursor, api_key, suppression = False):
         if compteur_actualisé == 1:
             break
     if compteur_actualisé != 0:
-        cursor.executemany(f"INSERT INTO Match (matchId, file) VALUES (%s, %s);", parametre_fichier_JSON)
+        cursor.executemany(f"INSERT INTO Match (matchId, file, Extrait_Game_Stats, Extrait_Liaison_Stats, Extrait_Team_Stats) VALUES (%s, %s, 0, ARRAY[0, 0, 0, 0, 0, 0, 0, 0, 0, 0], ARRAY[0, 0]);", parametre_fichier_JSON)
     if suppression :
         suppression_fichier_game('../ProjetKarmineCorp/data/match/match_info')
 

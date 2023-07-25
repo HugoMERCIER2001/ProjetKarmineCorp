@@ -166,6 +166,9 @@ Il ne faut surtout pas changer le formatage du fichier clés_params.txt (sinon l
 
 SummonerName,puuid, SummonerId et SummonerLvl sont dans le JSON game, et sont donc sauvegardé aussi dans Liaison_Stats, à voir ce que l'on fait (dédoublement de l'information qui est à la fois dans Joueurs et Liaison_Stats ou pas ?).
 
+Il faut que lorsque on extrait les JSON, si une clé dans le chemin clé est un entier comme un indice d'élement d'une liste, il faut que dans l'enchainement : file->'participant'->0->donne, 0 ne soit pas entre guillements.
+
+Les Timestamps stockée doivent être stockés en BIGINT et pas en INT.
 
 1 - finir de sortir des JSON.
 1bis - réorganiser les fichiers. (il faut que tout soit mis dans des dossier et en plus que on ait une fonction actualisation et une création que on a juste à lancer pour que tout soit actualisé ou créé.)
@@ -175,3 +178,9 @@ SummonerName,puuid, SummonerId et SummonerLvl sont dans le JSON game, et sont do
 4 - Test
 5 - Faire Agrandissement.py
 6 - Faire Transfert.py
+
+  ### IDEES
+
+  Si on fait une page pour TFT, il faudrait que en connectant son compte à la page TFT on puisse sauvegarder des compos automatiquement qui ont marchés, ou rappeler les dernières bonnes compos jous par le joueur.
+
+  Si on fait un page TFT, il faudrait faire des entrainements à choix, comme pour les echecs on place le joueur dans certaines situations, et on note ses choix.

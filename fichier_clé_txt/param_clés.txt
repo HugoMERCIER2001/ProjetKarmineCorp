@@ -32,7 +32,7 @@ Description de la clé : 'La valeur associée à la clé "gameCreation" est un t
 //////
 Nom clé : gameCreation
 Chemin de clés pour obtenir cette clé : info-gameCreation
-Type de la valeur stockée : INT
+Type de la valeur stockée : BIGINT
 Exemple de valeur possible : 1680000948061
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Game_Stats'
@@ -41,7 +41,7 @@ Description de la clé : 'Donne une valeure en secondes de la durée de la Game.
 //////
 Nom clé : gameDuration
 Chemin de clés pour obtenir cette clé : info-gameDuration
-Type de la valeur stockée : INT
+Type de la valeur stockée : BIGINT
 Exemple de valeur possible : 1589
 --------------------------------------------------------------------------------------
 Table où est stockée la data : 'Game_Stats'
@@ -50,7 +50,7 @@ Description de la clé : 'Description de la clé : 'La valeur associée à la cl
 //////
 Nom clé : gameEndTimestamp
 Chemin de clés pour obtenir cette clé : info-gameEndTimestamp
-Type de la valeur stockée : INT
+Type de la valeur stockée : BIGINT
 Exemple de valeur possible : 1680002569947
 --------------------------------------------------------------------------------------
 Table où est stockée la data : ''
@@ -350,7 +350,7 @@ Chemin de clés pour obtenir cette clé : info-participants-0-challenges-dragonT
 Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
-Table où est stockée la data : 'Game_Stats'
+Table où est stockée la data : 'Team_Stats'
 Nom de la clé dans la database : 'Durée Avant Premier Baron'
 Description de la clé : 'Donne la durée en seconde avant que le premier baron soit fait.'
 //////
@@ -449,7 +449,7 @@ Chemin de clés pour obtenir cette clé : info-participants-0-challenges-epicMon
 Type de la valeu stockée : INT
 Exemple de valeur possible : 0
 --------------------------------------------------------------------------------------
-Table où est stockée la data : 'Game_Stats'
+Table où est stockée la data : 'Team_Stats'
 Nom de la clé dans la database : 'Durée Avant Chute Première Tour'
 Description de la clé : 'Donne la durée en seconde avant que la première tour ne tombe dans la partie.'
 //////

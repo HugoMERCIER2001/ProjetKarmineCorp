@@ -1,0 +1,109 @@
+h1
+{
+    margin-bottom: 10px;
+    margin-top: 20%;
+}
+
+h2
+{
+    margin-top: 50px;
+}
+#titre
+{
+    color: rgba(245, 245, 245, 0.843);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+    width: 1000 px;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+html{
+    height: 2000px;
+}
+body {
+    height: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background: linear-gradient(to bottom, rgb(65, 124, 225), pink);
+ }
+ #Welcome
+ {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+ }
+  
+.barre-horizontale
+{
+    display: flex;
+    justify-content: center;
+}
+
+hr
+{
+    height: 2px;
+    background-color: whitesmoke;
+    margin: 20px 0;
+    width: 50%;
+    align-items: center;
+    margin-left: 25%;
+    margin-bottom: 30px;
+
+}
+
+.container{
+    height:80px;
+    background-image: linear-gradient(to bottom, royalblue, royalblue);
+}
+
+ /* Changer la couleur du texte */
+ .navbar-brand
+ {
+    margin-left : 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+    font-size: 30px;
+    text-decoration: none; /* Supprimer le soulignement */
+    font-weight: bold; /* Appliquer le style de police "gras" */
+    background-image: linear-gradient(to bottom,rgba(245, 245, 245, 0.796),rgb(195, 195, 195)); /* Dégradé de couleur */
+    background-clip: text; /* Appliquer le dégradé à l'intérieur du texte */
+    -webkit-background-clip: text; /* Pour la compatibilité avec les anciennes versions de WebKit */
+    color: transparent; /* Rendre le texte transparent pour afficher le dégradé */ }
+
+.logo-container{    
+    display: flex;
+    align-items: center;
+}
+
+.logo-petit{
+    margin-right: auto;
+}
+
+.sous-logo-petit{
+    margin-left: 20px;
+}
+
+.elements{
+    margin-right: 20px;
+}
+
+.video-presentation{
+    margin-left: 25%;
+}
+
+#button-charger-les-donnes{
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px; /* Bord arrondi */
+    height: 50px;
+    width: 30%;
+    color: royalblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15%;
+}

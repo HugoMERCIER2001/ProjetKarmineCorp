@@ -7,6 +7,7 @@ import os
 from API_Riots import *
 
 def crée_table_game_stats_vide(cursor):
+    """Fonction qui crée la table Game_Stats vide, avec les colonnes selon si elles ont dans la table Key, pour la colonne table_stockage la valeur 'Game_Stats'."""
     cursor.execute("SELECT Nom_clé, Chemin_clé, Type_valeur FROM Key WHERE Table_stockage = 'Game_Stats';")
     rows = cursor.fetchall()
     param_creation = ""
@@ -32,58 +33,73 @@ def suppression_table_game_stats(cursor):
      cursor.execute(f"UPDATE Key SET Extraite = '0' WHERE Table_stockage = 'Game_Stats' AND Extraite = '1';")
 
 
-def rempli_table_game_stats(cursor):
-    cursor.execute("SELECT Nom_clé, Chemin_clé FROM Key WHERE Table_stockage = 'Game_Stats' AND Extraite = '1';")#on va chercher les chemins de clés, pour les clés correspondants aux colonnes de la table Game_Stats.
+def rempli_table_game_stats_depuis_database(cursor):
+    cursor.execute("SELECT Nom_clé, Chemin_clé, Type_valeur FROM Key WHERE Table_stockage = 'Game_Stats' AND Extraite = '1';")#on va chercher les chemins de clés, pour les clés correspondants aux colonnes de la table Game_Stats.
     rows = cursor.fetchall()
-    param_creation = ""
-    L_Nom_clé, Chemin_clé, L_Match_id_deja_dans_table = [], [], []
+    L_Nom_clé, Chemin_clé, Type_valeur = [], [], ['TEXT']
     for row in rows:
         L_Nom_clé.append(row[0])#On se fait une liste avec le nom des colonnes de la table Game_Stats (pas très utile si ce n'est pour des test).
         Chemin_clé.append(row[1])#On se fait une liste de chemins de clés permettant d'aller chercher plus tard la valeur que l'on souhaite inserer dans la table Game_Stats
-    cursor.execute("SELECT MatchId FROM Game_Stats")#On va chercher les MatchId déjà dans la table pour pas repasser dessus.
+        Type_valeur.append(row[2])
+    print(Type_valeur)
+    cursor.execute("SELECT MatchId FROM Match WHERE Extrait_Game_Stats = 1")
     rows = cursor.fetchall()
-    for row in rows:
-         L_Match_id_deja_dans_table.append(row[0])#On se fait une liste des Matchs que l'on a déjà traité.
-    cursor.execute("SELECT MatchId FROM Match")
-    rows = cursor.fetchall()
-    print("len(rows) = ", len(rows), "rows = ", rows)
-    i = 0
-    parametre_execute_many = []#On prepare le parametre du executemany que l'on va réaliser apres pour récuperer les valeurs que l'on va inserer dans la table Game_Stats
-    while rows[i][0] not in L_Match_id_deja_dans_table and i < (len(rows) - 1):
-        param_select = f""
-        for j, element in enumerate(Chemin_clé):
-            print("j =", j, "i = ", i)
-            L_cle_dans_chemin_cle = element.split("-")
-            param_select_2 = f""
-            param_select_3 = f""
-            if j != 0:
-                 param_select += ", "
-            for cle in L_cle_dans_chemin_cle :
-                param_select_2 += f"->'{cle}'"
-            print("row[i][0] =", rows[i][0])
-            print("L_Nom_clé[j] =", L_Nom_clé[j])
-            param_select_3 += f"{rows[i][0]}_{L_Nom_clé[j]}"
-            param_select += f"file{param_select_2} AS {param_select_3}"      
-        param_where = f"{rows[i][0]}"
-        print("param_select =", param_select)
-        parametre_execute_many.append((param_select, param_where))
-        i += 1
-    print(tuple(parametre_execute_many))
-    cursor.executemany("SELECT %s FROM Match WHERE MatchId = %s", tuple(parametre_execute_many))
-    rows = cursor.fetchall()
-    for row in rows: 
-        print(row)
-        """la fonction se lance mais il dit que il n'a pas de données en sortie, il faut donc essayer la commande execute sans le many déja et voir ce que ca peut donner."""
-
-
-""""        L_match_a_prendre.append(rows[i][0])
+    if len(rows) == 0:
+        return("Pas de nouveau Match_JSON à extraire.")
+    L_insert = []#On prepare le parametre du executemany que l'on va réaliser apres pour récuperer les valeurs que l'on va inserer dans la table Game_Stats
+    param_Match_id = f"("
     param_select = f""
-    i = 0
-    for element in L_match_a_prendre:
-        if i != 0:
+    for j, chemin in enumerate(Chemin_clé):
+        param = f"file"
+        L = chemin.split("-")
+        for clé in L:
+            print("type =", type(clé))
+            if clé in ['0', '1', '2', '3', '4', '5', '6', '7','8', '9']:
+                param += f"->{clé}"
+            else:
+                param += f"->'{clé}'"
+        if j != 0:
             param_select += ", "
-        param_select += f"{element}"
+        param_select += param
+    for i in range(len(rows)):
+        if i != 0:
+             param_Match_id += ', '
+        param_Match_id += f"'{rows[i][0]}'"
+    cursor.execute(f"SELECT MatchId, {param_select} FROM Match WHERE MatchId IN {param_Match_id});")
+    Nom_colonnes = f""
+    param_insert = f"("
+    i = 0
+    k = 0
+    donnees = cursor.fetchall()
+    for clé in L_Nom_clé :
+        if k != 0:
+            Nom_colonnes += ", "
+        Nom_colonnes += f"{clé}"
+        k += 1
+    for donne in donnees:
+        if i != 0 :
+            param_insert += "), ("
+        param = f""
+        j = 0
+        for l in range(len(donne)):
+            if j != 0 :
+                param += ", "
+            if Type_valeur[l] == 'TEXT':
+                param += f"'{donne[l]}'"
+            else :
+                param += f"{donne[j]}"
+            j += 1
+        param_insert += param
         i += 1
-    cursor.execute(f"SELECT (file, MatchId) FROM Match WHERE MatchId IN ({param_select});")
-    rows = cursor.fetchall()
-    for row in rows:"""
+    print(i)
+    print("Nom_colonnes = ", Nom_colonnes)
+    print("param_insert = ", param_insert)
+    cursor.execute(f"UPDATE Match SET Extrait_Game_Stats = 1 WHERE MatchId IN {param_Match_id});")
+    cursor.execute(f"INSERT INTO Game_Stats (MatchId, {Nom_colonnes}) VALUES {param_insert});")
+
+
+
+"""cursor.executemany("SELECT FROM", param)"""
+
+""""""
+"SELECT file->'info'->'gameCreation', file->'info'->'gameDuration', file->'info'->'queueId', file->'info'->'gameEndTimestamp', file->'info'->'gameStartTimestamp', file->'info'->'gameType', file->'info'->'gameVersion', file->'info'->'mapId', file->'info'->'participants'->'0'->'challenges'->'earliestBaron', file->'info'->'participants'->'0'->'challenges'->'firstTurretKilledTime', file->'info'->'participants'->'0'->'gameEndedInEarlySurrender', file->'info'->'participants'->'0'->'gameEndedInSurrender', file->'info'->'platformId', file->'info'->'tournamentCode' FROM Match WHERE MatchId = '',[('EUW_34444', ), ()]"
