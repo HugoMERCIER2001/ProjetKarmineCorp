@@ -16,9 +16,9 @@ from table_Team_Stats import *
 
 print("DEBUT DE PROGRAMME")
 
-CLE_API = 'RGAPI-227531d5-6ccc-4584-8288-4264b0dac394'
+CLE_API = ''
 
-clée_API_openai = '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'
+clée_API_openai = ''
 
 openai.api_key = clée_API_openai
 
