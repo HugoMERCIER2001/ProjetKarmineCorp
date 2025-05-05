@@ -6,7 +6,7 @@ import glob
 import os
 import openai
 
-clée_API_openai = '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'
+clée_API_openai = ''
 
 def demande_def_clé_match_chatGPT(clé):
     question = f"Peux tu m'expliquer ce que représente la clé {clé} du fichier json réponse de l'API Riot demandant les statistiques d'un match de League of Legend ? "
