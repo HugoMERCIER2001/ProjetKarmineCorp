@@ -9,7 +9,7 @@ from API_Riots import *
 PARAM_TEXT = ""
 print("PARAM TEXT = ", PARAM_TEXT)
 
-clée_API_openai = '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'
+clée_API_openai = ''
 
 
 #####################Création du fichier clés_Match.txt###################################################################################################################################
